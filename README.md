@@ -40,12 +40,6 @@ docker run --rm -d -p 3443:80 -v $PWD:/workspace:rw -e USER=username -e PASSWORD
 ### Like this: 
 ![Gif](https://gyazo.com/a8d59c59501b3f04d2fba0344b0c408d.gif)
 
-Then click on "Open Window" as seen in this image
-<br>
-![Image](https://cdn.discordapp.com/attachments/741533658674102352/970189978070052946/unknown.png)
-<br>
-and enjoy!
-
 
 
 
