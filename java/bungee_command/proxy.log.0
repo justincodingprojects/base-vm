@@ -1302,3 +1302,19 @@ expected <block end>, but found Scalar
 15:17:59 [INFO] [JustinTheGPTMan] <-> ServerConnector [lobby] has connected
 15:24:50 [INFO] [JustinTheGPTMan] -> UpstreamBridge has disconnected
 15:24:50 [INFO] [JustinTheGPTMan] <-> DownstreamBridge <-> [lobby] has disconnected
+15:27:17 [SEVERE] java.io.FileNotFoundException: https://raw.githubusercontent.com/LAX1DUDE/eaglercraft/main/stable-download/origin_blacklist.txt
+
+15:27:17 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994)
+
+15:27:17 [SEVERE] 	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599)
+
+15:27:17 [SEVERE] 	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223)
+
+15:27:17 [SEVERE] 	at net.md_5.bungee.eaglercraft.DomainBlacklist.update(DomainBlacklist.java:153)
+
+15:27:17 [SEVERE] 	at net.md_5.bungee.BungeeCord$3.run(BungeeCord.java:272)
+
+15:27:17 [SEVERE] 	at java.base/java.util.TimerThread.mainLoop(Timer.java:566)
+
+15:27:17 [SEVERE] 	at java.base/java.util.TimerThread.run(Timer.java:516)
+
