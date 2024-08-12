@@ -7,18 +7,30 @@ servers:
     address: localhost:25569
     restricted: false
 voice_turn_servers:
+  # openrelay3:
+  #   password: openrelayproject
+  #   url: turn:openrelay.metered.ca:443?transport=tcp
+  #   username: openrelayproject
+  # openrelay2:
+  #   password: openrelayproject
+  #   url: turn:openrelay.metered.ca:443
+  #   username: openrelayproject
+  # openrelay1:
+  #   password: openrelayproject
+  #   url: turn:openrelay.metered.ca:80
+  #   username: openrelayproject
   openrelay3:
-    password: openrelayproject
-    url: turn:openrelay.metered.ca:443?transport=tcp
-    username: openrelayproject
+    password: muazkh
+    url: turn:numb.viagenie.ca
+    username: webrtc@live.com
   openrelay2:
-    password: openrelayproject
-    url: turn:openrelay.metered.ca:443
-    username: openrelayproject
+    password: muazkh
+    url: turn:numb.viagenie.ca
+    username: webrtc@live.com
   openrelay1:
-    password: openrelayproject
-    url: turn:openrelay.metered.ca:80
-    username: openrelayproject
+    password: muazkh
+    url: turn:numb.viagenie.ca
+    username: webrtc@live.com
 voice_stun_servers:
 - stun:stun.l.google.com:19302
 - stun:stun1.l.google.com:19302
@@ -26,6 +38,15 @@ voice_stun_servers:
 - stun:stun3.l.google.com:19302
 - stun:stun4.l.google.com:19302
 - stun:openrelay.metered.ca:80
+- stun.ekiga.net
+- stun.ideasip.com
+- stun.rixtelecom.se
+- stun.schlund.de
+- stun.stunprotocol.org:3478
+- stun.voiparound.com
+- stun.voipbuster.com
+- stun.voipstunt.com
+- stun.voxgratia.org
 enable_web_origin_blacklist: true
 origin_blacklist_simple_whitelist:
 - type the name of your client's domain here
@@ -66,7 +87,11 @@ listeners:
   force_default_server: true
   forward_ip: false
   server_icon: server-icon.png
+<<<<<<< HEAD
   motd1: '&62024-2025 LSHS MS Server!'
+=======
+  motd1: '&6Lustin Ar Jebar is on his VILLAN ARC!'
+>>>>>>> 2c6eab78d813d1ac862a3b054cf05cd856881dca
   allow_motd: true
   allow_query: true
   request_motd_cache:
