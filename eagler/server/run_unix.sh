@@ -1,1 +1,0 @@
-java -Xmx512M -jar paper-1.8.8-445.jar

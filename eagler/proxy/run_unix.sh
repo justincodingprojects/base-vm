@@ -1,1 +1,0 @@
-java -Xmx512M -jar waterfall-1.21-579.jar
