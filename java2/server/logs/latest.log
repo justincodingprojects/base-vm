@@ -1,195 +1,685 @@
-[13:40:54] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[13:40:54] [Server thread/INFO]: Loading properties
-[13:40:54] [Server thread/INFO]: Default game type: SURVIVAL
-[13:40:54] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[13:40:54] [Server thread/INFO]: Debug logging is disabled
-[13:40:54] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[13:40:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:56:51] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[15:56:51] [Server thread/INFO]: Loading properties
+[15:56:51] [Server thread/INFO]: Default game type: SURVIVAL
+[15:56:51] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[15:56:51] [Server thread/INFO]: Debug logging is disabled
+[15:56:51] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[15:56:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[13:40:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:40:54] [Server thread/INFO]: Data value allowed items: 
-[13:40:54] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[15:56:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:56:52] [Server thread/INFO]: Data value allowed items: 
+[15:56:52] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[13:40:54] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[15:56:52] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[13:40:54] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[15:56:52] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[13:40:54] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[15:56:52] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[13:40:54] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[15:56:52] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[13:40:54] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[15:56:52] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[13:40:54] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[15:56:52] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[13:40:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[15:56:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[13:40:54] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[15:56:52] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[13:40:54] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:56:52] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[13:40:54] [Server thread/INFO]: Generating keypair
-[13:40:54] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[13:40:54] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[13:40:54] [Server thread/INFO]: Using default channel type
-[13:40:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:40:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:40:55] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[13:40:55] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[13:40:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:40:55] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[13:40:55] [Server thread/INFO]: Preparing level "world"
-[13:40:55] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:40:55] [Server thread/INFO]: Mob Spawn Range: 4
-[13:40:55] [Server thread/INFO]: Anti X-Ray: true
-[13:40:55] [Server thread/INFO]: 	Engine Mode: 1
-[13:40:55] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:40:55] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:40:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:40:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:40:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:40:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:40:55] [Server thread/INFO]: Random Lighting Updates: false
-[13:40:55] [Server thread/INFO]: Structure Info Saving: true
-[13:40:55] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:40:55] [Server thread/INFO]: Max Entity Collisions: 8
-[13:40:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:40:55] [Server thread/INFO]: Max TNT Explosions: 100
-[13:40:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:40:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:40:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:40:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:40:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:40:55] [Server thread/INFO]: View Distance: 4
-[13:40:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:40:55] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:40:55] [Server thread/INFO]: Clear tick list: false
-[13:40:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:40:55] [Server thread/INFO]: -------- World Settings For [world] --------
-[13:40:55] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:40:55] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:40:55] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:40:55] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:40:55] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:40:55] [Server thread/INFO]: Water over lava flow speed: 5
-[13:40:55] [Server thread/INFO]: Fix TNT cannons: false
-[13:40:55] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:40:55] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:40:55] [Server thread/INFO]: World async lighting: false
-[13:40:55] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:40:55] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:40:55] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:40:55] [Server thread/INFO]: Mob Spawn Range: 4
-[13:40:55] [Server thread/INFO]: Anti X-Ray: true
-[13:40:55] [Server thread/INFO]: 	Engine Mode: 1
-[13:40:55] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:40:55] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:40:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:40:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:40:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:40:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:40:55] [Server thread/INFO]: Random Lighting Updates: false
-[13:40:55] [Server thread/INFO]: Structure Info Saving: true
-[13:40:55] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:40:55] [Server thread/INFO]: Max Entity Collisions: 8
-[13:40:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:40:55] [Server thread/INFO]: Max TNT Explosions: 100
-[13:40:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:40:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:40:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:40:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:40:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:40:55] [Server thread/INFO]: View Distance: 4
-[13:40:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:40:55] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:40:55] [Server thread/INFO]: Clear tick list: false
-[13:40:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:40:55] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[13:40:55] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:40:55] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:40:55] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:40:55] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:40:55] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:40:55] [Server thread/INFO]: Water over lava flow speed: 5
-[13:40:55] [Server thread/INFO]: Fix TNT cannons: false
-[13:40:55] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:40:55] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:40:55] [Server thread/INFO]: World async lighting: false
-[13:40:55] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:40:55] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:40:55] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:40:55] [Server thread/INFO]: Mob Spawn Range: 4
-[13:40:55] [Server thread/INFO]: Anti X-Ray: true
-[13:40:55] [Server thread/INFO]: 	Engine Mode: 1
-[13:40:55] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[13:40:55] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[13:40:55] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[13:40:55] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Cane Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Melon Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[13:40:55] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[13:40:55] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[13:40:55] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[13:40:55] [Server thread/INFO]: Random Lighting Updates: false
-[13:40:55] [Server thread/INFO]: Structure Info Saving: true
-[13:40:55] [Server thread/INFO]: Sending up to 10 chunks per packet
-[13:40:55] [Server thread/INFO]: Max Entity Collisions: 8
-[13:40:55] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[13:40:55] [Server thread/INFO]: Max TNT Explosions: 100
-[13:40:55] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[13:40:55] [Server thread/INFO]: Item Despawn Rate: 6000
-[13:40:55] [Server thread/INFO]: Item Merge Radius: 2.5
-[13:40:55] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[13:40:55] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[13:40:55] [Server thread/INFO]: View Distance: 4
-[13:40:55] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[13:40:55] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[13:40:55] [Server thread/INFO]: Clear tick list: false
-[13:40:55] [Server thread/INFO]: Experience Merge Radius: 3.0
-[13:40:55] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[13:40:55] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[13:40:55] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[13:40:55] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[13:40:55] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[13:40:55] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[13:40:55] [Server thread/INFO]: Water over lava flow speed: 5
-[13:40:55] [Server thread/INFO]: Fix TNT cannons: false
-[13:40:55] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[13:40:55] [Server thread/INFO]: Keep spawn chunk loaded: true
-[13:40:55] [Server thread/INFO]: World async lighting: false
-[13:40:55] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[13:40:55] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[13:40:55] [Server thread/INFO]: Preparing start region for level 0 (Seed: 56003845)
-[13:40:56] [Server thread/INFO]: Preparing spawn area: 50%
-[13:40:57] [Server thread/INFO]: Preparing start region for level 1 (Seed: 56003845)
-[13:40:57] [Server thread/INFO]: Preparing start region for level 2 (Seed: 56003845)
-[13:40:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:40:58] [Server thread/INFO]: Done (3.186s)! For help, type "help" or "?"
-[13:40:58] [Server thread/INFO]: Timings Reset
-[13:48:19] [Thread-5/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[13:48:19] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:37080] logged in with entity id 511 at ([world]-143.8143955574726, 11.0, 0.30000001192092896)
-[14:21:09] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
-[14:21:09] [Server thread/INFO]: JustinTheGPTMan left the game.
-[14:21:11] [Thread-2/INFO]: Stopping server
-[14:21:11] [Thread-2/INFO]: Saving players
+[15:56:52] [Server thread/INFO]: Generating keypair
+[15:56:52] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[15:56:52] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[15:56:52] [Server thread/INFO]: Using default channel type
+[15:56:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:56:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:56:52] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:56:52] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:56:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:56:52] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:56:52] [Server thread/INFO]: Preparing level "world"
+[15:56:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:56:52] [Server thread/INFO]: Mob Spawn Range: 4
+[15:56:52] [Server thread/INFO]: Anti X-Ray: true
+[15:56:52] [Server thread/INFO]: 	Engine Mode: 1
+[15:56:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:56:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:56:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:56:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:56:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:56:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:56:52] [Server thread/INFO]: Random Lighting Updates: false
+[15:56:52] [Server thread/INFO]: Structure Info Saving: true
+[15:56:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:56:52] [Server thread/INFO]: Max Entity Collisions: 8
+[15:56:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:56:52] [Server thread/INFO]: Max TNT Explosions: 100
+[15:56:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:56:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:56:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:56:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:56:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:56:52] [Server thread/INFO]: View Distance: 4
+[15:56:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:56:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:56:52] [Server thread/INFO]: Clear tick list: false
+[15:56:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:56:52] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:56:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:56:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:56:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:56:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:56:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:56:52] [Server thread/INFO]: Fix TNT cannons: false
+[15:56:52] [Server thread/INFO]: Water over lava flow speed: 5
+[15:56:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:56:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:56:52] [Server thread/INFO]: World async lighting: false
+[15:56:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:56:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:56:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:56:52] [Server thread/INFO]: Mob Spawn Range: 4
+[15:56:52] [Server thread/INFO]: Anti X-Ray: true
+[15:56:52] [Server thread/INFO]: 	Engine Mode: 1
+[15:56:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:56:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:56:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:56:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:56:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:56:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:56:52] [Server thread/INFO]: Random Lighting Updates: false
+[15:56:52] [Server thread/INFO]: Structure Info Saving: true
+[15:56:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:56:52] [Server thread/INFO]: Max Entity Collisions: 8
+[15:56:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:56:52] [Server thread/INFO]: Max TNT Explosions: 100
+[15:56:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:56:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:56:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:56:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:56:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:56:52] [Server thread/INFO]: View Distance: 4
+[15:56:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:56:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:56:52] [Server thread/INFO]: Clear tick list: false
+[15:56:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:56:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:56:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:56:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:56:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:56:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:56:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:56:52] [Server thread/INFO]: Fix TNT cannons: false
+[15:56:52] [Server thread/INFO]: Water over lava flow speed: 5
+[15:56:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:56:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:56:52] [Server thread/INFO]: World async lighting: false
+[15:56:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:56:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:56:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:56:52] [Server thread/INFO]: Mob Spawn Range: 4
+[15:56:52] [Server thread/INFO]: Anti X-Ray: true
+[15:56:52] [Server thread/INFO]: 	Engine Mode: 1
+[15:56:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:56:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:56:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:56:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:56:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:56:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:56:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:56:52] [Server thread/INFO]: Random Lighting Updates: false
+[15:56:52] [Server thread/INFO]: Structure Info Saving: true
+[15:56:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:56:52] [Server thread/INFO]: Max Entity Collisions: 8
+[15:56:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:56:52] [Server thread/INFO]: Max TNT Explosions: 100
+[15:56:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:56:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:56:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:56:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:56:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:56:52] [Server thread/INFO]: View Distance: 4
+[15:56:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:56:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:56:52] [Server thread/INFO]: Clear tick list: false
+[15:56:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:56:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:56:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:56:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:56:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:56:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:56:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:56:52] [Server thread/INFO]: Fix TNT cannons: false
+[15:56:52] [Server thread/INFO]: Water over lava flow speed: 5
+[15:56:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:56:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:56:52] [Server thread/INFO]: World async lighting: false
+[15:56:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:56:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:56:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: 56003845)
+[15:56:53] [Server thread/INFO]: Preparing spawn area: 70%
+[15:56:53] [Server thread/INFO]: Preparing start region for level 1 (Seed: 56003845)
+[15:56:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: 56003845)
+[15:56:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:56:55] [Server thread/INFO]: Done (2.741s)! For help, type "help" or "?"
+[15:56:55] [Server thread/INFO]: Timings Reset
+[15:57:12] [Thread-5/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[15:57:12] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:37324] logged in with entity id 469 at ([world]-32.3107553697872, 65.0, 252.48900329832748)
+[15:58:40] [Thread-6/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[15:58:40] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:38850] logged in with entity id 866 at ([world]-29.92489143377502, 65.0, 252.48794107878174)
+[15:58:46] [Async Chat Thread - #0/INFO]: <mr_meow_meow> sup[m
+
+[15:58:56] [Async Chat Thread - #0/INFO]: <___> i would kill for a coca cola rn[m
+
+[15:59:00] [Async Chat Thread - #0/INFO]: <mr_meow_meow> internet down[m
+
+[15:59:03] [Async Chat Thread - #0/INFO]: <___> specifically a cherry coke[m
+
+[15:59:03] [Async Chat Thread - #0/INFO]: <mr_meow_meow> same[m
+
+[15:59:11] [Thread-7/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[15:59:11] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:49416] logged in with entity id 1078 at ([world]-287.69999998807907, 58.0, 158.23750001192093)
+[15:59:20] [Async Chat Thread - #0/INFO]: <___> what took you so long[m
+
+[15:59:21] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> ooo im so cooked[m
+
+[15:59:37] [Async Chat Thread - #0/INFO]: <mr_meow_meow> justin wants watermelon soda or grape soda or grade koolaid[m
+
+[15:59:45] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> SHUT THE FUCK YP[m
+
+[15:59:59] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> sorry, i snapped[m
+
+[16:00:09] [Async Chat Thread - #0/INFO]: <mr_meow_meow> ray u need leather[m
+
+[16:00:13] [Async Chat Thread - #0/INFO]: <___> yea[m
+
+[16:00:18] [Async Chat Thread - #0/INFO]: <mr_meow_meow> i got 9[m
+
+[16:00:22] [Async Chat Thread - #0/INFO]: <___> giv[m
+
+[16:00:24] [Async Chat Thread - #0/INFO]: <___> pls[m
+
+[16:00:31] [Async Chat Thread - #0/INFO]: <mr_meow_meow> im cumming[m
+
+[16:00:34] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> ._.[m
+
+[16:00:36] [Async Chat Thread - #0/INFO]: <___> real[m
+
+[16:00:40] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> ima do my ssignment rn[m
+
+[16:00:42] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> gtg[m
+
+[16:00:43] [Async Chat Thread - #0/INFO]: <mr_meow_meow> i mean coming[m
+
+[16:00:43] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[16:00:43] [Server thread/INFO]: JustinTheGPTMan left the game.
+[16:00:46] [Async Chat Thread - #0/INFO]: <mr_meow_meow> bill[m
+
+[16:00:48] [Async Chat Thread - #0/INFO]: <mr_meow_meow> bill[m
+
+[16:00:48] [Async Chat Thread - #0/INFO]: <mr_meow_meow> bill[m
+
+[16:00:49] [Async Chat Thread - #0/INFO]: <mr_meow_meow> bill[m
+
+[16:00:53] [Async Chat Thread - #0/INFO]: <mr_meow_meow> bill nye[m
+
+[16:00:58] [Async Chat Thread - #0/INFO]: <___> hell yeah[m
+
+[16:01:05] [Async Chat Thread - #0/INFO]: <mr_meow_meow> hes sexist[m
+
+[16:01:09] [Async Chat Thread - #0/INFO]: <___> oh[m
+
+[16:01:11] [Async Chat Thread - #0/INFO]: <___> nvm[m
+
+[16:01:45] [Async Chat Thread - #0/INFO]: <___> you got any andesite[m
+
+[16:01:51] [Async Chat Thread - #0/INFO]: <mr_meow_meow> yea[m
+
+[16:02:04] [Async Chat Thread - #0/INFO]: <___> giv pls[m
+
+[16:02:15] [Async Chat Thread - #0/INFO]: <mr_meow_meow> follow me[m
+
+[16:02:37] [Async Chat Thread - #0/INFO]: <mr_meow_meow> oh ray im getting a phone soon[m
+
+[16:02:43] [Async Chat Thread - #0/INFO]: <___> W[m
+
+[16:02:44] [Async Chat Thread - #0/INFO]: <mr_meow_meow> as in christmas[m
+
+[16:02:50] [Server thread/INFO]: [Server] W
+[16:03:06] [Server thread/INFO]: [Server] now i can send you the n-
+[16:03:11] [Server thread/INFO]: [Server] news :)
+[16:03:13] [Async Chat Thread - #0/INFO]: <___> no justin[m
+
+[16:03:15] [Async Chat Thread - #0/INFO]: <___> bad[m
+
+[16:03:20] [Async Chat Thread - #0/INFO]: <mr_meow_meow> yes[m
+
+[16:03:20] [Server thread/INFO]: [Server] how is nes bad?
+[16:03:27] [Server thread/INFO]: [Server] news
+[16:03:29] [Async Chat Thread - #0/INFO]: <___> nobody watches the news[m
+
+[16:03:34] [Async Chat Thread - #0/INFO]: <mr_meow_meow> i do[m
+
+[16:03:35] [Server thread/INFO]: [Server] okay then
+[16:03:37] [Async Chat Thread - #0/INFO]: <___> old ppl ahh channel[m
+
+[16:03:39] [Server thread/INFO]: [Server] the i meant nu-
+[16:04:36] [Async Chat Thread - #0/INFO]: <___> decisions decisions[m
+
+[16:04:50] [Server thread/INFO]: [Server] nu-
+[16:04:55] [Server thread/INFO]: [Server] clear bomb :)
+[16:05:17] [Thread-8/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[16:05:17] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:37128] logged in with entity id 1982 at ([world]-286.31221325105196, 58.0, 159.5944100465148)
+[16:05:21] [Async Chat Thread - #0/INFO]: <mr_meow_meow> sup[m
+
+[16:05:26] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> sup[m
+
+[16:05:39] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> still am cooked[m
+
+[16:05:45] [Async Chat Thread - #0/INFO]: <mr_meow_meow> how[m
+
+[16:05:49] [Async Chat Thread - #0/INFO]: <JustinTheGPTMan> i forgor to finish "ass"ignment[m
+
+[16:07:20] [Server thread/INFO]: ___ has just earned the achievement [Librarian]
+[16:07:26] [Async Chat Thread - #1/INFO]: <JustinTheGPTMan> noice[m
+
+[16:08:07] [Async Chat Thread - #1/INFO]: <___> unbreaking II or efficiency I[m
+
+[16:08:26] [Async Chat Thread - #1/INFO]: <mr_meow_meow> unbreak[m
+
+[16:08:29] [Async Chat Thread - #1/INFO]: <___> for reference its a pickaxe[m
+
+[16:08:30] [Async Chat Thread - #1/INFO]: <JustinTheGPTMan> unbreaking II[m
+
+[16:09:51] [Async Chat Thread - #2/INFO]: <mr_meow_meow> can u give me my sword[m
+
+[16:10:06] [Async Chat Thread - #2/INFO]: <___> there[m
+
+[16:10:26] [Async Chat Thread - #2/INFO]: <mr_meow_meow> thanks[m
+
+[16:10:27] [Async Chat Thread - #2/INFO]: <___> yall im dripped out rn[m
+
+[16:10:35] [Async Chat Thread - #2/INFO]: <___> full enchanted armor[m
+
+[16:10:36] [Async Chat Thread - #2/INFO]: <mr_meow_meow> dang[m
+
+[16:11:07] [Async Chat Thread - #2/INFO]: <___> go into settings > customize skin >show fnaw characters > off[m
+
+[16:11:20] [Async Chat Thread - #2/INFO]: <___> fnaw skins*[m
+
+[16:11:26] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> why[m
+
+[16:11:29] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[16:11:29] [Server thread/INFO]: mr_meow_meow left the game.
+[16:11:43] [Async Chat Thread - #2/INFO]: <___> its how you see my character as an actual character instead of an eraser[m
+
+[16:11:44] [Thread-9/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[16:11:44] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:46316] logged in with entity id 3317 at ([world]-32.82619911838255, 69.0, 255.66317533563904)
+[16:11:50] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> ohh[m
+
+[16:11:51] [Async Chat Thread - #2/INFO]: <___> also how you see my armor[m
+
+[16:11:54] [Async Chat Thread - #2/INFO]: <mr_meow_meow> i saw armour[m
+
+[16:12:11] [Async Chat Thread - #2/INFO]: <mr_meow_meow> its iron enchanted[m
+
+[16:12:18] [Async Chat Thread - #2/INFO]: <___> yea[m
+
+[16:12:56] [Async Chat Thread - #2/INFO]: <___> heading to nether[m
+
+[16:12:59] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> ight[m
+
+[16:13:01] [Server thread/INFO]: ___ has just earned the achievement [We Need to Go Deeper]
+[16:13:04] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> ayy[m
+
+[16:13:11] [Async Chat Thread - #2/INFO]: <___> mmm 3fps[m
+
+[16:13:15] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> lol[m
+
+[16:13:19] [Async Chat Thread - #2/INFO]: <mr_meow_meow> bill said he likes weiners[m
+
+[16:13:29] [Async Chat Thread - #2/INFO]: <___> bill clinton no way[m
+
+[16:13:36] [Async Chat Thread - #2/INFO]: <mr_meow_meow> bill nue[m
+
+[16:13:40] [Async Chat Thread - #2/INFO]: <___> ik dummy[m
+
+[16:13:45] [Async Chat Thread - #2/INFO]: <mr_meow_meow> nye[m
+
+[16:13:56] [Async Chat Thread - #2/INFO]: <mr_meow_meow> and clinton[m
+
+[16:14:08] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> you found a fortress yet?[m
+
+[16:14:14] [Async Chat Thread - #2/INFO]: <___> i just got here[m
+
+[16:14:23] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> oh :skull:[m
+
+[16:14:28] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> well i'm making a tunnel to it[m
+
+[16:15:01] [Async Chat Thread - #2/INFO]: <___> sometimes i forget how cool the nether is[m
+
+[16:15:05] [Async Chat Thread - #2/INFO]: <___> shaders time[m
+
+[16:15:30] [Async Chat Thread - #2/INFO]: <___> OH NO MY PCCCC[m
+
+[16:15:40] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> XD[m
+
+[16:15:42] [Async Chat Thread - #2/INFO]: <___> woah[m
+
+[16:15:44] [Async Chat Thread - #2/INFO]: <___> wait[m
+
+[16:15:48] [Async Chat Thread - #2/INFO]: <___> this is beautiful[m
+
+[16:15:54] [Server thread/INFO]: [Server] fr
+[16:16:03] [Server thread/INFO]: [Server] only side effect is that it makes you wanna cum
+[16:16:11] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> stfu server[m
+
+[16:16:12] [Async Chat Thread - #2/INFO]: <___> fr[m
+
+[16:16:20] [Async Chat Thread - #2/INFO]: <___> be quiet justin[m
+
+[16:16:26] [Async Chat Thread - #2/INFO]: <___> server spittin fax[m
+
+[16:16:31] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> ._.[m
+
+[16:16:37] [Server thread/INFO]: [Server] yea
+[16:16:52] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> im literally at 35 fps with shaders[m
+
+[16:16:58] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> i got nasa chromebook[m
+
+[16:17:03] [Server thread/INFO]: [Server] cap
+[16:17:07] [Server thread/INFO]: [Server] your fps at 20
+[16:17:13] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> shut up server[m
+
+[16:17:19] [Async Chat Thread - #2/INFO]: <___> mine at 13 :)[m
+
+[16:17:25] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> mines literally at 24[m
+
+[16:17:40] [Async Chat Thread - #2/INFO]: <mr_meow_meow> t[m
+
+[16:17:42] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> ima keep it on[m
+
+[16:17:45] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> it looks FIRE[m
+
+[16:17:54] [Async Chat Thread - #2/INFO]: <___> pun intended?[m
+
+[16:18:18] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> yes[m
+
+[16:19:14] [Async Chat Thread - #2/INFO]: <___> justin[m
+
+[16:19:18] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> yea?[m
+
+[16:19:20] [Async Chat Thread - #2/INFO]: <___> come to portal in my house[m
+
+[16:19:23] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> ight[m
+
+[16:19:27] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> wait why[m
+
+[16:19:36] [Async Chat Thread - #2/INFO]: <___> want to show you something[m
+
+[16:19:40] [Async Chat Thread - #2/INFO]: <JustinTheGPTMan> okay...[m
+
+[16:19:58] [Async Chat Thread - #2/INFO]: <___> YOOOO[m
+
+[16:20:05] [Async Chat Thread - #2/INFO]: <mr_meow_meow> wht[m
+
+[16:20:11] [Async Chat Thread - #2/INFO]: <___> I CAN HOLD GLOWSTONE AS A LANTERN[m
+
+[16:20:18] [Async Chat Thread - #2/INFO]: <___> I DONT NEED TO PLACE IT[m
+
+[16:22:32] [Async Chat Thread - #3/INFO]: <___> you almost here?[m
+
+[16:22:41] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> yea[m
+
+[16:22:47] [Async Chat Thread - #3/INFO]: <___> my fps getting worse[m
+
+[16:22:55] [Async Chat Thread - #3/INFO]: <mr_meow_meow> chickens[m
+
+[16:22:55] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> xd[m
+
+[16:23:17] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> *ooooooooooooo*[m
+
+[16:23:43] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> im at portal ray[m
+
+[16:24:13] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> bro afk[m
+
+[16:24:17] [Async Chat Thread - #3/INFO]: <mr_meow_meow> go through portal justin[m
+
+[16:24:24] [Async Chat Thread - #3/INFO]: <___> mb was changing shaders[m
+
+[16:24:25] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> oh[m
+
+[16:24:42] [Async Chat Thread - #3/INFO]: <___> hold these[m
+
+[16:24:42] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> where we goin[m
+
+[16:25:01] [Async Chat Thread - #3/INFO]: <___> if shaders are on they light up[m
+
+[16:25:07] [Async Chat Thread - #3/INFO]: <mr_meow_meow> wait[m
+
+[16:25:26] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> sheesh[m
+
+[16:25:58] [Async Chat Thread - #3/INFO]: <mr_meow_meow> u got food[m
+
+[16:26:04] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> no i got lost[m
+
+[16:26:14] [Async Chat Thread - #3/INFO]: <___> 33, 96, 99[m
+
+[16:26:19] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> ight[m
+
+[16:26:49] [Async Chat Thread - #3/INFO]: <___> wait[m
+
+[16:26:52] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> what are we even trying to find[m
+
+[16:26:53] [Async Chat Thread - #3/INFO]: <___> where was it again[m
+
+[16:26:56] [Async Chat Thread - #3/INFO]: <___> hold on[m
+
+[16:27:00] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> where was what[m
+
+[16:27:00] [Async Chat Thread - #3/INFO]: <mr_meow_meow> what[m
+
+[16:27:12] [Async Chat Thread - #3/INFO]: <___> here[m
+
+[16:27:31] [Async Chat Thread - #3/INFO]: <mr_meow_meow> where u at[m
+
+[16:27:33] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> ?[m
+
+[16:27:35] [Async Chat Thread - #3/INFO]: <___> it looks cool with shaders[m
+
+[16:27:38] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> oh[m
+
+[16:27:54] [Async Chat Thread - #3/INFO]: <mr_meow_meow> w[m
+
+[16:27:59] [Async Chat Thread - #3/INFO]: <mr_meow_meow> w[m
+
+[16:28:35] [Async Chat Thread - #3/INFO]: <___> still no luck with a fortress[m
+
+[16:29:01] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> im going back to portal[m
+
+[16:29:08] [Server thread/INFO]: mr_meow_meow hit the ground too hard
+[16:29:09] [Async Chat Thread - #3/INFO]: <___> alr[m
+
+[16:29:13] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> BRUH IM LOST[m
+
+[16:30:03] [Async Chat Thread - #3/INFO]: <mr_meow_meow> u guys like furries[m
+
+[16:30:07] [Async Chat Thread - #3/INFO]: <___> in case you forgot, -21, 105, 19[m
+
+[16:30:10] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> ight[m
+
+[16:30:16] [Async Chat Thread - #3/INFO]: <___> the chill ones are alright[m
+
+[16:30:24] [Async Chat Thread - #3/INFO]: <mr_meow_meow> ok[m
+
+[16:30:31] [Async Chat Thread - #3/INFO]: <___> why[m
+
+[16:30:31] [Async Chat Thread - #3/INFO]: <mr_meow_meow> furry[m
+
+[16:30:33] [Async Chat Thread - #3/INFO]: <mr_meow_meow> furry[m
+
+[16:30:34] [Async Chat Thread - #3/INFO]: <mr_meow_meow> furry[m
+
+[16:30:41] [Async Chat Thread - #3/INFO]: <___> yo justin[m
+
+[16:30:45] [Async Chat Thread - #3/INFO]: <___> kick him[m
+
+[16:30:45] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> ?[m
+
+[16:30:48] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> kick who[m
+
+[16:30:51] [Async Chat Thread - #3/INFO]: <mr_meow_meow> why[m
+
+[16:30:52] [Async Chat Thread - #3/INFO]: <___> gaybro[m
+
+[16:30:56] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> with pleasure![m
+
+[16:31:00] [Server thread/INFO]: [Server] no
+[16:31:01] [Async Chat Thread - #3/INFO]: <mr_meow_meow> justin kick him[m
+
+[16:31:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /kick Server
+[16:31:10] [Server thread/INFO]: [JustinTheGPTMan: That player cannot be found]
+[16:31:12] [Async Chat Thread - #3/INFO]: <mr_meow_meow> irl[m
+
+[16:31:37] [Server thread/INFO]: JustinTheGPTMan issued server command: /kick mr_meow_meow like furries + l rizz + more gay than gaymond + likes skibidi toilet
+[16:31:37] [Server thread/INFO]: mr_meow_meow lost connection: like furries + l rizz + more gay than gaymond + likes skibidi toilet
+[16:31:37] [Server thread/INFO]: mr_meow_meow left the game.
+[16:31:37] [Server thread/INFO]: [JustinTheGPTMan: Kicked mr_meow_meow from the game: 'like furries + l rizz + more gay than gaymond + likes skibidi toilet']
+[16:31:37] [Server thread/WARN]: handleDisconnection() called twice
+[16:31:42] [Async Chat Thread - #3/INFO]: <___> :skull:[m
+
+[16:31:44] [Thread-10/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[16:31:44] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:38728] logged in with entity id 7399 at ([world]-33.64935871376273, 65.0, 257.6332086468386)
+[16:31:46] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> :skull:[m
+
+[16:31:55] [Async Chat Thread - #3/INFO]: <mr_meow_meow> ima kill u for kickin me[m
+
+[16:31:57] [Server thread/WARN]: mr_meow_meow moved wrongly!
+[16:32:01] [Async Chat Thread - #3/INFO]: <mr_meow_meow> and why[m
+
+[16:32:04] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> raymond told me to do it[m
+
+[16:32:13] [Async Chat Thread - #3/INFO]: <mr_meow_meow> i told u to kickray[m
+
+[16:32:21] [Async Chat Thread - #3/INFO]: <mr_meow_meow> kick ray[m
+
+[16:32:24] [Async Chat Thread - #3/INFO]: <___> i have done nothing wrong[m
+
+[16:32:25] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> and before that raymond told me to kick you[m
+
+[16:32:29] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> + ray did nothing wrong[m
+
+[16:32:38] [Async Chat Thread - #3/INFO]: <mr_meow_meow> stop calling me gaybro[m
+
+[16:32:52] [Async Chat Thread - #3/INFO]: <___> ok gaybro[m
+
+[16:32:56] [Async Chat Thread - #3/INFO]: <mr_meow_meow> bruh[m
+
+[16:33:42] [Async Chat Thread - #3/INFO]: <mr_meow_meow> i made u a chicken farm justin[m
+
+[16:34:00] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> bruh i hit a zombie pigman[m
+
+[16:34:03] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> im on the loose now[m
+
+[16:34:04] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> im cooked[m
+
+[16:34:40] [Async Chat Thread - #3/INFO]: <___> yo wait exp glows[m
+
+[16:34:52] [Async Chat Thread - #3/INFO]: <mr_meow_meow> ooh tnt[m
+
+[16:35:00] [Async Chat Thread - #3/INFO]: <mr_meow_meow> ooh bunnies[m
+
+[16:35:05] [Async Chat Thread - #3/INFO]: <___> bro thats my stuff[m
+
+[16:35:16] [Async Chat Thread - #3/INFO]: <mr_meow_meow> oops[m
+
+[16:35:20] [Async Chat Thread - #3/INFO]: <___> i shouldnt have even let you stay in my house[m
+
+[16:35:29] [Async Chat Thread - #3/INFO]: <mr_meow_meow> come look[m
+
+[16:35:33] [Async Chat Thread - #3/INFO]: <___> you kill those bunnies and its over[m
+
+[16:35:39] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> FINALLY[m
+
+[16:35:49] [Async Chat Thread - #3/INFO]: <___> whta[m
+
+[16:35:49] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> a person[m
+
+[16:35:55] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> i was lost for so long[m
+
+[16:35:56] [Async Chat Thread - #3/INFO]: <___> im lost too gang[m
+
+[16:35:59] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> + im on half a heart im cooked[m
+
+[16:36:06] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> i built a tunnel somewhere[m
+
+[16:36:08] [Async Chat Thread - #3/INFO]: <JustinTheGPTMan> but i forgor[m
+
+[16:36:20] [Async Chat Thread - #3/INFO]: <mr_meow_meow> i give u coords to portal[m
+
+[16:36:58] [Async Chat Thread - #3/INFO]: <___> -21, 105, 19[m
+
+[16:37:01] [Async Chat Thread - #3/INFO]: <mr_meow_meow> x -35 y 106 z 20[m
+
+[16:37:49] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[16:37:49] [Server thread/INFO]: JustinTheGPTMan left the game.
+[16:37:49] [Server thread/INFO]: mr_meow_meow was slain by Zombie Pigman
+[16:38:17] [Server thread/INFO]: mr_meow_meow was slain by Zombie Pigman
+[16:38:32] [Async Chat Thread - #4/INFO]: <mr_meow_meow> found a better way to get to justins base[m
+
+[16:38:48] [Async Chat Thread - #4/INFO]: <mr_meow_meow> portal[m
+
+[16:38:57] [Server thread/INFO]: mr_meow_meow was slain by Zombie Pigman
+[16:40:33] [Thread-11/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[16:40:33] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:37688] logged in with entity id 10982 at ([world_nether]28.699999988079064, 105.0, 113.3000000119209)
+[16:41:20] [Async Chat Thread - #5/INFO]: <JustinTheGPTMan> im so lost bruhh[m
+
+[16:41:25] [Async Chat Thread - #5/INFO]: <JustinTheGPTMan> gtg[m
+
+[16:41:25] [Server thread/INFO]: mr_meow_meow fell from a high place
+[16:41:27] [Async Chat Thread - #5/INFO]: <___> i told you coords[m
+
+[16:41:27] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[16:41:27] [Server thread/INFO]: JustinTheGPTMan left the game.
+[16:42:01] [Async Chat Thread - #5/INFO]: <mr_meow_meow> oh ray wait for me with justin in mornin[m
+
+[16:42:07] [Async Chat Thread - #5/INFO]: <mr_meow_meow> at 7:15[m
+
+[16:42:10] [Async Chat Thread - #5/INFO]: <___> where[m
+
+[16:42:20] [Async Chat Thread - #5/INFO]: <mr_meow_meow> tv production[m
+
+[16:42:26] [Async Chat Thread - #5/INFO]: <___> fine[m
+
+[16:42:30] [Async Chat Thread - #5/INFO]: <mr_meow_meow> yay[m
+
+[16:42:31] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[16:42:31] [Server thread/INFO]: mr_meow_meow left the game.
+[16:42:56] [Server thread/INFO]: ___ lost connection: Disconnected
+[16:42:56] [Server thread/INFO]: ___ left the game.
+[16:44:17] [Thread-2/INFO]: Stopping server
+[16:44:17] [Thread-2/INFO]: Saving players
