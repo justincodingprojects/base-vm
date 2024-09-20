@@ -173,6 +173,7 @@ overridden-commands:
 disabled-commands:
 #  - nick
 #  - clear
+  - fly
 
 # Whether or not Essentials should show detailed command usages.
 # If set to false, Essentials will collapse all usages in to one single usage message.
@@ -313,6 +314,7 @@ player-commands:
   - signs.use.weather
   - spawn
   - suicide
+  - tell
   - time
   - tpa
   - tpaccept
@@ -328,7 +330,7 @@ player-commands:
 # This is useful if you want superperms-based permissions (with wildcards) for custom permissions plugins.
 # If you wish to use EssentialsX's built-in permissions using the `player-commands` section above, set this to false.
 # Default is true.
-use-bukkit-permissions: true
+use-bukkit-permissions: false
 
 # When this option is enabled, one-time use kits (ie. delay < 0) will be
 # removed from the /kit list when a player can no longer use it
