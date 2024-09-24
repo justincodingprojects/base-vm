@@ -1,766 +1,1172 @@
-[17:48:07] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[17:48:07] [Server thread/INFO]: Loading properties
-[17:48:07] [Server thread/INFO]: Default game type: SURVIVAL
-[17:48:07] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[17:48:08] [Server thread/INFO]: Debug logging is disabled
-[17:48:08] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[17:48:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-
-[17:48:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:48:08] [Server thread/INFO]: Data value allowed items: 
-[17:48:08] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
-
-[17:48:08] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
-
-[17:48:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
-
-[17:48:08] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-
-[17:48:08] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-
-[17:48:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
-
-[17:48:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
-
-[17:48:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
-
-[17:48:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
-
-[17:48:08] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
-
-[17:48:08] [Server thread/INFO]: Generating keypair
-[17:48:08] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[17:48:08] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[17:48:08] [Server thread/INFO]: Using default channel type
-[17:48:09] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[17:48:09] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
-[17:48:09] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
-[17:48:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:48:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:48:09] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[17:48:09] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[17:48:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:48:09] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[17:48:09] [Server thread/INFO]: Preparing level "world"
-[17:48:09] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:48:09] [Server thread/INFO]: Mob Spawn Range: 4
-[17:48:09] [Server thread/INFO]: Anti X-Ray: true
-[17:48:09] [Server thread/INFO]: 	Engine Mode: 1
-[17:48:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:48:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:48:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:48:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:48:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:48:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:48:09] [Server thread/INFO]: Random Lighting Updates: false
-[17:48:09] [Server thread/INFO]: Structure Info Saving: true
-[17:48:09] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:48:09] [Server thread/INFO]: Max Entity Collisions: 8
-[17:48:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:48:09] [Server thread/INFO]: Max TNT Explosions: 100
-[17:48:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:48:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:48:09] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:48:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:48:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:48:09] [Server thread/INFO]: View Distance: 4
-[17:48:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:48:09] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:48:09] [Server thread/INFO]: Clear tick list: false
-[17:48:09] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:48:09] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:48:09] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:48:09] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:48:09] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:48:09] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:48:09] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:48:09] [Server thread/INFO]: Water over lava flow speed: 5
-[17:48:09] [Server thread/INFO]: Fix TNT cannons: false
-[17:48:09] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:48:09] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:48:09] [Server thread/INFO]: World async lighting: false
-[17:48:09] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:48:09] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:48:09] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:48:09] [Server thread/INFO]: Mob Spawn Range: 4
-[17:48:09] [Server thread/INFO]: Anti X-Ray: true
-[17:48:09] [Server thread/INFO]: 	Engine Mode: 1
-[17:48:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:48:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:48:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:48:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:48:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:48:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:48:09] [Server thread/INFO]: Random Lighting Updates: false
-[17:48:09] [Server thread/INFO]: Structure Info Saving: true
-[17:48:09] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:48:09] [Server thread/INFO]: Max Entity Collisions: 8
-[17:48:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:48:09] [Server thread/INFO]: Max TNT Explosions: 100
-[17:48:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:48:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:48:09] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:48:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:48:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:48:09] [Server thread/INFO]: View Distance: 4
-[17:48:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:48:09] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:48:09] [Server thread/INFO]: Clear tick list: false
-[17:48:09] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:48:09] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:48:09] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:48:09] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:48:09] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:48:09] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:48:09] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:48:09] [Server thread/INFO]: Water over lava flow speed: 5
-[17:48:09] [Server thread/INFO]: Fix TNT cannons: false
-[17:48:09] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:48:09] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:48:09] [Server thread/INFO]: World async lighting: false
-[17:48:09] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:48:09] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:48:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:48:09] [Server thread/INFO]: Mob Spawn Range: 4
-[17:48:09] [Server thread/INFO]: Anti X-Ray: true
-[17:48:09] [Server thread/INFO]: 	Engine Mode: 1
-[17:48:09] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[17:48:09] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[17:48:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:48:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:48:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[17:48:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:48:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[17:48:09] [Server thread/INFO]: Random Lighting Updates: false
-[17:48:09] [Server thread/INFO]: Structure Info Saving: true
-[17:48:09] [Server thread/INFO]: Sending up to 10 chunks per packet
-[17:48:09] [Server thread/INFO]: Max Entity Collisions: 8
-[17:48:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[17:48:09] [Server thread/INFO]: Max TNT Explosions: 100
-[17:48:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:48:09] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:48:09] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:48:09] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:48:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:48:09] [Server thread/INFO]: View Distance: 4
-[17:48:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:48:09] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[17:48:09] [Server thread/INFO]: Clear tick list: false
-[17:48:09] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:48:09] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:48:09] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[17:48:09] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[17:48:09] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[17:48:09] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[17:48:09] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[17:48:09] [Server thread/INFO]: Water over lava flow speed: 5
-[17:48:09] [Server thread/INFO]: Fix TNT cannons: false
-[17:48:09] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[17:48:09] [Server thread/INFO]: Keep spawn chunk loaded: true
-[17:48:09] [Server thread/INFO]: World async lighting: false
-[17:48:09] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[17:48:09] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[17:48:09] [Server thread/INFO]: Preparing start region for level 0 (Seed: 56003845)
-[17:48:10] [Server thread/INFO]: Preparing spawn area: 15%
-[17:48:11] [Server thread/INFO]: Preparing spawn area: 57%
-[17:48:12] [Server thread/INFO]: Preparing spawn area: 98%
-[17:48:12] [Server thread/INFO]: Preparing start region for level 1 (Seed: 56003845)
-[17:48:13] [Server thread/INFO]: Preparing spawn area: 8%
-[17:48:14] [Server thread/INFO]: Preparing spawn area: 26%
-[17:48:15] [Server thread/INFO]: Preparing start region for level 2 (Seed: 56003845)
-[17:48:16] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
-[17:48:16] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
-
-[17:48:16] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
-
-[17:48:16] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[17:48:16] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[17:48:17] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[17:48:17] [Server thread/INFO]: No kits found to migrate.
-[17:48:17] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
-[17:48:17] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
-[17:48:17] [Server thread/INFO]: Loaded 853 items from items.csv.
-[17:48:17] [Server thread/INFO]: Using locale en
-[17:48:17] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[17:48:17] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[17:48:17] [Server thread/INFO]: Using config file enhanced permissions.
-[17:48:17] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[17:48:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:48:17] [Server thread/INFO]: Done (8.552s)! For help, type "help" or "?"
-[17:48:17] [Server thread/INFO]: Timings Reset
-[17:48:17] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
-[17:48:24] [Thread-9/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[17:48:24] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:49198] logged in with entity id 550 at ([world]-263.1804984406506, 43.0, 143.96818975150777)
-[17:48:37] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> whoever joins after me is a HOMO[m
-
-[17:48:43] [Thread-10/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[17:48:43] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:41868] logged in with entity id 592 at ([world]-260.93595108843505, 43.0, 147.09447559218125)
-[17:48:46] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> XD[m
-
-[17:48:57] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> sup[m
-
-[17:48:58] [Async Chat Thread - #0/INFO]: <mr_meow_meow> what[m
-
-[17:49:03] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> notice anything different?[m
-
-[17:49:10] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> when you were joining?[m
-
-[17:49:15] [Async Chat Thread - #0/INFO]: <mr_meow_meow> differnt server[m
-
-[17:49:18] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> yup[m
-
-[17:49:32] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> i wanted to see if it's because this server was the only one they had[m
-
-[17:49:39] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> of so, they should join[m
-
-[17:49:40] [Async Chat Thread - #0/INFO]: <mr_meow_meow> ok[m
-
-[17:50:24] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman sugar 1
-[17:50:43] [Async Chat Thread - #1/INFO]: <mr_meow_meow> bruh[m
-
-[17:50:46] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> xd[m
-
-[17:51:07] [Server thread/INFO]: mr_meow_meow tried to swim in lava
-[17:51:14] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> gtg my mom caught me shiii[m
-
-[17:51:15] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
-[17:51:15] [Server thread/INFO]: JustinTheGPTMan left the game.
-[17:55:45] [Server thread/INFO]: mr_meow_meow tried to swim in lava
-[18:04:06] [Server thread/INFO]: mr_meow_meow fell from a high place
-[18:07:29] [Server thread/INFO]: mr_meow_meow fell from a high place
-[18:09:08] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[18:09:08] [Server thread/INFO]: mr_meow_meow left the game.
-[18:09:11] [Thread-12/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[18:09:11] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:33526] logged in with entity id 3761 at ([world]-9.904006554610952, 67.0, 242.17097901462296)
-[18:09:31] [Thread-13/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[18:09:31] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:46376] logged in with entity id 3783 at ([world]-261.8719604893031, 43.0, 145.02921519216147)
-[18:09:35] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sup[m
-
-[18:09:40] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> who is this?[m
-
-[18:09:45] [Async Chat Thread - #2/INFO]: <mr_meow_meow> gabriel[m
-
-[18:09:53] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> is that like his friend?[m
-
-[18:09:57] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yes[m
-
-[18:10:14] [Async Chat Thread - #2/INFO]: <mr_meow_meow> why what happened[m
-
-[18:10:23] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> im his mom[m
-
-[18:10:26] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok[m
-
-[18:10:45] [Async Chat Thread - #2/INFO]: <mr_meow_meow> what do u need[m
-
-[18:10:47] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> why was he talking about meth yesterday?[m
-
-[18:11:16] [Async Chat Thread - #2/INFO]: <mr_meow_meow> oh that was because of my friend was an idiot and named sugar meth[m
-
-[18:11:38] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> you do realize that is a very bad substance[m
-
-[18:11:43] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yes i do[m
-
-[18:11:52] [Thread-14/INFO]: UUID of player TheDiamondTapper is 41540661-af53-33fa-ba8e-8918600b92a9
-[18:11:52] [Server thread/INFO]: TheDiamondTapper[/[0:0:0:0:0:0:0:1]:56986] logged in with entity id 4047 at ([world]-366.4520441137475, 57.0, 158.8595412653508)
-[18:12:00] [Async Chat Thread - #2/INFO]: <mr_meow_meow> i didnt name it that though[m
-
-[18:12:01] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> then why did you let your friend name sugar meth?[m
-
-[18:12:07] [Server thread/INFO]: TheDiamondTapper lost connection: Disconnected
-[18:12:07] [Server thread/INFO]: TheDiamondTapper left the game.
-[18:12:14] [Async Chat Thread - #2/INFO]: <mr_meow_meow> i didnt know he named it that[m
-
-[18:12:20] [Thread-15/INFO]: UUID of player TheDiamondTapper is 41540661-af53-33fa-ba8e-8918600b92a9
-[18:12:20] [Server thread/INFO]: TheDiamondTapper[/[0:0:0:0:0:0:0:1]:43578] logged in with entity id 4152 at ([world]-366.4520441137475, 57.0, 158.8595412653508)
-[18:12:28] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
-[18:12:28] [Server thread/INFO]: JustinTheGPTMan left the game.
-[18:12:36] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sup ciara[m
-
-[18:12:44] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> hello im ciara baby sister[m
-
-[18:12:50] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sup[m
-
-[18:13:08] [Async Chat Thread - #2/INFO]: <mr_meow_meow> are u actually her baby sister[m
-
-[18:13:17] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> she let me play when she get back from my granma house[m
-
-[18:13:26] [Async Chat Thread - #2/INFO]: <mr_meow_meow> oh ok[m
-
-[18:13:32] [Async Chat Thread - #2/INFO]: <mr_meow_meow> how old are u[m
+[18:47:01] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[18:47:01] [Server thread/INFO]: Loading properties
+[18:47:01] [Server thread/INFO]: Default game type: SURVIVAL
+[18:47:01] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[18:47:01] [Server thread/INFO]: Debug logging is disabled
+[18:47:01] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[18:47:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[18:47:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:47:01] [Server thread/INFO]: Data value allowed items: 
+[18:47:01] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[18:47:01] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[18:47:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[18:47:01] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[18:47:01] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[18:47:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[18:47:01] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[18:47:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[18:47:01] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[18:47:01] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[18:47:01] [Server thread/INFO]: Generating keypair
+[18:47:02] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:47:02] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:47:02] [Server thread/INFO]: Using default channel type
+[18:47:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:47:02] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
+[18:47:02] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[18:47:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:47:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:47:02] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:47:02] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:47:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:47:02] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:47:02] [Server thread/INFO]: Preparing level "world"
+[18:47:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:47:02] [Server thread/INFO]: Mob Spawn Range: 4
+[18:47:02] [Server thread/INFO]: Anti X-Ray: true
+[18:47:02] [Server thread/INFO]: 	Engine Mode: 1
+[18:47:02] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:47:02] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:47:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:47:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:47:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:47:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:47:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:47:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:47:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:47:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:47:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:47:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:47:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:47:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:47:02] [Server thread/INFO]: Random Lighting Updates: false
+[18:47:02] [Server thread/INFO]: Structure Info Saving: true
+[18:47:02] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:47:02] [Server thread/INFO]: Max Entity Collisions: 8
+[18:47:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:47:02] [Server thread/INFO]: Max TNT Explosions: 100
+[18:47:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:47:02] [Server thread/INFO]: View Distance: 4
+[18:47:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:47:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:47:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:47:02] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:47:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:47:02] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:47:02] [Server thread/INFO]: Clear tick list: false
+[18:47:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:47:02] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:47:02] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:47:02] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:47:02] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:47:02] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:47:02] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:47:02] [Server thread/INFO]: Water over lava flow speed: 5
+[18:47:02] [Server thread/INFO]: Fix TNT cannons: false
+[18:47:02] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:47:02] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:47:02] [Server thread/INFO]: World async lighting: false
+[18:47:02] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:47:02] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:47:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:47:03] [Server thread/INFO]: Mob Spawn Range: 4
+[18:47:03] [Server thread/INFO]: Anti X-Ray: true
+[18:47:03] [Server thread/INFO]: 	Engine Mode: 1
+[18:47:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:47:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:47:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:47:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:47:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:47:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:47:03] [Server thread/INFO]: Random Lighting Updates: false
+[18:47:03] [Server thread/INFO]: Structure Info Saving: true
+[18:47:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:47:03] [Server thread/INFO]: Max Entity Collisions: 8
+[18:47:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:47:03] [Server thread/INFO]: Max TNT Explosions: 100
+[18:47:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:47:03] [Server thread/INFO]: View Distance: 4
+[18:47:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:47:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:47:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:47:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:47:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:47:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:47:03] [Server thread/INFO]: Clear tick list: false
+[18:47:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:47:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:47:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:47:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:47:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:47:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:47:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:47:03] [Server thread/INFO]: Water over lava flow speed: 5
+[18:47:03] [Server thread/INFO]: Fix TNT cannons: false
+[18:47:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:47:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:47:03] [Server thread/INFO]: World async lighting: false
+[18:47:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:47:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:47:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:47:03] [Server thread/INFO]: Mob Spawn Range: 4
+[18:47:03] [Server thread/INFO]: Anti X-Ray: true
+[18:47:03] [Server thread/INFO]: 	Engine Mode: 1
+[18:47:03] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:47:03] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:47:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:47:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:47:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:47:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:47:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:47:03] [Server thread/INFO]: Random Lighting Updates: false
+[18:47:03] [Server thread/INFO]: Structure Info Saving: true
+[18:47:03] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:47:03] [Server thread/INFO]: Max Entity Collisions: 8
+[18:47:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:47:03] [Server thread/INFO]: Max TNT Explosions: 100
+[18:47:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:47:03] [Server thread/INFO]: View Distance: 4
+[18:47:03] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:47:03] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:47:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:47:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:47:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:47:03] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:47:03] [Server thread/INFO]: Clear tick list: false
+[18:47:03] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:47:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:47:03] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:47:03] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:47:03] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:47:03] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:47:03] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:47:03] [Server thread/INFO]: Water over lava flow speed: 5
+[18:47:03] [Server thread/INFO]: Fix TNT cannons: false
+[18:47:03] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:47:03] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:47:03] [Server thread/INFO]: World async lighting: false
+[18:47:03] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:47:03] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:47:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: 56003845)
+[18:47:04] [Server thread/INFO]: Preparing spawn area: 11%
+[18:47:05] [Server thread/INFO]: Preparing spawn area: 39%
+[18:47:06] [Server thread/INFO]: Preparing spawn area: 75%
+[18:47:06] [Server thread/INFO]: Preparing start region for level 1 (Seed: 56003845)
+[18:47:07] [Server thread/INFO]: Preparing spawn area: 9%
+[18:47:08] [Server thread/INFO]: Preparing spawn area: 58%
+[18:47:09] [Server thread/INFO]: Preparing start region for level 2 (Seed: 56003845)
+[18:47:09] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
+[18:47:10] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+
+[18:47:10] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+
+[18:47:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[18:47:10] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[18:47:11] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[18:47:11] [Server thread/INFO]: No kits found to migrate.
+[18:47:11] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
+[18:47:11] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
+[18:47:11] [Server thread/INFO]: Loaded 853 items from items.csv.
+[18:47:11] [Server thread/INFO]: Using locale en
+[18:47:11] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[18:47:11] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[18:47:11] [Server thread/INFO]: Using config file enhanced permissions.
+[18:47:11] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[18:47:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:47:11] [Server thread/INFO]: Done (8.939s)! For help, type "help" or "?"
+[18:47:11] [Server thread/INFO]: Timings Reset
+[18:47:11] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[18:47:21] [Thread-9/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[18:47:21] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:48428] logged in with entity id 548 at ([world]-279.069816966794, 58.0, 163.70778025385385)
+[18:47:26] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> DANG[m
+
+[18:47:27] [Thread-10/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[18:47:27] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:42808] logged in with entity id 641 at ([world]-288.2998728712132, 58.0, 168.69999998807907)
+[18:47:34] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> server shut down so fast[m
+
+[18:47:40] [Server thread/INFO]: mr_meow_meow issued server command: /afk
+[18:47:41] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> well...it finally hit its limits[m
+
+[18:47:50] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> back to the "main" server[m
+
+[18:47:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[18:48:57] [Server thread/INFO]: mr_meow_meow issued server command: /afk
+[18:49:01] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> ciara gonna take a bit[m
+
+[18:49:06] [Async Chat Thread - #1/INFO]: <mr_meow_meow> dang[m
+
+[18:49:24] [Async Chat Thread - #1/INFO]: <mr_meow_meow> osama[m
+
+[18:49:31] [Async Chat Thread - #1/INFO]: <mr_meow_meow> secret base[m
+
+[18:49:47] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> lol[m
+
+[18:49:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman iron_pickaxe 1
+[18:49:56] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> GO[m
+
+[18:49:59] [Server thread/INFO]: mr_meow_meow was blown up by Creeper
+[18:50:01] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> BRUHHH[m
+
+[18:50:09] [Async Chat Thread - #1/INFO]: <mr_meow_meow> bruh[m
+
+[18:50:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[18:50:16] [Async Chat Thread - #1/INFO]: <mr_meow_meow> sorry[m
+
+[18:50:20] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> thats fine...[m
+
+[18:50:25] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> i'll just have to fix it[m
+
+[18:50:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman stone 1
+[18:51:04] [Async Chat Thread - #1/INFO]: <mr_meow_meow> brittle bones nicky he was crafty and tricky[m
+
+[18:51:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman iron_sword 1
+[18:51:37] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[18:51:42] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> oh[m
+
+[18:51:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman lever 1
+[18:51:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[18:52:03] [Async Chat Thread - #1/INFO]: <mr_meow_meow> her sister was nice[m
+
+[18:52:08] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> yea[m
+
+[18:53:18] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> im still fixing it[m
 
-[18:13:32] [Thread-16/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[18:13:32] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:33468] logged in with entity id 4386 at ([world]-257.30000001192093, 43.0, 149.69999998807907)
-[18:13:38] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> what i do on this game?[m
+[18:53:19] [Thread-12/INFO]: UUID of player TheDiamondTapper is 41540661-af53-33fa-ba8e-8918600b92a9
+[18:53:19] [Server thread/INFO]: TheDiamondTapper[/[0:0:0:0:0:0:0:1]:40208] logged in with entity id 1470 at ([world]-281.7635633721769, 58.0, 162.6091784578477)
+[18:53:21] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> sup[m
 
-[18:13:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow oh shii
-[18:13:44] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> 6[m
+[18:53:26] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sup[m
 
-[18:13:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow thank god i got it back from my mom
-[18:13:50] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ciara little sister is here[m
+[18:53:33] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ur sister was nice[m
 
-[18:14:01] [Async Chat Thread - #2/INFO]: <mr_meow_meow> just dont die[m
+[18:53:36] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> yea[m
 
-[18:14:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow never in my life i restarted a chromebook so fast
-[18:14:13] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> what you mean by that[m
+[18:53:51] [Async Chat Thread - #2/INFO]: <mr_meow_meow> i had to talk to justins mom[m
 
-[18:14:26] [Async Chat Thread - #2/INFO]: <mr_meow_meow> dont lose all those hearts[m
+[18:53:58] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> yea :skull:[m
 
-[18:14:37] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> oh the red this[m
+[18:54:09] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> never in my life i restarted a chromebook so fast[m
 
-[18:14:47] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yup[m
+[18:54:10] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> she nice to other but the people are mean to mean she mean to the[m
 
-[18:14:50] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i mean one[m
+[18:54:20] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> .[m
 
-[18:14:56] [Async Chat Thread - #2/INFO]: <mr_meow_meow> huh[m
+[18:54:20] [Async Chat Thread - #2/INFO]: <mr_meow_meow> not a great experience[m
 
-[18:15:07] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ask ur sister[m
+[18:54:29] [Async Chat Thread - #2/INFO]: <mr_meow_meow> also thats all siblings ciara[m
 
-[18:15:23] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> oh ok[m
+[18:54:44] [Async Chat Thread - #2/INFO]: <mr_meow_meow> my bros are so mean to me[m
 
-[18:15:35] [Async Chat Thread - #2/INFO]: <mr_meow_meow> so justin u ok[m
+[18:54:51] [Server thread/INFO]: mr_meow_meow tried to swim in lava
+[18:55:19] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> what you mean siblings[m
 
-[18:15:42] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> yea o_o[m
+[18:55:39] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sibling[m
 
-[18:15:50] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> never in my life i restarted a chromebook so fast[m
+[18:55:47] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> me here got three[m
 
-[18:15:52] [Async Chat Thread - #2/INFO]: <mr_meow_meow> dang[m
+[18:55:53] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> ._.[m
 
-[18:16:07] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> i had wayyy too much explaining to do[m
+[18:55:55] [Async Chat Thread - #2/INFO]: <mr_meow_meow> oh[m
 
-[18:16:13] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yup[m
+[18:56:07] [Async Chat Thread - #2/INFO]: <mr_meow_meow> dang[m
 
-[18:16:35] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> wait you guys know my sisy?[m
+[18:56:15] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> wait just is there a way i can get a gir skin not the ones from minecraft[m
 
-[18:16:37] [Async Chat Thread - #2/INFO]: <mr_meow_meow> i dont say or do jokes of meth[m
+[18:56:31] [Async Chat Thread - #2/INFO]: <mr_meow_meow> cant wait for wednesday and next year[m
 
-[18:16:42] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yes[m
+[18:56:35] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> where the dogs[m
 
-[18:16:46] [Async Chat Thread - #2/INFO]: <mr_meow_meow> wrong timing[m
+[18:56:42] [Async Chat Thread - #2/INFO]: <mr_meow_meow> somewhere[m
 
-[18:16:51] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> that cool[m
+[18:56:45] [Server thread/WARN]: mr_meow_meow moved wrongly!
+[18:56:53] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> finally i fixed it[m
 
-[18:16:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow bro :skull:
-[18:16:55] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yup[m
+[18:57:22] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> where the dogs my litte sister loved[m
 
-[18:16:57] [Server thread/WARN]: mr_meow_meow moved wrongly!
-[18:17:13] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow that timing is DEADLY
-[18:17:18] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> my mommy keep me home school[m
+[18:57:27] [Async Chat Thread - #2/INFO]: <mr_meow_meow> moon day and quince[m
 
-[18:17:25] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow saying meth to a child is CRAZYYY
-[18:17:27] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman i know
-[18:17:55] [Async Chat Thread - #2/INFO]: <mr_meow_meow> so how was school[m
+[18:57:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell mr_meow_meow i slaughtered them like i had an asian mindset :skull:
+[18:57:56] [Async Chat Thread - #2/INFO]: <mr_meow_meow> what[m
 
-[18:17:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow why would you do that!?
-[18:18:06] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> who me?[m
+[18:57:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell mr_meow_meow dont tell her thoug
+[18:58:00] [Async Chat Thread - #2/INFO]: <mr_meow_meow> the[m
 
-[18:18:09] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman shut up
-[18:18:12] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sure[m
+[18:58:01] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> ._.[m
 
-[18:18:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow why? im just spitting FACTS?
-[18:18:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow i could never...
-[18:18:35] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i did good my mommy said i'm getting good at my abc[m
+[18:58:03] [Async Chat Thread - #2/INFO]: <mr_meow_meow> heck[m
 
-[18:18:44] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman im trying not to sound weird
-[18:18:48] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok[m
+[18:58:11] [Server thread/INFO]: TheDiamondTapper burned to death
+[18:58:21] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> you forgot about the trap bruhh[m
 
-[18:18:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow oh okay
-[18:18:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow mb then
-[18:19:12] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman dont say anythin weird
-[18:19:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow i wont, there'l literally a child here
-[18:19:32] [Async Chat Thread - #2/INFO]: <mr_meow_meow> good[m
+[18:58:31] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i never seen it there[m
 
-[18:19:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow "Minors welcome!" taken too literally :skull:
-[18:19:47] [Async Chat Thread - #2/INFO]: <mr_meow_meow> do u love ur sister[m
+[18:58:38] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> i just added it[m
 
-[18:20:00] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i just killed a white animal[m
+[18:58:39] [Async Chat Thread - #2/INFO]: <mr_meow_meow> i got ur stuff ciara[m
 
-[18:20:07] [Async Chat Thread - #2/INFO]: <mr_meow_meow> a sheep[m
+[18:58:43] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> it's an anti-griefer trap[m
 
-[18:20:25] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> so that what it call[m
+[18:58:52] [Async Chat Thread - #2/INFO]: <mr_meow_meow> where are u[m
 
-[18:20:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /getpos TheDiamondTapper
-[18:20:34] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yup[m
+[18:58:59] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> waking back[m
 
-[18:20:51] [Async Chat Thread - #2/INFO]: <mr_meow_meow> so u love ur sister[m
+[18:59:19] [Async Chat Thread - #2/INFO]: <mr_meow_meow> brittle bones nicky he was crafty and tricky[m
 
-[18:20:55] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> is people mean on this game?[m
+[18:59:58] [Async Chat Thread - #2/INFO]: <mr_meow_meow> wait where did u get the diamond sword[m
 
-[18:21:01] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sometimes[m
+[19:00:08] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i mad it why?[m
 
-[18:21:06] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> oh[m
+[19:00:18] [Async Chat Thread - #2/INFO]: <mr_meow_meow> just askin[m
 
-[18:21:19] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ur sister keeps killin me in the game[m
+[19:00:20] [Server thread/WARN]: TheDiamondTapper moved wrongly!
+[19:02:30] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> .[m
 
-[18:21:36] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i see someone why he look like that he look ugly[m
+[19:02:59] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> ...[m
 
-[18:21:40] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> naw[m
+[19:02:59] [Async Chat Thread - #3/INFO]: <mr_meow_meow> there once was a shooting in the front of my community[m
 
-[18:21:43] [Async Chat Thread - #2/INFO]: <mr_meow_meow> who[m
+[19:03:35] [Async Chat Thread - #3/INFO]: <mr_meow_meow> what[m
 
-[18:21:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow me :skull:
-[18:21:56] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ha[m
+[19:04:00] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> can i get some of that thing so i can do that to my base to[m
 
-[18:22:06] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> he look like a bread thing[m
+[19:04:09] [Async Chat Thread - #3/INFO]: <mr_meow_meow> no[m
 
-[18:22:08] [Async Chat Thread - #2/INFO]: <mr_meow_meow> im ugly to justin[m
+[19:04:17] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> bro[m
 
-[18:22:18] [Async Chat Thread - #2/INFO]: <mr_meow_meow> justin is his nam[m
+[19:04:18] [Async Chat Thread - #3/INFO]: <mr_meow_meow> dang it[m
 
-[18:22:19] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> no your not[m
+[19:04:23] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch]
+[19:04:28] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> didnt mean it[m
 
-[18:22:30] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> .[m
+[19:04:29] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> .[m
 
-[18:22:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow bad timing again
-[18:22:46] [Async Chat Thread - #2/INFO]: <mr_meow_meow> oh dang[m
+[19:04:31] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> XD[m
 
-[18:22:46] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
-[18:22:46] [Server thread/INFO]: JustinTheGPTMan left the game.
-[18:22:47] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> ...[m
+[19:05:19] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> move[m
 
-[18:22:55] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ciara[m
+[19:05:23] [Async Chat Thread - #3/INFO]: <mr_meow_meow> no[m
 
-[18:22:56] [Thread-17/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[18:22:56] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:59554] logged in with entity id 7938 at ([world]-257.30000001192093, 43.0, 149.69999998807907)
-[18:22:58] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> why he left[m
+[19:05:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell thediamondtrapper what skin you want?
+[19:05:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell thediamondtapper what skin you want?
+[19:05:46] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> .[m
 
-[18:23:12] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> why you keep caling me ciara[m
+[19:06:10] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> a girl skin show it to me in a side[m
 
-[18:23:12] [Async Chat Thread - #2/INFO]: <mr_meow_meow> he left becuase he crashed[m
+[19:06:14] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman help me from her
+[19:06:21] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> slide*[m
 
-[18:23:23] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sorry i dont know ur name[m
+[19:06:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell mr_meow_meow naw a girl is scaring you
+[19:06:47] [Async Chat Thread - #3/INFO]: <mr_meow_meow> yup[m
 
-[18:23:32] [Async Chat Thread - #2/INFO]: <mr_meow_meow> dont tell me[m
+[19:07:02] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> dang my lron gone ;-;?[m
 
-[18:23:33] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> oh it grace[m
+[19:07:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell thediamondtapper but thats vague, like anything specific?
+[19:07:09] [Async Chat Thread - #3/INFO]: <mr_meow_meow> all because of my cousins[m
 
-[18:23:39] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok grace[m
+[19:07:14] [Async Chat Thread - #3/INFO]: <mr_meow_meow> womp womp[m
 
-[18:23:57] [Async Chat Thread - #2/INFO]: <mr_meow_meow> whats ur sister doin[m
+[19:07:15] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> yeah[m
 
-[18:24:11] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> she talking to her bose on call[m
+[19:07:24] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch]
+[19:07:35] [Async Chat Thread - #3/INFO]: <mr_meow_meow> fine i wont give u any iron[m
 
-[18:24:16] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok[m
+[19:07:36] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell mr_meow_meow you want immunity?
+[19:07:47] [Async Chat Thread - #3/INFO]: <mr_meow_meow> naw i good no cheatin[m
 
-[18:24:21] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
-[18:24:43] [Async Chat Thread - #2/INFO]: <mr_meow_meow> can u tell her to stop killin me in game[m
+[19:07:48] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> oh oop[m
 
-[18:24:53] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> ok i do that[m
+[19:08:11] [Server thread/WARN]: mr_meow_meow moved wrongly!
+[19:08:20] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> so what you guys do to my sister dogs ;-;?[m
 
-[18:24:56] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> brb[m
+[19:08:26] [Async Chat Thread - #3/INFO]: <mr_meow_meow> idk[m
 
-[18:25:01] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yay[m
+[19:08:33] [Async Chat Thread - #3/INFO]: <mr_meow_meow> i went asian mode[m
 
-[18:25:21] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow you do realize she probably will still kill you?
-[18:25:25] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> ok back she said fine she will stop[m
+[19:08:34] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> goofy ahh eas[m
 
-[18:25:30] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yay[m
+[19:08:35] [Async Chat Thread - #3/INFO]: <mr_meow_meow> jk[m
 
-[18:25:36] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow *loud incorrect buzzer*
-[18:25:40] [Async Chat Thread - #2/INFO]: <mr_meow_meow> thank u grace[m
+[19:08:43] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> naw you did go asian mode[m
 
-[18:25:50] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> Ooo this thing strong[m
+[19:08:47] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> stop the cap[m
 
-[18:25:56] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman i know
-[18:25:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow ._.
-[18:26:08] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> what this[m
+[19:08:49] [Async Chat Thread - #3/INFO]: <mr_meow_meow> no i didnt[m
 
-[18:26:15] [Async Chat Thread - #2/INFO]: <mr_meow_meow> what is what[m
+[19:08:52] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> yes you did[m
 
-[18:26:18] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
-[18:26:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow the "Bitch" sword :Skull:
-[18:26:31] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i was asking this justin man[m
+[19:08:54] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> jk[m
 
-[18:26:38] [Server thread/INFO]: JustinTheGPTMan was slain by TheDiamondTapper using [Bitch]
-[18:26:45] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
-[18:26:49] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> I kill him[m
+[19:09:01] [Async Chat Thread - #3/INFO]: <mr_meow_meow> i dont punch dogs or kill them[m
 
-[18:26:58] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> And i come back :)[m
+[19:09:02] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> they despawned bc no manetag :([m
 
-[18:26:58] [Async Chat Thread - #2/INFO]: <mr_meow_meow> dont kill him and give him back his stuff[m
+[19:09:06] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> nametag[m
 
-[18:27:03] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> dw[m
+[19:09:09] [Async Chat Thread - #3/INFO]: <mr_meow_meow> bruh[m
 
-[18:27:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow she gave me my stuff back
-[18:27:13] [Async Chat Thread - #2/INFO]: <mr_meow_meow> good[m
+[19:09:12] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> So who kill them ^^[m
 
-[18:27:43] [Async Chat Thread - #2/INFO]: <mr_meow_meow> what did u eat today[m
+[19:09:17] [Async Chat Thread - #3/INFO]: <mr_meow_meow> not me[m
 
-[18:27:43] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> is there a way i can get a pet dog in this game?[m
+[19:09:19] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> not me[m
 
-[18:27:57] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ask ur sister first[m
+[19:09:29] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch2]
+[19:09:34] [Async Chat Thread - #3/INFO]: <mr_meow_meow> ofc[m
 
-[18:28:14] [Server thread/INFO]: JustinTheGPTMan issued server command: /getpos mr_meow_meow
-[18:28:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
-[18:28:38] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> she said i have to fine a dog in the game and it will take long to fine one[m
+[19:09:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[19:09:52] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> i dont kill dogs, i kill chickens[m
 
-[18:28:51] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok there u go[m
+[19:10:00] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> fr same here[m
 
-[18:29:06] [Async Chat Thread - #2/INFO]: <mr_meow_meow> thats the answer[m
+[19:10:06] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> ur white[m
 
-[18:29:28] [Async Chat Thread - #2/INFO]: <mr_meow_meow> did u eat good food today[m
+[19:10:09] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman ill take the blame
+[19:10:20] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> i not[m
 
-[18:29:33] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
-[18:29:35] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
-[18:29:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
-[18:29:44] [Server thread/WARN]: mr_meow_meow moved wrongly!
-[18:29:56] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> DOGY[m
+[19:10:32] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> then what are you?[m
 
-[18:30:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow i found one for her
-[18:30:08] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> is this for the dog?[m
+[19:10:41] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> why you looking through my chests?[m
 
-[18:30:16] [Async Chat Thread - #2/INFO]: <mr_meow_meow> the bones[m
+[19:10:45] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> suspicous ahh[m
 
-[18:30:22] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> yes[m
+[19:10:51] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> look what i put in it[m
 
-[18:30:23] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> yeah we friends[m
+[19:11:00] [Async Chat Thread - #3/INFO]: <mr_meow_meow> i killed the dogs i sorry[m
 
-[18:30:28] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yay[m
+[19:11:11] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> YOU DID WHAT[m
 
-[18:30:46] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> it cute[m
+[19:11:12] [Async Chat Thread - #3/INFO]: <mr_meow_meow> i didnt mean to[m
 
-[18:30:52] [Async Chat Thread - #2/INFO]: <mr_meow_meow> is ur sister mean to u[m
+[19:11:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[19:11:20] [Async Chat Thread - #3/INFO]: <mr_meow_meow> oh[m
 
-[18:31:23] [Server thread/INFO]: mr_meow_meow fell from a high place
-[18:31:27] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> no she really sweet to me she even help my mommy and dada out[m
+[19:11:34] [Async Chat Thread - #3/INFO]: <mr_meow_meow> justin help i took the blame help[m
 
-[18:31:42] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok cool[m
+[19:11:38] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> ._.[m
 
-[18:31:47] [Server thread/WARN]: mr_meow_meow moved wrongly!
-[18:31:47] [Server thread/WARN]: mr_meow_meow moved wrongly!
-[18:31:47] [Server thread/WARN]: mr_meow_meow moved wrongly!
-[18:31:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
-[18:32:01] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> is there a way i can make 100 dogs in the game[m
+[19:11:43] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> umm you didnt kill them[m
 
-[18:32:11] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yea[m
+[19:11:45] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> neither do i[m
 
-[18:32:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
-[18:32:14] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> yea[m
+[19:11:52] [Async Chat Thread - #3/INFO]: <mr_meow_meow> no[m
 
-[18:32:15] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> Ooo[m
+[19:11:53] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> when i switch servers, something happened...[m
 
-[18:32:25] [Async Chat Thread - #2/INFO]: <mr_meow_meow> get another dog[m
+[19:11:59] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> the dogs were gone[m
 
-[18:32:36] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> can i have one more please[m
+[19:12:02] [Async Chat Thread - #3/INFO]: <mr_meow_meow> oh ok[m
 
-[18:32:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow i aint gonna travel the world for one more wolf
-[18:32:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow oh wait nvm there's one near...
-[18:32:57] [Async Chat Thread - #2/INFO]: <mr_meow_meow> justin said no sorry[m
+[19:12:10] [Async Chat Thread - #3/INFO]: <mr_meow_meow> tequilla[m
 
-[18:33:04] [Async Chat Thread - #2/INFO]: <mr_meow_meow> nevermind[m
+[19:12:15] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> yea, server glitch when moving servers...happens time to time[m
 
-[18:33:05] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> aw[m
+[19:12:19] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> i loved them to[m
 
-[18:33:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
-[18:33:14] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
-[18:33:16] [Async Chat Thread - #2/INFO]: <mr_meow_meow> theres one near[m
+[19:12:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[19:12:22] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava
+[19:12:26] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> bruhh[m
 
-[18:33:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
-[18:34:00] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> Ooo i got two now my sisy said she be backto play whn she done helping my mommy and dada[m
+[19:12:27] [Async Chat Thread - #3/INFO]: <mr_meow_meow> fine kill me[m
 
-[18:34:09] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok[m
+[19:12:31] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch]
+[19:12:41] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[19:12:43] [Async Chat Thread - #3/INFO]: <mr_meow_meow> i was gonna die anyways[m
 
-[18:34:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
-[18:34:34] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> what did they just do[m
+[19:12:45] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[19:13:01] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[19:13:19] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> can i still get a dog please ^^[m
 
-[18:34:41] [Async Chat Thread - #2/INFO]: <mr_meow_meow> nothin[m
+[19:13:24] [Async Chat Thread - #3/INFO]: <mr_meow_meow> no[m
 
-[18:34:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow guess she just discovered breeding lol
-[18:34:51] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> aww it a puppy[m
+[19:13:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[19:13:32] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> :{[m
 
-[18:34:56] [Async Chat Thread - #2/INFO]: <mr_meow_meow> aw[m
+[19:13:37] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> okay[m
 
-[18:35:28] [Async Chat Thread - #2/INFO]: <mr_meow_meow> whats ur favorite food[m
+[19:13:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[19:13:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[19:13:57] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> oop[m
 
-[18:35:53] [Async Chat Thread - #2/INFO]: <mr_meow_meow> mines tamales[m
+[19:14:03] [Async Chat Thread - #3/INFO]: <TheDiamondTapper> your thing not working[m
 
-[18:35:54] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> it this green this[m
+[19:14:18] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> stop[m
 
-[18:36:03] [Async Chat Thread - #2/INFO]: <mr_meow_meow> oh[m
+[19:14:31] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> let me bob the builder this thing...again[m
 
-[18:36:05] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok[m
+[19:14:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[19:15:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /gine justinthegptman stone 1
+[19:15:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman stone 1
+[19:15:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman sticky_piston 1
+[19:15:35] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch]
+[19:15:49] [Async Chat Thread - #4/INFO]: <[0;31;22mJustinTheGPTMan[m> there[m
 
-[18:36:28] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman dont know what green this she talking about
-[18:36:32] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> why my sisy lagging[m
+[19:16:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[19:16:04] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[19:16:16] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[19:16:20] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[19:16:20] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[19:16:20] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[19:16:52] [Async Chat Thread - #5/INFO]: <mr_meow_meow> gabriel just remember he wont set it back[m
 
-[18:36:36] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow neither do i
-[18:36:40] [Async Chat Thread - #2/INFO]: <mr_meow_meow> low fps[m
+[19:17:49] [Async Chat Thread - #5/INFO]: <mr_meow_meow> im chargin my headphones[m
 
-[18:37:01] [Async Chat Thread - #2/INFO]: <mr_meow_meow> im scared of ur sister[m
+[19:19:21] [Async Chat Thread - #6/INFO]: <TheDiamondTapper> my poor dog }:[m
 
-[18:37:16] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> why[m
+[19:19:35] [Async Chat Thread - #6/INFO]: <[0;31;22mJustinTheGPTMan[m> thx[m
 
-[18:37:23] [Async Chat Thread - #2/INFO]: <mr_meow_meow> she mean to me[m
+[19:20:01] [Async Chat Thread - #6/INFO]: <mr_meow_meow> can i get a sign[m
 
-[18:37:44] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman ima go into my maid dress
-[18:37:52] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> oh i got tell her be nice next time[m
+[19:21:00] [Server thread/INFO]: mr_meow_meow tried to swim in lava
+[19:21:30] [Async Chat Thread - #7/INFO]: <mr_meow_meow> if my dad is mexican would u be suprised if he works in construction[m
 
-[18:37:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow same :)
-[18:38:05] [Async Chat Thread - #2/INFO]: <mr_meow_meow> thanks grace[m
+[19:21:42] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> stereotypically ofc[m
 
-[18:38:20] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> np what this[m
+[19:21:50] [Async Chat Thread - #7/INFO]: <mr_meow_meow> shut up[m
 
-[18:38:24] [Async Chat Thread - #2/INFO]: <mr_meow_meow> seeds[m
+[19:21:50] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> but if you dont think that way...depends[m
 
-[18:38:25] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> seeds[m
+[19:22:02] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> thats why i said stereotypically[m
 
-[18:38:28] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ah[m
+[19:22:06] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> didnt actually mean it[m
 
-[18:38:33] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
-[18:38:40] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> and this[m
+[19:22:24] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> just saying if someone was being stereotypical they would say that[m
 
-[18:38:45] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sword[m
+[19:22:43] [Async Chat Thread - #7/INFO]: <mr_meow_meow> what is ciara doin[m
 
-[18:38:48] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> sword[m
+[19:23:09] [Async Chat Thread - #7/INFO]: <TheDiamondTapper> going around the world why?[m
 
-[18:39:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow technically a sword called "Bitch"
-[18:39:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow but we dont go there
-[18:39:19] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
-[18:39:25] [Server thread/INFO]: mr_meow_meow issued server command: /msg justinthegptman i know
-[18:39:28] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> oh aww i got to go she back[m
+[19:23:16] [Async Chat Thread - #7/INFO]: <mr_meow_meow> dang[m
 
-[18:39:35] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow finally
-[18:39:37] [Async Chat Thread - #2/INFO]: <mr_meow_meow> bye grace[m
+[19:24:36] [Async Chat Thread - #8/INFO]: <mr_meow_meow> i threw a rock at my shin it not feel great[m
 
-[18:39:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
-[18:39:43] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> bye :)[m
+[19:24:41] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> why?[m
 
-[18:39:57] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> by[m
+[19:24:48] [Async Chat Thread - #8/INFO]: <mr_meow_meow> fun[m
 
-[18:40:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow i also forgor i can enable voice chat lol (but i doubt anyone uses it)
-[18:40:28] [Async Chat Thread - #2/INFO]: <mr_meow_meow> gtg brb[m
+[19:25:06] [Async Chat Thread - #8/INFO]: <mr_meow_meow> ciara what do u take in the mornin to got to school[m
 
-[18:40:33] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> ight[m
+[19:25:18] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> bus why[m
 
-[18:40:39] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> Guys what did my sister do when i was doing stuff[m
+[19:25:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[19:25:56] [Async Chat Thread - #8/INFO]: <mr_meow_meow> because if u come at 6:40 go between 2 and 4 building to tell justin a question u need him to answer[m
 
-[18:40:42] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[18:40:42] [Server thread/INFO]: mr_meow_meow left the game.
-[18:40:46] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> oh[m
+[19:26:28] [Async Chat Thread - #8/INFO]: <mr_meow_meow> what time u get to school[m
 
-[18:40:47] [Thread-27/INFO]: UUID of player 2waysSd is a8897b37-5905-30d4-99f0-6dd16846fc41
-[18:40:47] [Server thread/INFO]: 2waysSd[/[0:0:0:0:0:0:0:1]:34126] logged in with entity id 11417 at ([world]-78.5020588270639, 75.0, -21.321017388567917)
-[18:40:48] [Server thread/INFO]: 2waysSd lost connection: Disconnected
-[18:40:48] [Server thread/INFO]: 2waysSd left the game.
-[18:40:56] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> nothing much[m
+[19:27:00] [Async Chat Thread - #8/INFO]: <mr_meow_meow> ok[m
 
-[18:41:01] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> besides breeding 2 dogs[m
+[19:27:25] [Async Chat Thread - #8/INFO]: <mr_meow_meow> should i worry about a girl i dont talk to anymore[m
 
-[18:41:16] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> and looking around[m
+[19:27:34] [Async Chat Thread - #8/INFO]: <mr_meow_meow> maybe maybe not[m
 
-[18:41:27] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> also...do you have the other server link?[m
+[19:28:10] [Async Chat Thread - #8/INFO]: <mr_meow_meow> nvm[m
 
-[18:41:30] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> oh god i'm rejoin im lagging bad[m
+[19:28:18] [Async Chat Thread - #8/INFO]: <mr_meow_meow> im goin insane[m
 
-[18:41:36] [Thread-28/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[18:41:36] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:45590] logged in with entity id 11577 at ([world]-283.38658358512805, 58.0, 160.76318568896812)
-[18:41:37] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> like the one that starts with "opulent"[m
+[19:28:33] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> guys do you know where ian base at i wan't to give him something in a cheast[m
 
-[18:41:42] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[18:41:42] [Server thread/INFO]: mr_meow_meow left the game.
-[18:41:46] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> bc im switching over to that one[m
+[19:28:44] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> umm[m
 
-[18:41:50] [Thread-29/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[18:41:50] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:43134] logged in with entity id 11705 at ([world]-283.38658358512805, 58.0, 160.76318568896812)
-[18:41:59] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> no i don't[m
+[19:28:45] [Async Chat Thread - #8/INFO]: <mr_meow_meow> no i dont[m
 
-[18:41:59] [Async Chat Thread - #2/INFO]: <mr_meow_meow> hi[m
+[19:28:49] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> and pease tp justin i got lsot[m
 
-[18:42:03] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> hi[m
+[19:29:02] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> i mean, doesnt that defeat the point of survival?[m
 
-[18:42:04] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> o_O[m
+[19:29:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
+[19:29:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
+[19:29:30] [Async Chat Thread - #8/INFO]: <mr_meow_meow> ciara come here[m
 
-[18:42:13] [Async Chat Thread - #2/INFO]: <mr_meow_meow> i can explain[m
+[19:29:34] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> but fine but this will be the last time...[m
 
-[18:42:21] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[18:42:21] [Server thread/INFO]: mr_meow_meow left the game.
-[18:42:25] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> thats crazy[m
+[19:29:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp thediamondtapper justinthegptman
+[19:29:40] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> im stuck in a long hole[m
 
-[18:42:25] [Server thread/INFO]: TheDiamondTapper lost connection: Disconnected
-[18:42:25] [Server thread/INFO]: TheDiamondTapper left the game.
-[18:42:30] [Thread-30/INFO]: UUID of player TheDiamondTapper is 41540661-af53-33fa-ba8e-8918600b92a9
-[18:42:30] [Server thread/INFO]: TheDiamondTapper[/[0:0:0:0:0:0:0:1]:58364] logged in with entity id 11768 at ([world]-277.77376343329496, 58.0, 160.4343883613413)
-[18:42:30] [Thread-31/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[18:42:30] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:58378] logged in with entity id 11769 at ([world]-283.3666310941495, 58.0, 162.05090213369593)
-[18:42:44] [Async Chat Thread - #2/INFO]: <mr_meow_meow> so hows life[m
+[19:29:47] [Async Chat Thread - #8/INFO]: <mr_meow_meow> here[m
 
-[18:42:49] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i was lagging bad[m
+[19:29:50] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> nvm[m
 
-[18:42:54] [Async Chat Thread - #2/INFO]: <mr_meow_meow> womp womp[m
+[19:29:58] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> what this for?[m
 
-[18:42:56] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> wait so you only have one of the servers added?[m
+[19:30:48] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> i wan't to give him this in a chest in his base[m
 
-[18:43:06] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> the once that's the fantastic chainsaw?[m
+[19:31:07] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> which one? the one near raymon or the new one he told me to not share to anyone?[m
 
-[18:43:07] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> yeah this one[m
+[19:31:18] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> the new one[m
 
-[18:43:10] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> oh...[m
+[19:31:26] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> yea i cant disclose that[m
 
-[18:43:15] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> and you don't have the other one?[m
+[19:31:31] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> i actually honor secrets[m
 
-[18:43:21] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> the opulent funicular?[m
+[19:31:42] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> wait where his first one at[m
 
-[18:43:22] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> i don't[m
+[19:31:53] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> ._.[m
 
-[18:43:25] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> ooof[m
+[19:32:25] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> i hear a dog[m
 
-[18:43:40] [Async Chat Thread - #2/INFO]: <mr_meow_meow> my lil bro wants to join[m
+[19:32:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow her mind: my asian senses are tingling
+[19:33:24] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> where that dog noes comeing from[m
 
-[18:43:43] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> oh[m
+[19:33:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[19:33:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[19:33:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[19:33:50] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> oh i heard it too[m
 
-[18:43:59] [Async Chat Thread - #2/INFO]: <mr_meow_meow> im not gonna let him join[m
+[19:34:37] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> naw im on half a heart[m
 
-[18:44:01] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> I'm lagging still ;-;?[m
+[19:34:44] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> you got a leash[m
 
-[18:44:06] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> ngl this server can't be up for much longer (this one in particular is hitting its limits)[m
+[19:34:45] [Async Chat Thread - #8/INFO]: <mr_meow_meow> 6th period felt great for me[m
 
-[18:44:07] [Async Chat Thread - #2/INFO]: <mr_meow_meow> womp womp[m
+[19:35:02] [Server thread/INFO]: mr_meow_meow drowned
+[19:35:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtaper
+[19:35:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[19:35:13] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> you got die[m
 
-[18:44:17] [Async Chat Thread - #2/INFO]: <mr_meow_meow> sorry[m
+[19:35:20] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> diy[m
 
-[18:44:28] [Async Chat Thread - #2/INFO]: <mr_meow_meow> stop[m
+[19:35:23] [Async Chat Thread - #8/INFO]: <mr_meow_meow> shut up[m
 
-[18:44:29] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> if i switch to the other one, she dont have the link[m
+[19:35:24] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[19:35:28] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> dye[m
 
-[18:44:41] [Async Chat Thread - #2/INFO]: <mr_meow_meow> give her the link[m
+[19:35:39] [Async Chat Thread - #8/INFO]: <mr_meow_meow> my bro almost hit my balls[m
 
-[18:44:44] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> do you have the he.txt file?[m
+[19:35:47] [Async Chat Thread - #8/INFO]: <TheDiamondTapper> what ;-;?[m
 
-[18:44:58] [Async Chat Thread - #2/INFO]: <TheDiamondTapper> yeah i save it[m
+[19:35:52] [Async Chat Thread - #8/INFO]: <mr_meow_meow> shoot forgor to message[m
 
-[18:45:02] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ok[m
+[19:36:02] [Async Chat Thread - #8/INFO]: <mr_meow_meow> nothin[m
 
-[18:45:13] [Async Chat Thread - #2/INFO]: <mr_meow_meow> ur sister said stop killin me[m
+[19:36:44] [Server thread/WARN]: mr_meow_meow moved wrongly!
+[19:36:53] [Server thread/WARN]: mr_meow_meow moved wrongly!
+[19:37:17] [Async Chat Thread - #9/INFO]: <mr_meow_meow> can i hit dog[m
 
-[18:45:21] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> it's the "Main Server 1.8.8" one...anyways ima stop before this seerver boutta go down[m
+[19:37:30] [Async Chat Thread - #9/INFO]: <[0;31;22mJustinTheGPTMan[m> nae[m
 
-[18:45:25] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
-[18:45:25] [Server thread/INFO]: JustinTheGPTMan left the game.
-[18:45:25] [Server thread/INFO]: TheDiamondTapper lost connection: Disconnected
-[18:45:25] [Server thread/INFO]: TheDiamondTapper left the game.
-[18:45:25] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[18:45:25] [Server thread/INFO]: mr_meow_meow left the game.
-[18:45:27] [Thread-2/INFO]: Stopping server
-[18:45:27] [Thread-2/INFO]: Disabling Essentials v2.20.1
+[19:37:30] [Async Chat Thread - #9/INFO]: <mr_meow_meow> jk[m
+
+[19:37:31] [Async Chat Thread - #9/INFO]: <[0;31;22mJustinTheGPTMan[m> naw[m
+
+[19:37:34] [Async Chat Thread - #9/INFO]: <[0;31;22mJustinTheGPTMan[m> oh[m
+
+[19:37:35] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch]
+[19:38:19] [Async Chat Thread - #9/INFO]: <TheDiamondTapper> got a leash?[m
+
+[19:38:26] [Async Chat Thread - #9/INFO]: <[0;31;22mJustinTheGPTMan[m> i think so[m
+
+[19:38:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman leash 1
+[19:39:03] [Async Chat Thread - #9/INFO]: <mr_meow_meow> where did u sit at lunch today ciara[m
+
+[19:39:10] [Async Chat Thread - #9/INFO]: <TheDiamondTapper> outsiad[m
+
+[19:39:15] [Async Chat Thread - #9/INFO]: <mr_meow_meow> knew it[m
+
+[19:40:15] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[19:40:15] [Server thread/INFO]: JustinTheGPTMan left the game.
+[19:40:15] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[19:40:15] [Server thread/INFO]: mr_meow_meow left the game.
+[19:40:15] [Server thread/INFO]: TheDiamondTapper lost connection: Disconnected
+[19:40:15] [Server thread/INFO]: TheDiamondTapper left the game.
+[19:40:29] [Thread-15/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[19:40:29] [Thread-16/INFO]: UUID of player TheDiamondTapper is 41540661-af53-33fa-ba8e-8918600b92a9
+[19:40:29] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:59244] logged in with entity id 13493 at ([world]-283.0661696928473, 58.0, 159.8737016293884)
+[19:40:29] [Server thread/INFO]: TheDiamondTapper[/[0:0:0:0:0:0:0:1]:59254] logged in with entity id 13496 at ([world]-306.7507158713973, 62.0, 154.3816307262346)
+[19:40:35] [Async Chat Thread - #10/INFO]: <[0;31;22mJustinTheGPTMan[m> server did an oopsie[m
+
+[19:40:37] [Thread-17/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[19:40:37] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:49320] logged in with entity id 13616 at ([world_nether]-33.594987486534635, 106.0, 21.5)
+[19:40:43] [Async Chat Thread - #10/INFO]: <[0;31;22mJustinTheGPTMan[m> server did an oopsie[m
+
+[19:40:55] [Async Chat Thread - #10/INFO]: <TheDiamondTapper> wait dose server tak to us still[m
+
+[19:41:08] [Server thread/INFO]: [Server] im questioning my own existense
+[19:41:25] [Async Chat Thread - #10/INFO]: <mr_meow_meow> same[m
+
+[19:41:30] [Async Chat Thread - #10/INFO]: <TheDiamondTapper> yeah your alive[m
+
+[19:41:37] [Async Chat Thread - #10/INFO]: <mr_meow_meow> yup[m
+
+[19:41:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg gaybro i got vc
+[19:41:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow gaybro i got vc
+[19:41:55] [Async Chat Thread - #10/INFO]: <mr_meow_meow> cool[m
+
+[19:42:03] [Async Chat Thread - #10/INFO]: <[0;31;22mJustinTheGPTMan[m> can you hear me?[m
+
+[19:42:06] [Async Chat Thread - #10/INFO]: <[0;31;22mJustinTheGPTMan[m> bruhh[m
+
+[19:42:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow can you hear me?
+[19:42:25] [Async Chat Thread - #10/INFO]: <mr_meow_meow> speak[m
+
+[19:42:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow nvm
+[19:42:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow i am speaking...
+[19:42:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow oh nvm you dont have it enabled thats why
+[19:42:58] [Async Chat Thread - #10/INFO]: <mr_meow_meow> oh[m
+
+[19:43:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow you would have to go in pause menu -> and click "NEARBY"
+[19:43:18] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow on upper right
+[19:43:35] [Async Chat Thread - #10/INFO]: <mr_meow_meow> i can hear u[m
+
+[19:43:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow noice
+[19:43:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow if you want to speak hold v
+[19:43:56] [Async Chat Thread - #10/INFO]: <mr_meow_meow> i dont[m
+
+[19:44:04] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow in that case thats fine
+[19:44:16] [Async Chat Thread - #10/INFO]: <mr_meow_meow> i need to go to a different room[m
+
+[19:44:24] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow oh yea..makes sense
+[19:44:32] [Async Chat Thread - #10/INFO]: <mr_meow_meow> my family is near[m
+
+[19:44:42] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow yea that makes a lotta sense
+[19:44:48] [Async Chat Thread - #10/INFO]: <mr_meow_meow> u can talk[m
+
+[19:44:53] [Async Chat Thread - #10/INFO]: <TheDiamondTapper> i wan't to use the video thing[m
+
+[19:45:00] [Async Chat Thread - #10/INFO]: <mr_meow_meow> no[m
+
+[19:45:00] [Async Chat Thread - #10/INFO]: <[0;31;22mJustinTheGPTMan[m> what video thing?[m
+
+[19:45:14] [Async Chat Thread - #10/INFO]: <TheDiamondTapper> i mean voice[m
+
+[19:46:16] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[19:46:16] [Server thread/INFO]: mr_meow_meow left the game.
+[19:46:21] [Async Chat Thread - #11/INFO]: <[0;31;22mJustinTheGPTMan[m> ._.[m
+
+[19:46:36] [Async Chat Thread - #11/INFO]: <TheDiamondTapper> so can i use the voice thing?[m
+
+[19:46:41] [Async Chat Thread - #11/INFO]: <[0;31;22mJustinTheGPTMan[m> why?[m
+
+[19:47:01] [Async Chat Thread - #11/INFO]: <TheDiamondTapper> so i don't got to typ everytime[m
+
+[19:47:07] [Async Chat Thread - #11/INFO]: <TheDiamondTapper> tpy[m
+
+[19:47:07] [Thread-18/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[19:47:07] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:51392] logged in with entity id 14471 at ([world]-262.1914157313917, 43.0, 145.57949469754743)
+[19:47:09] [Async Chat Thread - #11/INFO]: <[0;31;22mJustinTheGPTMan[m> oh[m
+
+[19:47:21] [Async Chat Thread - #11/INFO]: <mr_meow_meow> for the first time[m
+
+[19:47:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg thediamondtapper you would have to go in pause menu -> and click "NEARBY"
+[19:47:29] [Async Chat Thread - #11/INFO]: <[0;31;22mJustinTheGPTMan[m> ?[m
+
+[19:47:49] [Async Chat Thread - #11/INFO]: <mr_meow_meow> i cant hear u[m
+
+[19:48:05] [Async Chat Thread - #11/INFO]: <[0;31;22mJustinTheGPTMan[m> oh i can hear you[m
+
+[19:48:09] [Async Chat Thread - #11/INFO]: <mr_meow_meow> oh[m
+
+[19:48:10] [Async Chat Thread - #11/INFO]: <[0;31;22mJustinTheGPTMan[m> try "GLOBAL"[m
+
+[19:48:22] [Async Chat Thread - #11/INFO]: <mr_meow_meow> ok try it[m
+
+[19:49:25] [Async Chat Thread - #12/INFO]: <mr_meow_meow> did u hear me[m
+
+[19:49:50] [Server thread/INFO]: mr_meow_meow tried to swim in lava
+[19:50:29] [Async Chat Thread - #13/INFO]: <mr_meow_meow> tp me justin[m
+
+[19:51:07] [Async Chat Thread - #13/INFO]: <mr_meow_meow> yea[m
+
+[19:51:29] [Async Chat Thread - #13/INFO]: <mr_meow_meow> could u hear me[m
+
+[19:51:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow he invoked the 5th!
+[19:51:44] [Async Chat Thread - #13/INFO]: <mr_meow_meow> i cant use the mic[m
+
+[19:51:47] [Async Chat Thread - #13/INFO]: <[0;31;22mJustinTheGPTMan[m> oh[m
+
+[19:51:52] [Async Chat Thread - #13/INFO]: <mr_meow_meow> boo[m
+
+[19:52:37] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[19:52:37] [Server thread/INFO]: mr_meow_meow left the game.
+[19:53:19] [Thread-20/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[19:53:20] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:44864] logged in with entity id 16337 at ([world]-265.3801697794963, 43.0, 146.96937397986494)
+[19:53:31] [Async Chat Thread - #14/INFO]: <mr_meow_meow> how do i use the mic[m
+
+[19:53:34] [Async Chat Thread - #14/INFO]: <[0;31;22mJustinTheGPTMan[m> hold v[m
+
+[19:53:46] [Async Chat Thread - #14/INFO]: <mr_meow_meow> friday[m
+
+[19:54:09] [Async Chat Thread - #14/INFO]: <mr_meow_meow> what did[m
+
+[19:54:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[19:54:17] [Async Chat Thread - #14/INFO]: <mr_meow_meow> hey dj[m
+
+[19:54:29] [Async Chat Thread - #14/INFO]: <mr_meow_meow> hey dj play that beat[m
+
+[19:54:41] [Async Chat Thread - #14/INFO]: <mr_meow_meow> ofc[m
+
+[19:54:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[19:55:11] [Async Chat Thread - #14/INFO]: <mr_meow_meow> oh this ur club then why did they play me[m
+
+[19:55:14] [Server thread/INFO]: JustinTheGPTMan was slain by TheDiamondTapper using [Bitch]
+[19:55:18] [Async Chat Thread - #14/INFO]: <mr_meow_meow> ha[m
+
+[19:55:22] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[19:55:45] [Async Chat Thread - #14/INFO]: <mr_meow_meow> did u guys mute me[m
+
+[19:55:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /no
+[19:55:51] [Async Chat Thread - #14/INFO]: <[0;31;22mJustinTheGPTMan[m> no[m
+
+[19:55:53] [Async Chat Thread - #14/INFO]: <[0;31;22mJustinTheGPTMan[m> try speaking[m
+
+[19:56:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[19:56:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[19:56:30] [Async Chat Thread - #14/INFO]: <mr_meow_meow> im listenin to rush e[m
+
+[19:56:44] [Async Chat Thread - #14/INFO]: <mr_meow_meow> u gay[m
+
+[19:56:51] [Async Chat Thread - #14/INFO]: <mr_meow_meow> respond in vc[m
+
+[19:57:02] [Async Chat Thread - #14/INFO]: <mr_meow_meow> i know[m
+
+[19:57:07] [Async Chat Thread - #14/INFO]: <mr_meow_meow> same[m
+
+[19:57:12] [Async Chat Thread - #14/INFO]: <mr_meow_meow> i want[m
+
+[19:57:15] [Async Chat Thread - #14/INFO]: <mr_meow_meow> ofc[m
+
+[19:57:24] [Async Chat Thread - #14/INFO]: <mr_meow_meow> yup[m
+
+[19:57:35] [Async Chat Thread - #14/INFO]: <mr_meow_meow> im mexican[m
+
+[19:57:46] [Async Chat Thread - #14/INFO]: <mr_meow_meow> e[m
+
+[19:58:16] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[19:58:16] [Server thread/INFO]: mr_meow_meow left the game.
+[19:58:28] [Thread-21/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[19:58:28] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:55330] logged in with entity id 17133 at ([world]-262.8253393031499, 43.0, 148.38335217006636)
+[19:59:12] [Async Chat Thread - #15/INFO]: <mr_meow_meow> listen to novocaine 2[m
+
+[19:59:26] [Async Chat Thread - #15/INFO]: <mr_meow_meow> y[m
+
+[19:59:36] [Async Chat Thread - #15/INFO]: <mr_meow_meow> i like to abuse animals[m
+
+[19:59:40] [Server thread/INFO]: mr_meow_meow tried to swim in lava
+[19:59:48] [Async Chat Thread - #15/INFO]: <mr_meow_meow> listen to novocaine 2[m
+
+[19:59:56] [Async Chat Thread - #15/INFO]: <mr_meow_meow> listen to novocaine 2[m
+
+[20:00:03] [Async Chat Thread - #15/INFO]: <mr_meow_meow> respond in vc[m
+
+[20:00:11] [Async Chat Thread - #15/INFO]: <mr_meow_meow> i know[m
+
+[20:00:17] [Async Chat Thread - #15/INFO]: <mr_meow_meow> ofc[m
+
+[20:00:41] [Async Chat Thread - #15/INFO]: <mr_meow_meow> i need headphones with a mic[m
+
+[20:00:55] [Async Chat Thread - #15/INFO]: <mr_meow_meow> u using headphones[m
+
+[20:01:08] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[20:01:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[20:01:45] [Server thread/INFO]: TheDiamondTapper was slain by JustinTheGPTMan using [Bitch]
+[20:01:45] [Async Chat Thread - #15/INFO]: <mr_meow_meow> listen to novocaine 2[m
+
+[20:01:55] [Async Chat Thread - #15/INFO]: <mr_meow_meow> listen to novocaine 2[m
+
+[20:01:57] [Async Chat Thread - #15/INFO]: <mr_meow_meow> listen to novocaine 2[m
+
+[20:02:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[20:02:04] [Async Chat Thread - #15/INFO]: <mr_meow_meow> younger than the moutains[m
+
+[20:02:19] [Server thread/INFO]: TheDiamondTapper fell from a high place
+[20:02:25] [Async Chat Thread - #15/INFO]: <mr_meow_meow> just the 2 of us[m
+
+[20:03:01] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[20:03:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemod s
+[20:03:25] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[20:03:33] [Async Chat Thread - #16/INFO]: <mr_meow_meow> i feel bad that ray aint here[m
+
+[20:03:37] [Server thread/INFO]: TheDiamondTapper drowned
+[20:03:45] [Async Chat Thread - #16/INFO]: <mr_meow_meow> wom womp[m
+
+[20:04:35] [Async Chat Thread - #16/INFO]: <mr_meow_meow> i like how they cant hear u[m
+
+[20:04:54] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[20:04:54] [Server thread/INFO]: mr_meow_meow left the game.
+[20:05:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[20:07:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[20:07:47] [Server thread/INFO]: JustinTheGPTMan was slain by TheDiamondTapper
+[20:07:54] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[20:07:58] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[20:07:58] [Server thread/INFO]: JustinTheGPTMan left the game.
+[20:08:22] [Thread-22/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[20:08:22] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:44706] logged in with entity id 19858 at ([world]-275.5800169959763, 58.0, 167.52432215611375)
+[20:08:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[20:09:08] [Thread-23/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[20:09:08] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:33280] logged in with entity id 20006 at ([world]-4.7375876583425605, 72.0, 632.5119970959345)
+[20:09:13] [Async Chat Thread - #17/INFO]: <[0;31;22mJustinTheGPTMan[m> sup gab[m
+
+[20:09:25] [Async Chat Thread - #17/INFO]: <mr_meow_meow> sup[m
+
+[20:10:01] [Async Chat Thread - #17/INFO]: <mr_meow_meow> what u guys talkin about[m
+
+[20:10:17] [Async Chat Thread - #17/INFO]: <mr_meow_meow> what[m
+
+[20:10:19] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow you cant hear us?
+[20:10:24] [Async Chat Thread - #17/INFO]: <mr_meow_meow> i can[m
+
+[20:10:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow oh, so why aren't you able to talk back?
+[20:10:43] [Async Chat Thread - #17/INFO]: <mr_meow_meow> i can hear u guys[m
+
+[20:10:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow just wondering
+[20:10:49] [Async Chat Thread - #17/INFO]: <mr_meow_meow> idk[m
+
+[20:11:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow do you hold v to say what you want to say?
+[20:11:09] [Async Chat Thread - #17/INFO]: <mr_meow_meow> yup[m
+
+[20:12:15] [Server thread/INFO]: mr_meow_meow was shot by Skeleton
+[20:12:44] [Async Chat Thread - #18/INFO]: <[0;31;22mJustinTheGPTMan[m> bruh my parents are near me[m
+
+[20:12:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:12:54] [Async Chat Thread - #18/INFO]: <mr_meow_meow> dang justin[m
+
+[20:13:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:13:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[20:14:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[20:14:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:14:29] [Async Chat Thread - #19/INFO]: <[0;31;22mJustinTheGPTMan[m> sorry my mom keeps going near me[m
+
+[20:14:32] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:14:46] [Async Chat Thread - #19/INFO]: <mr_meow_meow> vvvvv[m
+
+[20:15:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /msg mr_meow_meow so many people talking
+[20:15:37] [Async Chat Thread - #19/INFO]: <mr_meow_meow> who[m
+
+[20:16:08] [Async Chat Thread - #19/INFO]: <mr_meow_meow> a dead one[m
+
+[20:16:26] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch]
+[20:16:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[20:17:21] [Async Chat Thread - #20/INFO]: <mr_meow_meow> i might need a headhones with a mic[m
+
+[20:17:35] [Async Chat Thread - #20/INFO]: <mr_meow_meow> do u have mics[m
+
+[20:17:41] [Async Chat Thread - #20/INFO]: <TheDiamondTapper> i don't[m
+
+[20:17:43] [Async Chat Thread - #20/INFO]: <[0;31;22mJustinTheGPTMan[m> i need to finish my homework before my grades go down[m
+
+[20:17:45] [Async Chat Thread - #20/INFO]: <mr_meow_meow> i need to enable my mic[m
+
+[20:17:46] [Async Chat Thread - #20/INFO]: <[0;31;22mJustinTheGPTMan[m> gtg[m
+
+[20:17:48] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[20:17:48] [Server thread/INFO]: JustinTheGPTMan left the game.
+[20:18:21] [Thread-24/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[20:18:21] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:39856] logged in with entity id 21588 at ([world]-280.76249998807907, 58.0, 157.30000001192093)
+[20:18:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:19:20] [Async Chat Thread - #21/INFO]: <mr_meow_meow> what[m
+
+[20:19:35] [Async Chat Thread - #21/INFO]: <mr_meow_meow> my brother heard that[m
+
+[20:20:34] [Async Chat Thread - #21/INFO]: <mr_meow_meow> say hi for me[m
+
+[20:20:44] [Async Chat Thread - #21/INFO]: <mr_meow_meow> i cant[m
+
+[20:21:12] [Async Chat Thread - #21/INFO]: <mr_meow_meow> gay[m
+
+[20:21:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /say ._.
+[20:21:26] [Server thread/INFO]: [JustinTheGPTMan] ._.
+[20:21:35] [Async Chat Thread - #21/INFO]: <mr_meow_meow> gay[m
+
+[20:21:36] [Server thread/INFO]: CONSOLE issued server command: /sudo mr_meow_meow say gay
+[20:21:36] [Server thread/INFO]: [0;33;22mForcing[0;31;1m mr_meow_meow [0;33;22mto run:[m /say gay[m
+
+[20:21:36] [Server thread/INFO]: mr_meow_meow issued server command: /say gay
+[20:22:05] [Async Chat Thread - #21/INFO]: <mr_meow_meow> no[m
+
+[20:22:10] [Async Chat Thread - #21/INFO]: <mr_meow_meow> no[m
+
+[20:22:16] [Async Chat Thread - #21/INFO]: <mr_meow_meow> gay[m
+
+[20:22:22] [Async Chat Thread - #21/INFO]: <mr_meow_meow> no[m
+
+[20:22:26] [Server thread/INFO]: CONSOLE issued server command: /sudo mr_meow_meow say gay
+[20:22:26] [Server thread/INFO]: [0;33;22mForcing[0;31;1m mr_meow_meow [0;33;22mto run:[m /say gay[m
+
+[20:22:26] [Server thread/INFO]: mr_meow_meow issued server command: /say gay
+[20:22:51] [Server thread/INFO]: CONSOLE issued server command: /tell mr_meow_meow jk
+[20:22:51] [Server thread/INFO]: [0;33;22m[[0;31;1mme[0;33;22m -> [0;31;1mmr_meow_meow[0;33;22m] [mjk[m
+
+[20:22:52] [Async Chat Thread - #21/INFO]: <mr_meow_meow> its aying i doing command but i aint doin command[m
+
+[20:23:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[20:24:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee
+[20:24:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[20:24:17] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee thediamondtapper
+[20:24:24] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr_meow_meow
+[20:25:34] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[20:25:34] [Server thread/INFO]: JustinTheGPTMan left the game.
+[20:26:19] [Thread-26/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[20:26:19] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:54118] logged in with entity id 23779 at ([world]-2.4993844485150554, 69.0, 238.3300960828708)
+[20:26:43] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[20:27:18] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[20:28:24] [Server thread/INFO]: JustinTheGPTMan fell from a high place
+[20:28:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[20:29:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[20:30:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:30:36] [Server thread/INFO]: mr_meow_meow fell from a high place
+[20:32:40] [Async Chat Thread - #22/INFO]: <mr_meow_meow> im catholic[m
+
+[20:33:24] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell mr_meow_meow she born to be straight, forced to be gay :skull:
+[20:33:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /tell mr_meow_meow ok that was too far mb
+[20:34:44] [Server thread/INFO]: [Server] this server will be shutting down at 8:45 pm SHARP, bc of wayy too many reasons
+[20:34:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /bc :)
+[20:35:08] [Async Chat Thread - #23/INFO]: <mr_meow_meow> u want a pokemon card[m
+
+[20:35:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /bc server, will you be my friend?
+[20:35:17] [Server thread/INFO]: [Server] nah, you disrespect me
+[20:35:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /bc :/
+[20:35:26] [Async Chat Thread - #23/INFO]: <mr_meow_meow> u want a pokemon card[m
+
+[20:35:27] [Async Chat Thread - #23/INFO]: <[0;31;22mJustinTheGPTMan[m> oh[m
+
+[20:35:36] [Async Chat Thread - #23/INFO]: <[0;31;22mJustinTheGPTMan[m> sure, ig[m
+
+[20:35:50] [Async Chat Thread - #23/INFO]: <mr_meow_meow> when do we talk on the mic again[m
+
+[20:36:01] [Async Chat Thread - #23/INFO]: <[0;31;22mJustinTheGPTMan[m> when she's ready ig[m
+
+[20:36:12] [Async Chat Thread - #23/INFO]: <[0;31;22mJustinTheGPTMan[m> also bro the background noise you have is wild[m
+
+[20:36:21] [Async Chat Thread - #23/INFO]: <[0;31;22mJustinTheGPTMan[m> now i'm gonna finish my homework rq[m
+
+[20:36:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:36:38] [Async Chat Thread - #23/INFO]: <mr_meow_meow> oh yea[m
+
+[20:37:27] [Async Chat Thread - #23/INFO]: <mr_meow_meow> u want a pokemon card[m
+
+[20:37:41] [Async Chat Thread - #23/INFO]: <[0;31;22mJustinTheGPTMan[m> i literally said "sure"[m
+
+[20:37:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /fk
+[20:37:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:37:51] [Async Chat Thread - #23/INFO]: <mr_meow_meow> ok[m
+
+[20:39:14] [Async Chat Thread - #24/INFO]: <mr_meow_meow> 5 minutes left[m
+
+[20:39:26] [Server thread/INFO]: [Server] yup
+[20:39:40] [Async Chat Thread - #24/INFO]: <mr_meow_meow> can u make untill 10[m
+
+[20:39:47] [Server thread/INFO]: [Server] as in 10 pm?
+[20:39:51] [Async Chat Thread - #24/INFO]: <mr_meow_meow> yup[m
+
+[20:39:59] [Server thread/INFO]: [Server] i'll see what I can do...
+[20:40:01] [Async Chat Thread - #24/INFO]: <mr_meow_meow> or 9 pm[m
+
+[20:40:05] [Async Chat Thread - #24/INFO]: <mr_meow_meow> yay[m
+
+[20:40:14] [Server thread/INFO]: [Server] 9:30 pm?
+[20:40:30] [Async Chat Thread - #24/INFO]: <mr_meow_meow> sure[m
+
+[20:40:34] [Server thread/INFO]: [Server] okay :D
+[20:40:36] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[20:40:39] [Server thread/INFO]: CONSOLE issued server command: /bc bet
+[20:42:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:46:57] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[20:48:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /mute mr_meow_meow
+[20:48:47] [Server thread/INFO]: §cJustinTheGPTMan §6has muted player §cmr_meow_meow§6.
+[20:48:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /mute mr_meow_meow
+[20:49:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:50:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman iron_pickaxe 1
+[20:51:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman stone 5
+[20:52:18] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch]
+[20:52:52] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman iron_sword 1
+[20:53:46] [Server thread/INFO]: mr_meow_meow was slain by TheDiamondTapper using [Bitch]
+[20:54:17] [Server thread/INFO]: JustinTheGPTMan issued server command: /heal
+[20:54:58] [Server thread/INFO]: TheDiamondTapper tried to swim in lava
+[20:56:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:57:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[20:57:26] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava
+[20:57:53] [Server thread/INFO]: TheDiamondTapper tried to swim in lava to escape mr_meow_meow
+[20:57:57] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava
+[20:58:05] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[20:58:21] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman lever 1
+[20:58:28] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr_meow_meow
+[20:59:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /fk
+[20:59:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /afk
+[21:00:48] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[21:00:48] [Server thread/INFO]: JustinTheGPTMan left the game.
+[21:00:53] [Thread-28/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[21:00:53] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:35938] logged in with entity id 31615 at ([world]-268.69999998807907, 43.0, 140.23750001192093)
+[21:01:15] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[21:01:15] [Server thread/INFO]: JustinTheGPTMan left the game.
+[21:01:25] [Thread-29/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[21:01:25] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:43008] logged in with entity id 31860 at ([world]-268.69999998807907, 43.0, 140.23750001192093)
+[21:01:36] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[21:01:36] [Server thread/INFO]: JustinTheGPTMan left the game.
+[21:01:42] [Thread-30/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[21:01:42] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:44496] logged in with entity id 31882 at ([world]-268.69999998807907, 43.0, 140.23750001192093)
+[21:02:03] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[21:02:03] [Server thread/INFO]: JustinTheGPTMan left the game.
+[21:02:08] [Thread-31/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[21:02:08] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:59460] logged in with entity id 31922 at ([world]-259.67377617943555, 43.0, 147.76348824338422)
+[21:03:30] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava
+[21:04:32] [Server thread/INFO]: mr_meow_meow tried to swim in lava to escape TheDiamondTapper
+[21:06:36] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava
+[21:06:42] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[21:07:14] [Server thread/INFO]: mr_meow_meow tried to swim in lava
+[21:07:40] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava
+[21:07:45] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[21:08:15] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava to escape TheDiamondTapper
+[21:08:21] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[21:08:33] [Server thread/INFO]: mr_meow_meow tried to swim in lava
+[21:09:36] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[21:09:36] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[21:10:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr_meow_meow justinthegptman
+[21:10:34] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava to escape TheDiamondTapper
+[21:10:39] [Server thread/WARN]: JustinTheGPTMan moved wrongly!
+[21:11:11] [Server thread/INFO]: TheDiamondTapper tried to swim in lava
+[21:11:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[21:11:28] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman stone 1
+[21:12:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /give justinthegptman lever 1
+[21:12:13] [Async Chat Thread - #25/INFO]: <mr_meow_meow> i[m
+
+[21:12:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[21:12:37] [Server thread/INFO]: TheDiamondTapper lost connection: Disconnected
+[21:12:37] [Server thread/INFO]: TheDiamondTapper left the game.
+[21:12:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /getinv mr_meow_meow
+[21:13:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr_meow_meow
+[21:13:32] [Server thread/INFO]: mr_meow_meow was slain by JustinTheGPTMan
+[21:14:16] [Server thread/INFO]: JustinTheGPTMan tried to swim in lava
+[21:14:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[21:14:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s
+[21:15:02] [Async Chat Thread - #26/INFO]: <[0;31;22mJustinTheGPTMan[m> gtg[m
+
+[21:15:03] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[21:15:03] [Server thread/INFO]: JustinTheGPTMan left the game.
+[21:15:13] [Server thread/INFO]: [Server] gotta shut the server down early mb
+[21:15:17] [Thread-2/INFO]: Stopping server
+[21:15:17] [Thread-2/INFO]: Disabling Essentials v2.20.1
