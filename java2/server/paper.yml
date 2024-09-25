@@ -35,8 +35,6 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
-    optimize-explosions: false
-    mob-spawner-tick-rate: 1
     cache-chunk-maps: false
     tnt-explosion-volume: 4.0
     squid-spawn-height:
@@ -55,19 +53,15 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
-    disable-teleportation-suffocation-check: false
-    player-blocking-damage-multiplier: 0.5
-    fast-drain:
-      lava: false
-      water: false
-    lava-flow-speed:
-      normal: 30
-      nether: 10
-    remove-invalid-mob-spawner-tile-entities: true
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
+    disable-teleportation-suffocation-check: false
+    optimize-explosions: false
+    mob-spawner-tick-rate: 1
+    player-blocking-damage-multiplier: 0.5
+    remove-invalid-mob-spawner-tile-entities: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -78,14 +72,19 @@ world-settings:
       enderpearls: false
       tnt-entities: false
       falling-blocks: false
+    fast-drain:
+      lava: false
+      water: false
+    lava-flow-speed:
+      normal: 30
+      nether: 10
     disable-explosion-knockback: false
-    tnt-entity-height-nerf: 0
     water-over-lava-flow-speed: 5
     fix-cannons: false
+    tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
-    container-update-tick-rate: 1
     keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
@@ -95,3 +94,4 @@ world-settings:
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
+    container-update-tick-rate: 1
