@@ -35,9 +35,6 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
     player-exhaustion:
       block-break: 0.02500000037252903
       swimming: 0.014999999664723873
@@ -45,6 +42,16 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
+    game-mechanics:
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
+    nether-ceiling-void-damage: false
     disable-teleportation-suffocation-check: false
     optimize-explosions: false
     mob-spawner-tick-rate: 1
@@ -56,18 +63,11 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
     player-blocking-damage-multiplier: 0.5
     remove-invalid-mob-spawner-tile-entities: true
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: false
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
-    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -79,11 +79,11 @@ world-settings:
       normal: 30
       nether: 10
     disable-explosion-knockback: false
+    all-chunks-are-slime-chunks: false
     water-over-lava-flow-speed: 5
     fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
-    all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
     keep-spawn-loaded: true
     container-update-tick-rate: 1
