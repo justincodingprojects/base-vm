@@ -39,24 +39,13 @@ world-settings:
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
     tnt-explosion-volume: 4.0
+    disable-teleportation-suffocation-check: false
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
     max-growth-height:
       cactus: 3
       reeds: 3
-    falling-block-height-nerf: 0
-    remove-unloaded:
-      enderpearls: true
-      tnt-entities: true
-      falling-blocks: true
-    game-mechanics:
-      boats-drop-boats: false
-      disable-player-crits: false
-      disable-chest-cat-detection: false
-      disable-end-credits: false
-    nether-ceiling-void-damage: false
-    disable-teleportation-suffocation-check: false
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
@@ -68,6 +57,17 @@ world-settings:
       hard: 128
     player-blocking-damage-multiplier: 0.5
     remove-invalid-mob-spawner-tile-entities: true
+    falling-block-height-nerf: 0
+    remove-unloaded:
+      enderpearls: true
+      tnt-entities: true
+      falling-blocks: true
+    game-mechanics:
+      boats-drop-boats: false
+      disable-player-crits: false
+      disable-chest-cat-detection: false
+      disable-end-credits: false
+    nether-ceiling-void-damage: false
     load-chunks:
       enderpearls: false
       tnt-entities: false
@@ -86,7 +86,6 @@ world-settings:
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
     container-update-tick-rate: 1
-    keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
     disable-mood-sounds: false
     use-async-lighting: false
@@ -95,3 +94,4 @@ world-settings:
     disable-ice-and-snow: false
     tick-next-tick-list-cap: 10000
     tick-next-tick-list-cap-ignores-redstone: false
+    keep-spawn-loaded: true
