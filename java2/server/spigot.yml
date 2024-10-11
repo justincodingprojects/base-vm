@@ -14,17 +14,10 @@ config-version: 8
 settings:
   debug: false
   save-user-cache-on-stop-only: false
-  attribute:
-    maxHealth:
-      max: 2048.0
-    movementSpeed:
-      max: 2048.0
-    attackDamage:
-      max: 2048.0
-  bungeecord: true
   late-bind: false
   sample-count: 12
   player-shuffle: 0
+  bungeecord: true
   filter-creative-items: true
   user-cache-size: 1000
   int-cache-limit: 1024
@@ -34,9 +27,13 @@ settings:
   restart-on-crash: true
   restart-script: ./run_unix.sh
   netty-threads: 4
-stats:
-  disable-saving: false
-  forced-stats: {}
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
 timings:
   enabled: true
   verbose: true
@@ -64,6 +61,9 @@ messages:
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
+stats:
+  disable-saving: false
+  forced-stats: {}
 world-settings:
   default:
     verbose: true
@@ -128,8 +128,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    hanging-tick-frequency: 100
-    enable-zombie-pigmen-portal-spawns: true
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
@@ -137,6 +135,8 @@ world-settings:
     wither-spawn-sound-radius: 0
     view-distance: 4
     arrow-despawn-rate: 1200
+    enable-zombie-pigmen-portal-spawns: true
+    hanging-tick-frequency: 100
     zombie-aggressive-towards-villager: true
     chunks-per-tick: 650
     clear-tick-list: false
