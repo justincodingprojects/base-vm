@@ -35,11 +35,6 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
-    player-blocking-damage-multiplier: 0.5
-    optimize-explosions: false
-    mob-spawner-tick-rate: 1
-    cache-chunk-maps: false
-    tnt-explosion-volume: 4.0
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
@@ -49,6 +44,13 @@ world-settings:
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
+    optimize-explosions: false
+    mob-spawner-tick-rate: 1
+    cache-chunk-maps: false
+    tnt-explosion-volume: 4.0
+    disable-teleportation-suffocation-check: false
+    player-blocking-damage-multiplier: 0.5
+    remove-invalid-mob-spawner-tile-entities: true
     player-exhaustion:
       block-break: 0.02500000037252903
       swimming: 0.014999999664723873
@@ -60,8 +62,6 @@ world-settings:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    disable-teleportation-suffocation-check: false
-    remove-invalid-mob-spawner-tile-entities: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -78,9 +78,9 @@ world-settings:
     lava-flow-speed:
       normal: 30
       nether: 10
-    fix-cannons: false
     disable-explosion-knockback: false
     water-over-lava-flow-speed: 5
+    fix-cannons: false
     tnt-entity-height-nerf: 0
     use-hopper-check: false
     all-chunks-are-slime-chunks: false
