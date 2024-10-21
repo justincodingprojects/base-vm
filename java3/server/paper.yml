@@ -35,12 +35,11 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
-    fishing-time-range:
-      MinimumTicks: 100
-      MaximumTicks: 900
-    player-exhaustion:
-      block-break: 0.02500000037252903
-      swimming: 0.014999999664723873
+    optimize-explosions: false
+    mob-spawner-tick-rate: 1
+    cache-chunk-maps: false
+    tnt-explosion-volume: 4.0
+    disable-teleportation-suffocation-check: false
     despawn-ranges:
       soft: 32
       hard: 128
@@ -54,17 +53,18 @@ world-settings:
       disable-player-crits: false
       disable-chest-cat-detection: false
       disable-end-credits: false
-    disable-teleportation-suffocation-check: false
-    optimize-explosions: false
-    mob-spawner-tick-rate: 1
-    cache-chunk-maps: false
-    tnt-explosion-volume: 4.0
     squid-spawn-height:
       minimum: 45.0
       maximum: 63.0
     max-growth-height:
       cactus: 3
       reeds: 3
+    fishing-time-range:
+      MinimumTicks: 100
+      MaximumTicks: 900
+    player-exhaustion:
+      block-break: 0.02500000037252903
+      swimming: 0.014999999664723873
     player-blocking-damage-multiplier: 0.5
     remove-invalid-mob-spawner-tile-entities: true
     nether-ceiling-void-damage: false
