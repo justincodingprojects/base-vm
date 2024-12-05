@@ -1,270 +1,682 @@
-[11:52:47] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[11:52:47] [Server thread/INFO]: Loading properties
-[11:52:47] [Server thread/INFO]: Default game type: SURVIVAL
-[11:52:47] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[11:52:47] [Server thread/INFO]: Debug logging is disabled
-[11:52:47] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[11:52:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:12:59] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[12:12:59] [Server thread/INFO]: Loading properties
+[12:12:59] [Server thread/INFO]: Default game type: SURVIVAL
+[12:12:59] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[12:12:59] [Server thread/INFO]: Debug logging is disabled
+[12:12:59] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[12:12:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:12:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[11:52:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[11:52:47] [Server thread/INFO]: Data value allowed items: 
-[11:52:47] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[12:13:00] [Server thread/INFO]: Data value allowed items: 
+[12:13:00] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[11:52:47] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[12:13:00] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[11:52:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[12:13:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[11:52:47] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[12:13:00] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[11:52:47] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[12:13:00] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[11:52:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[12:13:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[11:52:47] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[12:13:00] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[11:52:47] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[12:13:00] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[11:52:47] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[12:13:00] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[11:52:47] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[12:13:00] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[11:52:47] [Server thread/INFO]: Generating keypair
-[11:52:48] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[11:52:48] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[11:52:48] [Server thread/INFO]: Using default channel type
-[11:52:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[11:52:48] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
-[11:52:48] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
-[11:52:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11:52:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[11:52:48] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[11:52:48] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[11:52:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[11:52:48] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[11:52:48] [Server thread/INFO]: Preparing level "world"
-[11:52:48] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:52:48] [Server thread/INFO]: Mob Spawn Range: 4
-[11:52:48] [Server thread/INFO]: Anti X-Ray: true
-[11:52:48] [Server thread/INFO]: 	Engine Mode: 1
-[11:52:48] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[11:52:48] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[11:52:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:52:48] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:52:48] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:52:48] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:52:48] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:52:48] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:52:48] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:52:48] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:52:48] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:52:48] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[11:52:48] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:52:48] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[11:52:48] [Server thread/INFO]: Random Lighting Updates: false
-[11:52:48] [Server thread/INFO]: Structure Info Saving: true
-[11:52:48] [Server thread/INFO]: Sending up to 10 chunks per packet
-[11:52:48] [Server thread/INFO]: Max Entity Collisions: 8
-[11:52:48] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[11:52:48] [Server thread/INFO]: Max TNT Explosions: 100
-[11:52:48] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:52:48] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:52:48] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:52:48] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[11:52:48] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:52:48] [Server thread/INFO]: View Distance: 4
-[11:52:48] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:52:48] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[11:52:48] [Server thread/INFO]: Clear tick list: false
-[11:52:48] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:52:48] [Server thread/INFO]: -------- World Settings For [world] --------
-[11:52:48] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[11:52:48] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[11:52:48] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[11:52:48] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[11:52:48] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[11:52:48] [Server thread/INFO]: Water over lava flow speed: 5
-[11:52:48] [Server thread/INFO]: Fix TNT cannons: false
-[11:52:48] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[11:52:48] [Server thread/INFO]: Keep spawn chunk loaded: true
-[11:52:48] [Server thread/INFO]: World async lighting: false
-[11:52:48] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[11:52:48] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[11:52:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:52:49] [Server thread/INFO]: Mob Spawn Range: 4
-[11:52:49] [Server thread/INFO]: Anti X-Ray: true
-[11:52:49] [Server thread/INFO]: 	Engine Mode: 1
-[11:52:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[11:52:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[11:52:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:52:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[11:52:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:52:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[11:52:49] [Server thread/INFO]: Random Lighting Updates: false
-[11:52:49] [Server thread/INFO]: Structure Info Saving: true
-[11:52:49] [Server thread/INFO]: Sending up to 10 chunks per packet
-[11:52:49] [Server thread/INFO]: Max Entity Collisions: 8
-[11:52:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[11:52:49] [Server thread/INFO]: Max TNT Explosions: 100
-[11:52:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:52:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:52:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:52:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[11:52:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:52:49] [Server thread/INFO]: View Distance: 4
-[11:52:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:52:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[11:52:49] [Server thread/INFO]: Clear tick list: false
-[11:52:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:52:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[11:52:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[11:52:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[11:52:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[11:52:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[11:52:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[11:52:49] [Server thread/INFO]: Water over lava flow speed: 5
-[11:52:49] [Server thread/INFO]: Fix TNT cannons: false
-[11:52:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[11:52:49] [Server thread/INFO]: Keep spawn chunk loaded: true
-[11:52:49] [Server thread/INFO]: World async lighting: false
-[11:52:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[11:52:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[11:52:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:52:49] [Server thread/INFO]: Mob Spawn Range: 4
-[11:52:49] [Server thread/INFO]: Anti X-Ray: true
-[11:52:49] [Server thread/INFO]: 	Engine Mode: 1
-[11:52:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[11:52:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[11:52:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[11:52:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Cane Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Melon Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[11:52:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[11:52:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[11:52:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[11:52:49] [Server thread/INFO]: Random Lighting Updates: false
-[11:52:49] [Server thread/INFO]: Structure Info Saving: true
-[11:52:49] [Server thread/INFO]: Sending up to 10 chunks per packet
-[11:52:49] [Server thread/INFO]: Max Entity Collisions: 8
-[11:52:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[11:52:49] [Server thread/INFO]: Max TNT Explosions: 100
-[11:52:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[11:52:49] [Server thread/INFO]: Item Despawn Rate: 6000
-[11:52:49] [Server thread/INFO]: Item Merge Radius: 2.5
-[11:52:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[11:52:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[11:52:49] [Server thread/INFO]: View Distance: 4
-[11:52:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[11:52:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[11:52:49] [Server thread/INFO]: Clear tick list: false
-[11:52:49] [Server thread/INFO]: Experience Merge Radius: 3.0
-[11:52:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[11:52:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[11:52:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[11:52:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[11:52:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[11:52:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[11:52:49] [Server thread/INFO]: Water over lava flow speed: 5
-[11:52:49] [Server thread/INFO]: Fix TNT cannons: false
-[11:52:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[11:52:49] [Server thread/INFO]: Keep spawn chunk loaded: true
-[11:52:49] [Server thread/INFO]: World async lighting: false
-[11:52:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[11:52:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[11:52:49] [Server thread/INFO]: Preparing start region for level 0 (Seed: -32032947)
-[11:52:50] [Server thread/INFO]: Preparing spawn area: 33%
-[11:52:51] [Server thread/INFO]: Preparing spawn area: 96%
-[11:52:51] [Server thread/INFO]: Preparing start region for level 1 (Seed: -32032947)
-[11:52:52] [Server thread/INFO]: Preparing spawn area: 65%
-[11:52:52] [Server thread/INFO]: Preparing start region for level 2 (Seed: -32032947)
-[11:52:52] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
-[11:52:53] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[12:13:00] [Server thread/INFO]: Generating keypair
+[12:13:00] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[12:13:00] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[12:13:00] [Server thread/INFO]: Using default channel type
+[12:13:00] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[12:13:00] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
+[12:13:00] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[12:13:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:13:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:13:00] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[12:13:00] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[12:13:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:13:00] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[12:13:00] [Server thread/INFO]: Preparing level "world"
+[12:13:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:13:00] [Server thread/INFO]: Mob Spawn Range: 4
+[12:13:00] [Server thread/INFO]: Anti X-Ray: true
+[12:13:00] [Server thread/INFO]: 	Engine Mode: 1
+[12:13:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:13:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:13:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:13:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:13:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:13:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:13:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:13:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:13:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:13:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:13:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:13:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:13:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:13:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:13:00] [Server thread/INFO]: Random Lighting Updates: false
+[12:13:00] [Server thread/INFO]: Structure Info Saving: true
+[12:13:00] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:13:00] [Server thread/INFO]: Max Entity Collisions: 8
+[12:13:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:13:00] [Server thread/INFO]: Max TNT Explosions: 100
+[12:13:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:13:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:13:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:13:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:13:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:13:00] [Server thread/INFO]: View Distance: 4
+[12:13:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:13:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:13:00] [Server thread/INFO]: Clear tick list: false
+[12:13:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:13:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:13:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:13:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:13:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:13:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:13:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:13:00] [Server thread/INFO]: Water over lava flow speed: 5
+[12:13:00] [Server thread/INFO]: Fix TNT cannons: false
+[12:13:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:13:00] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:13:00] [Server thread/INFO]: World async lighting: false
+[12:13:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:13:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:13:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:13:01] [Server thread/INFO]: Mob Spawn Range: 4
+[12:13:01] [Server thread/INFO]: Anti X-Ray: true
+[12:13:01] [Server thread/INFO]: 	Engine Mode: 1
+[12:13:01] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:13:01] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:13:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:13:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:13:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:13:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:13:01] [Server thread/INFO]: Random Lighting Updates: false
+[12:13:01] [Server thread/INFO]: Structure Info Saving: true
+[12:13:01] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:13:01] [Server thread/INFO]: Max Entity Collisions: 8
+[12:13:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:13:01] [Server thread/INFO]: Max TNT Explosions: 100
+[12:13:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:13:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:13:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:13:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:13:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:13:01] [Server thread/INFO]: View Distance: 4
+[12:13:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:13:01] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:13:01] [Server thread/INFO]: Clear tick list: false
+[12:13:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:13:01] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:13:01] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:13:01] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:13:01] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:13:01] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:13:01] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:13:01] [Server thread/INFO]: Water over lava flow speed: 5
+[12:13:01] [Server thread/INFO]: Fix TNT cannons: false
+[12:13:01] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:13:01] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:13:01] [Server thread/INFO]: World async lighting: false
+[12:13:01] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:13:01] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:13:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:13:01] [Server thread/INFO]: Mob Spawn Range: 4
+[12:13:01] [Server thread/INFO]: Anti X-Ray: true
+[12:13:01] [Server thread/INFO]: 	Engine Mode: 1
+[12:13:01] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[12:13:01] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[12:13:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:13:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:13:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[12:13:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:13:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[12:13:01] [Server thread/INFO]: Random Lighting Updates: false
+[12:13:01] [Server thread/INFO]: Structure Info Saving: true
+[12:13:01] [Server thread/INFO]: Sending up to 10 chunks per packet
+[12:13:01] [Server thread/INFO]: Max Entity Collisions: 8
+[12:13:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[12:13:01] [Server thread/INFO]: Max TNT Explosions: 100
+[12:13:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:13:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:13:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:13:01] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[12:13:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:13:01] [Server thread/INFO]: View Distance: 4
+[12:13:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:13:01] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[12:13:01] [Server thread/INFO]: Clear tick list: false
+[12:13:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:13:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:13:01] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[12:13:01] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[12:13:01] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[12:13:01] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[12:13:01] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[12:13:01] [Server thread/INFO]: Water over lava flow speed: 5
+[12:13:01] [Server thread/INFO]: Fix TNT cannons: false
+[12:13:01] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[12:13:01] [Server thread/INFO]: Keep spawn chunk loaded: true
+[12:13:01] [Server thread/INFO]: World async lighting: false
+[12:13:01] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[12:13:01] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[12:13:01] [Server thread/INFO]: Preparing start region for level 0 (Seed: -32032947)
+[12:13:02] [Server thread/INFO]: Preparing spawn area: 29%
+[12:13:03] [Server thread/INFO]: Preparing start region for level 1 (Seed: -32032947)
+[12:13:04] [Server thread/INFO]: Preparing spawn area: 59%
+[12:13:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: -32032947)
+[12:13:04] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
+[12:13:04] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
 
-[11:52:53] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[12:13:04] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
 
-[11:52:53] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[11:52:53] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[11:52:53] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[11:52:53] [Server thread/INFO]: No kits found to migrate.
-[11:52:53] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
-[11:52:53] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
-[11:52:53] [Server thread/INFO]: Loaded 853 items from items.csv.
-[11:52:53] [Server thread/INFO]: Using locale en
-[11:52:53] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[11:52:53] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[11:52:53] [Server thread/INFO]: Using config file enhanced permissions.
-[11:52:53] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[11:52:53] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[11:52:53] [Server thread/INFO]: Done (5.350s)! For help, type "help" or "?"
-[11:52:53] [Server thread/INFO]: Timings Reset
-[11:52:53] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
-[11:52:57] [Thread-9/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[11:52:57] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:40234] logged in with entity id 138 at ([world]233.83150657488454, 21.0, -452.2535050203674)
-[11:53:01] [Thread-10/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
-[11:53:01] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:40238] logged in with entity id 234 at ([world]232.03415257431953, 21.0, -449.08627384941104)
-[11:53:13] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> welp had to do plan b for that[m
+[12:13:04] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[12:13:04] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[12:13:05] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[12:13:05] [Server thread/INFO]: No kits found to migrate.
+[12:13:05] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
+[12:13:05] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
+[12:13:05] [Server thread/INFO]: Loaded 853 items from items.csv.
+[12:13:05] [Server thread/INFO]: Using locale en
+[12:13:06] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[12:13:06] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[12:13:06] [Server thread/INFO]: Using config file enhanced permissions.
+[12:13:06] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[12:13:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:13:06] [Server thread/INFO]: Done (5.677s)! For help, type "help" or "?"
+[12:13:06] [Server thread/INFO]: Timings Reset
+[12:13:06] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[12:13:44] [Thread-9/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[12:13:45] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:45742] logged in with entity id 138 at ([world]230.5222373578356, 21.0, -443.0754416188373)
+[12:13:56] [Thread-10/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[12:13:56] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:47840] logged in with entity id 263 at ([world]289.8257791805867, 73.0, -488.54868509843607)
+[12:14:05] [Server thread/INFO]: CommandBlock at 291,73,-491 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Taco"},SkullOwner:Crunchy_Taco34}
+[12:14:22] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}
+[12:14:48] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ minecraft:skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}
+[12:16:18] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}/give ___ minecraft:skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}
+[12:16:18] [Server thread/ERROR]: null
+net.minecraft.server.v1_8_R3.MojangsonParseException: Encountered multiple top tags, only one expected
+	at net.minecraft.server.v1_8_R3.MojangsonParser.parse(SourceFile:29) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:114) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.earth2me.essentials.MetaItemStack.parseStringMeta(MetaItemStack.java:150) ~[?:?]
+	at com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:69) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:180) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:818) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.executeCommand(CommandBlockListenerAbstract.java:211) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.a(CommandBlockListenerAbstract.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.BlockCommand.b(BlockCommand.java:48) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.a(WorldServer.java:684) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.doTick(WorldServer.java:249) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:830) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:16:25] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}/give ___ minecraft:skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}
+[12:16:25] [Server thread/ERROR]: null
+net.minecraft.server.v1_8_R3.MojangsonParseException: Encountered multiple top tags, only one expected
+	at net.minecraft.server.v1_8_R3.MojangsonParser.parse(SourceFile:29) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:114) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.earth2me.essentials.MetaItemStack.parseStringMeta(MetaItemStack.java:150) ~[?:?]
+	at com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:69) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:180) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:818) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.executeCommand(CommandBlockListenerAbstract.java:211) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.a(CommandBlockListenerAbstract.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.BlockCommand.b(BlockCommand.java:48) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.a(WorldServer.java:684) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.doTick(WorldServer.java:249) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:830) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:16:27] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}/give ___ minecraft:skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}
+[12:16:27] [Server thread/ERROR]: null
+net.minecraft.server.v1_8_R3.MojangsonParseException: Encountered multiple top tags, only one expected
+	at net.minecraft.server.v1_8_R3.MojangsonParser.parse(SourceFile:29) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:114) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.earth2me.essentials.MetaItemStack.parseStringMeta(MetaItemStack.java:150) ~[?:?]
+	at com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:69) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:180) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:818) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.executeCommand(CommandBlockListenerAbstract.java:211) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.a(CommandBlockListenerAbstract.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.BlockCommand.b(BlockCommand.java:48) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.a(WorldServer.java:684) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.doTick(WorldServer.java:249) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:830) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:16:29] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}/give ___ minecraft:skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}
+[12:16:29] [Server thread/ERROR]: null
+net.minecraft.server.v1_8_R3.MojangsonParseException: Encountered multiple top tags, only one expected
+	at net.minecraft.server.v1_8_R3.MojangsonParser.parse(SourceFile:29) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:114) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.earth2me.essentials.MetaItemStack.parseStringMeta(MetaItemStack.java:150) ~[?:?]
+	at com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:69) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:180) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:818) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.executeCommand(CommandBlockListenerAbstract.java:211) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.a(CommandBlockListenerAbstract.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.BlockCommand.b(BlockCommand.java:48) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.a(WorldServer.java:684) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.doTick(WorldServer.java:249) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:830) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:16:35] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}/give ___ minecraft:skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}
+[12:16:35] [Server thread/ERROR]: null
+net.minecraft.server.v1_8_R3.MojangsonParseException: Encountered multiple top tags, only one expected
+	at net.minecraft.server.v1_8_R3.MojangsonParser.parse(SourceFile:29) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:114) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.earth2me.essentials.MetaItemStack.parseStringMeta(MetaItemStack.java:150) ~[?:?]
+	at com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:69) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:180) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:818) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.executeCommand(CommandBlockListenerAbstract.java:211) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.a(CommandBlockListenerAbstract.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.BlockCommand.b(BlockCommand.java:48) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.a(WorldServer.java:684) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.doTick(WorldServer.java:249) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:830) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:16:38] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}/give ___ minecraft:skull 1 3 {display:{Name:"KFC Chicken Tenders"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzE2YTZkM2UzZTRkNGQwNTllOGEyYWExZWQzYTIxOWIzNTgwZWIwOTk2MmNjMjVkYWUzM2Q4YWUzOWU2ZTE2OSJ9fX0="}]}}}
+[12:16:38] [Server thread/ERROR]: null
+net.minecraft.server.v1_8_R3.MojangsonParseException: Encountered multiple top tags, only one expected
+	at net.minecraft.server.v1_8_R3.MojangsonParser.parse(SourceFile:29) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.util.CraftMagicNumbers.modifyItemStack(CraftMagicNumbers.java:114) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.earth2me.essentials.MetaItemStack.parseStringMeta(MetaItemStack.java:150) ~[?:?]
+	at com.earth2me.essentials.commands.Commandgive.run(Commandgive.java:69) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:180) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:818) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:723) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.executeCommand(CommandBlockListenerAbstract.java:211) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.CommandBlockListenerAbstract.a(CommandBlockListenerAbstract.java:92) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.BlockCommand.b(BlockCommand.java:48) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.a(WorldServer.java:684) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.WorldServer.doTick(WorldServer.java:249) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:830) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:378) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[12:18:52] [Server thread/INFO]: CommandBlock at 232,21,-454 issued server command: /give ___ skull 1 3 {display:{Name:"Fries — 78"},SkullOwner:{Id:"426d69dc-855e-4531-8778-9f571140a410",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBlYWNhYzQxYTllYWYwNTEzNzZlZjJmOTU5NzAxZTFiYmUxYmY0YWE2NzE1YWRjMzRiNmRjMjlhMTNlYTkifX19"}]}}}
+[12:19:33] [Async Chat Thread - #0/INFO]: <[0;31;22m___[m> french fry machine[m
 
-[11:53:13] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> but it should work[m
+[12:21:30] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[12:21:30] [Server thread/INFO]: mr_meow_meow left the game.
+[12:21:34] [Server thread/INFO]: ___ lost connection: Disconnected
+[12:21:34] [Server thread/INFO]: ___ left the game.
+[12:21:36] [Thread-12/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[12:21:36] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:58012] logged in with entity id 1170 at ([world]328.627794987698, 82.0, -479.35403114933126)
+[12:21:39] [Thread-13/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[12:21:39] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:58018] logged in with entity id 1260 at ([world]224.27443689663093, 23.8651283219318, -461.64180432023727)
+[12:21:50] [Server thread/INFO]: mr_meow_meow fell from a high place
+[12:22:01] [Server thread/INFO]: CommandBlock at 232,21,-450 issued server command: /kill ___
+[12:22:01] [Server thread/INFO]: ___ died
+[12:22:01] [Server thread/INFO]: CommandBlock at 232,21,-450 issued server command: /kill mr_meow_meow
+[12:22:01] [Server thread/INFO]: mr_meow_meow died
+[12:22:10] [Async Chat Thread - #1/INFO]: <mr_meow_meow> what the heck\[m
 
-[11:53:16] [Server thread/INFO]: ___ lost connection: Disconnected
-[11:53:16] [Server thread/INFO]: ___ left the game.
-[11:53:26] [Thread-11/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[11:53:26] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:56612] logged in with entity id 242 at ([world]340.6076379502321, 78.0, -464.9764678475014)
-[11:53:26] [Thread-12/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
-[11:53:26] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:56620] logged in with entity id 265 at ([world]232.03415257431953, 21.0, -449.08627384941104)
-[11:53:34] [Async Chat Thread - #1/INFO]: <[0;31;22mJustinTheGPTMan[m> ok it should work now[m
+[12:22:14] [Async Chat Thread - #1/INFO]: <[0;31;22m___[m> that was supposed to target mobs[m
 
-[11:53:37] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give JustinTheGPTMan minecraft:skull 1 3 {display:{Name:"Taco"},SkullOwner:Crunchy_Taco34}
-[11:54:47] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give JustinTheGPTMan minecraft:skull 1 3 {display:{Name:"Taco"},SkullOwner:Crunchy_Taco34}
-[11:56:16] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ minecraft:skull 1 3 {display:{Name:"Taco"},SkullOwner:Crunchy_Taco34}
-[11:56:27] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ minecraft:skull 1 3 {display:{Name:"Taco"},SkullOwner:Crunchy_Taco34}
-[11:56:30] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> does it work?[m
+[12:22:16] [Async Chat Thread - #1/INFO]: <[0;31;22m___[m> not us[m
 
-[11:56:33] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give ___ skull 1 3 {display:{Name:"Taco"},SkullOwner:Crunchy_Taco34}
-[11:56:44] [Async Chat Thread - #2/INFO]: <[0;31;22m___[m> yeah i had to change the code though[m
+[12:22:18] [Server thread/INFO]: CommandBlock at 291,73,-491 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Taco"},SkullOwner:Crunchy_Taco34}
+[12:22:20] [Async Chat Thread - #1/INFO]: <[0;31;22m___[m> what the flip[m
 
-[11:56:46] [Server thread/INFO]: CommandBlock at 232,21,-451 issued server command: /give JustinTheGPTMan skull 1 3 {display:{Name:"Taco"},SkullOwner:Crunchy_Taco34}
-[11:56:50] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> yipee[m
+[12:22:33] [Server thread/INFO]: ___ issued server command: /warp taco
+[12:23:09] [Async Chat Thread - #1/INFO]: <mr_meow_meow> can i get more dark green wool pls ray[m
 
-[11:56:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
-[11:57:05] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yippeeeeeee[m
+[12:23:18] [Async Chat Thread - #1/INFO]: <[0;31;22m___[m> gang what the flip[m
 
-[11:57:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /back
-[11:57:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
-[11:57:52] [Async Chat Thread - #2/INFO]: <[0;31;22m___[m> now to slowly get the other 4[m
+[12:23:24] [Async Chat Thread - #1/INFO]: <mr_meow_meow> what[m
 
-[11:58:26] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> ight[m
+[12:23:28] [Server thread/INFO]: ___ issued server command: /warp gab
+[12:24:17] [Async Chat Thread - #1/INFO]: <mr_meow_meow> thanks[m
 
-[11:59:14] [Async Chat Thread - #2/INFO]: <[0;31;22m___[m> lowkey no idea why they want me to put chicken tenders in a taco bell but ok[m
+[12:25:08] [Server thread/INFO]: ___ lost connection: Disconnected
+[12:25:08] [Server thread/INFO]: ___ left the game.
+[12:25:12] [Thread-14/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[12:25:13] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:36994] logged in with entity id 1789 at ([world]283.30460467952395, 72.0, -481.506382146126)
+[12:25:35] [Thread-15/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[12:25:36] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:49784] logged in with entity id 1949 at ([world]230.5, 21.0, -451.5)
+[12:25:51] [Async Chat Thread - #2/INFO]: <[0;31;22m___[m> gab i swear if you ask for wool one more time im going to place 1500 blocks of green wool[m
 
-[11:59:31] [Async Chat Thread - #2/INFO]: <[0;31;22m___[m> gab do you want a taco dispenser[m
+[12:25:57] [Async Chat Thread - #2/INFO]: <[0;31;22m___[m> ang give you a pair of shears[m
 
-[11:59:39] [Async Chat Thread - #2/INFO]: <mr_meow_meow> yes pls[m
+[12:26:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
+[12:26:06] [Server thread/INFO]: ___ issued server command: /warp taco
+[12:26:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:26:21] [Async Chat Thread - #2/INFO]: <mr_meow_meow> but i need to make a christmas tree[m
 
-[11:59:45] [Server thread/INFO]: ___ issued server command: /tp ___ mr_meow
-[11:59:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /t ___ ofc bro wants a taco dispenser
-[11:59:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /t ___ his mexicaness is shining through
-[12:00:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
-[12:00:20] [Async Chat Thread - #2/INFO]: <mr_meow_meow> gtg pack up[m
+[12:26:43] [Async Chat Thread - #2/INFO]: <mr_meow_meow> also what about a command block to give me a stack of wool every time i press the button[m
 
-[12:00:25] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[12:00:25] [Server thread/INFO]: mr_meow_meow left the game.
-[12:00:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /back
-[12:00:29] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
-[12:00:29] [Server thread/INFO]: JustinTheGPTMan left the game.
-[12:00:37] [Server thread/INFO]: ___ issued server command: /warp taco
-[12:01:03] [Server thread/INFO]: ___ lost connection: Disconnected
-[12:01:03] [Server thread/INFO]: ___ left the game.
-[12:01:18] [Thread-2/INFO]: Stopping server
+[12:27:04] [Async Chat Thread - #2/INFO]: <[0;31;22m___[m> i dont know what the name for green wool is because it isnt green_wool[m
+
+[12:27:18] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:5
+[12:27:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:4
+[12:27:25] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:6
+[12:27:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:7
+[12:27:37] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:1
+[12:27:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:2
+[12:27:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:3
+[12:27:42] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:4
+[12:27:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:5
+[12:27:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:6
+[12:27:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:7
+[12:27:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:8
+[12:27:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:9
+[12:27:52] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:10
+[12:27:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:11
+[12:27:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:12
+[12:27:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus wool:13
+[12:28:54] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give JustinTheGPTMan wool:13
+[12:29:18] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:20] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:22] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:25] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[12:29:33] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:33] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:33] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:34] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:34] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:34] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:35] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:35] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:35] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:35] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:36] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:36] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:36] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:36] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:37] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:37] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:37] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:38] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:38] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:38] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:39] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:39] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:39] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:39] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:40] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:29:40] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:30:25] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus command 1
+[12:31:15] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus button 1
+[12:31:20] [Server thread/INFO]: CommandBlock at 240,21,-456 issued server command: /kill @e[type=minecraft:villager]
+[12:31:20] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13
+[12:31:36] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[12:31:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[12:32:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[12:32:30] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give JustinTheGPTMan wool:13 2304
+[12:32:30] [Server thread/INFO]: CommandBlock at 240,21,-456 issued server command: /kill @e[type=minecraft:villager]
+[12:32:31] [Server thread/INFO]: ___ issued server command: /invsee mr_meow
+[12:32:59] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13 2304
+[12:32:59] [Server thread/INFO]: CommandBlock at 240,21,-456 issued server command: /kill @e[type=minecraft:villager]
+[12:33:19] [Server thread/INFO]: JustinTheGPTMan issued server command: /clear
+[12:33:50] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13 2304
+[12:33:56] [Server thread/INFO]: CommandBlock at 232,21,-452 issued server command: /give ___ skull 1 3 {display:{Name:"Pepsi — 48"},SkullOwner:{Id:"a4468154-c0f9-b068-3cd0-fda8032f2e71",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJiYWU2ZGY5OWRjODJiZWFmNDlkMDY0ZGY3NGExYmJjMTVlOGUzNzY1MzMyNzY5MTJjOGM4ZmU1OWNiNGY0In19fQ=="}]}}}
+[12:35:11] [Server thread/INFO]: ___ issued server command: /warp gab
+[12:36:23] [Server thread/INFO]: ___ issued server command: /warp taco
+[12:37:29] [Server thread/INFO]: CommandBlock at 232,21,-452 issued server command: /give ___ skull 1 3 {display:{Name:"Pepsi — 48"},SkullOwner:{Id:"a4468154-c0f9-b068-3cd0-fda8032f2e71",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJiYWU2ZGY5OWRjODJiZWFmNDlkMDY0ZGY3NGExYmJjMTVlOGUzNzY1MzMyNzY5MTJjOGM4ZmU1OWNiNGY0In19fQ=="}]}}}
+[12:37:48] [Server thread/INFO]: ___ issued server command: /warp gab
+[12:38:26] [Async Chat Thread - #3/INFO]: <[0;31;22m___[m> theres a pepsi dispenser by your house[m
+
+[12:38:30] [Async Chat Thread - #3/INFO]: <mr_meow_meow> yayay\[m
+
+[12:38:41] [Async Chat Thread - #3/INFO]: <mr_meow_meow> tp me up there pls ray[m
+
+[12:38:48] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13 2304
+[12:38:55] [Server thread/INFO]: ___ issued server command: /tp mr_meow ___
+[12:38:58] [Async Chat Thread - #3/INFO]: <mr_meow_meow> thanks[m
+
+[12:39:02] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13 2304
+[12:39:24] [Server thread/INFO]: ___ fell out of the world
+[12:39:41] [Server thread/INFO]: ___ issued server command: /warp taco
+[12:39:49] [Server thread/INFO]: ___ issued server command: /give ___ command
+[12:40:03] [Server thread/INFO]: ___ lost connection: Disconnected
+[12:40:03] [Server thread/INFO]: ___ left the game.
+[12:40:55] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[12:40:55] [Server thread/INFO]: JustinTheGPTMan left the game.
+[12:42:52] [Async Chat Thread - #4/INFO]: <mr_meow_meow> im done with the christmas tree[m
+
+[12:43:29] [Server thread/INFO]: mr_meow_meow fell out of the world
+[12:43:43] [Async Chat Thread - #4/INFO]: <mr_meow_meow> i dont need any more wool now[m
+
+[12:43:59] [Server thread/INFO]: CommandBlock at 285,72,-488 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Pepsi — 48"},SkullOwner:{Id:"a4468154-c0f9-b068-3cd0-fda8032f2e71",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJiYWU2ZGY5OWRjODJiZWFmNDlkMDY0ZGY3NGExYmJjMTVlOGUzNzY1MzMyNzY5MTJjOGM4ZmU1OWNiNGY0In19fQ=="}]}}}
+[12:46:30] [Server thread/INFO]: mr_meow_meow issued server command: /nickname pepsi_man
+[12:49:06] [Async Chat Thread - #5/INFO]: <~pepsi_man[m> christmas tree is done[m
+
+[12:52:21] [Thread-17/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[12:52:22] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:34722] logged in with entity id 5054 at ([world]227.76415286058503, 21.0, -459.13448210255706)
+[12:52:31] [Async Chat Thread - #6/INFO]: <~pepsi_man[m> ray i finished the christmas tree[m
+
+[12:52:45] [Async Chat Thread - #6/INFO]: <[0;31;22m___[m> theres so many bees out here bro[m
+
+[12:52:51] [Async Chat Thread - #6/INFO]: <~pepsi_man[m> dang[m
+
+[12:52:56] [Async Chat Thread - #6/INFO]: <~pepsi_man[m> what are u eating[m
+
+[12:53:01] [Async Chat Thread - #6/INFO]: <[0;31;22m___[m> one was landing on my food every like 10 seconds[m
+
+[12:53:09] [Async Chat Thread - #6/INFO]: <[0;31;22m___[m> chickn sandwich[m
+
+[12:53:12] [Async Chat Thread - #6/INFO]: <~pepsi_man[m> okw[m
+
+[12:53:29] [Server thread/INFO]: ___ issued server command: /invsee mr_meow
+[12:53:40] [Async Chat Thread - #6/INFO]: <~pepsi_man[m> also have u noticed my name[m
+
+[12:53:41] [Server thread/INFO]: ___ issued server command: /invsee mr_meow
+[12:53:41] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow wool:13 2304
+[12:53:54] [Async Chat Thread - #6/INFO]: <[0;31;22m___[m> yeah[m
+
+[12:53:54] [Async Chat Thread - #6/INFO]: <~pepsi_man[m> i dont need the green wool anymore[m
+
+[12:54:03] [Server thread/INFO]: ___ issued server command: /tp mr_meow ___
+[12:54:26] [Async Chat Thread - #6/INFO]: <[0;31;22m___[m> dont break it[m
+
+[12:54:29] [Server thread/INFO]: ___ issued server command: /warp gab
+[12:54:34] [Server thread/INFO]: ___ issued server command: /tp mr_meow ___
+[12:54:36] [Async Chat Thread - #6/INFO]: <~pepsi_man[m> can u break this command block i dint need the wool anymre[m
+
+[12:54:40] [Server thread/INFO]: ___ issued server command: /heal mr_meow
+[12:54:45] [Server thread/INFO]: ___ issued server command: /feed mr_meow
+[12:54:57] [Server thread/INFO]: mr_meow_meow fell out of the world
+[12:55:12] [Server thread/INFO]: CommandBlock at 285,72,-488 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Pepsi — 48"},SkullOwner:{Id:"a4468154-c0f9-b068-3cd0-fda8032f2e71",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJiYWU2ZGY5OWRjODJiZWFmNDlkMDY0ZGY3NGExYmJjMTVlOGUzNzY1MzMyNzY5MTJjOGM4ZmU1OWNiNGY0In19fQ=="}]}}}
+[12:56:01] [Thread-18/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[12:56:01] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:33982] logged in with entity id 5497 at ([world]241.428314078625, 21.0, -454.82961572482225)
+[12:56:04] [Server thread/INFO]: ___ issued server command: /heal mr_meow
+[12:56:27] [Async Chat Thread - #7/INFO]: <~pepsi_man[m> justin i finished the christmas tree[m
+
+[12:56:45] [Async Chat Thread - #7/INFO]: <[0;31;22m___[m> gab i love the hole in your roof[m
+
+[12:56:53] [Async Chat Thread - #7/INFO]: <~pepsi_man[m> yea me to[m
+
+[12:56:54] [Async Chat Thread - #7/INFO]: <[0;31;22m___[m> really adds to the place[m
+
+[12:57:01] [Async Chat Thread - #7/INFO]: <~pepsi_man[m> i know right[m
+
+[12:57:21] [Server thread/INFO]: ___ issued server command: /warp taco
+[12:57:42] [Server thread/INFO]: ___ issued server command: /clear mr_meow
+[12:57:46] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow gravel 2304
+[12:57:52] [Server thread/INFO]: ___ issued server command: /invsee mr_meow
+[12:57:54] [Async Chat Thread - #7/INFO]: <~pepsi_man[m> why so much gravel[m
+
+[12:58:40] [Server thread/INFO]: ___ issued server command: /clear mr_meow
+[12:58:42] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow diamond 2304
+[12:58:45] [Async Chat Thread - #7/INFO]: <~pepsi_man[m> yayay[m
+
+[12:58:49] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[12:58:49] [Server thread/INFO]: JustinTheGPTMan left the game.
+[12:58:49] [Server thread/INFO]: ___ issued server command: /clear mr_meow
+[12:59:14] [Async Chat Thread - #7/INFO]: <[0;31;22m___[m> i want to kill all the villagers but im too lazy[m
+
+[12:59:24] [Async Chat Thread - #7/INFO]: <[0;31;22m___[m> i spawned a bunch of villagers here[m
+
+[12:59:26] [Server thread/INFO]: CommandBlock at 239,21,-456 issued server command: /give mr_meow_meow diamond 2304
+[13:00:09] [Async Chat Thread - #7/INFO]: <~pepsi_man[m> can i keep theses[m
+
+[13:00:13] [Async Chat Thread - #7/INFO]: <[0;31;22m___[m> sure[m
+
+[13:00:21] [Async Chat Thread - #7/INFO]: <[0;31;22m___[m> any other blocks or items you want[m
+
+[13:00:28] [Async Chat Thread - #7/INFO]: <~pepsi_man[m> naw im good[m
+
+[13:01:14] [Server thread/INFO]: CommandBlock at 232,21,-454 issued server command: /give ___ skull 1 3 {display:{Name:"Fries — 78"},SkullOwner:{Id:"426d69dc-855e-4531-8778-9f571140a410",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBlYWNhYzQxYTllYWYwNTEzNzZlZjJmOTU5NzAxZTFiYmUxYmY0YWE2NzE1YWRjMzRiNmRjMjlhMTNlYTkifX19"}]}}}
+[13:01:22] [Thread-19/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:01:22] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:39906] logged in with entity id 6284 at ([world]239.39923903634926, 21.0, -453.3165149753506)
+[13:01:26] [Server thread/INFO]: ___ issued server command: /give command 1
+[13:01:34] [Server thread/INFO]: ___ issued server command: /give ___ command 1
+[13:03:07] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:03:07] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:03:08] [Server thread/INFO]: ___ lost connection: Disconnected
+[13:03:08] [Server thread/INFO]: ___ left the game.
+[13:06:34] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[13:06:34] [Server thread/INFO]: mr_meow_meow left the game.
+[13:08:06] [Thread-20/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[13:08:06] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:40354] logged in with entity id 6870 at ([world]241.2610513922434, 21.0, -444.91127442096666)
+[13:08:26] [Thread-21/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:08:26] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:60022] logged in with entity id 6995 at ([world]229.1110459851932, 21.0, -451.88035153146785)
+[13:08:46] [Server thread/INFO]: ___ issued server command: /warp gab
+[13:10:27] [Server thread/INFO]: CommandBlock at 284,67,-483 issued server command: /give ___ skull 1 3 {display:{Name:"Fries — 78"},SkullOwner:{Id:"426d69dc-855e-4531-8778-9f571140a410",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBlYWNhYzQxYTllYWYwNTEzNzZlZjJmOTU5NzAxZTFiYmUxYmY0YWE2NzE1YWRjMzRiNmRjMjlhMTNlYTkifX19"}]}}}
+[13:12:01] [Server thread/INFO]: CommandBlock at 284,67,-485 issued server command: /give ___ skull 1 3 {display:{Name:"Pepsi — 48"},SkullOwner:{Id:"a4468154-c0f9-b068-3cd0-fda8032f2e71",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmJiYWU2ZGY5OWRjODJiZWFmNDlkMDY0ZGY3NGExYmJjMTVlOGUzNzY1MzMyNzY5MTJjOGM4ZmU1OWNiNGY0In19fQ=="}]}}}
+[13:13:16] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:13:16] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:13:33] [Server thread/INFO]: ___ issued server command: /warp taco
+[13:13:41] [Thread-22/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:13:41] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:36998] logged in with entity id 7226 at ([world]237.35124808456402, 21.0, -450.85518476637674)
+[13:15:27] [Server thread/INFO]: ___ issued server command: /warp gab
+[13:15:29] [Thread-23/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[13:15:29] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:48482] logged in with entity id 7414 at ([world]297.69999998807907, 72.0, -478.39468181549387)
+[13:15:32] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> sup gab[m
+
+[13:15:56] [Server thread/INFO]: CommandBlock at 284,67,-483 issued server command: /give ___ skull 1 3 {display:{Name:"Fries — 78"},SkullOwner:{Id:"426d69dc-855e-4531-8778-9f571140a410",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBlYWNhYzQxYTllYWYwNTEzNzZlZjJmOTU5NzAxZTFiYmUxYmY0YWE2NzE1YWRjMzRiNmRjMjlhMTNlYTkifX19"}]}}}
+[13:16:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus _
+[13:16:24] [Server thread/INFO]: ___ issued server command: /warp taco
+[13:16:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /back
+[13:17:21] [Server thread/INFO]: ___ issued server command: /kill justinthegptman
+[13:17:21] [Server thread/INFO]: JustinTheGPTMan died
+[13:17:25] [Server thread/INFO]: JustinTheGPTMan issued server command: /back
+[13:17:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /back
+[13:17:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus _
+[13:18:29] [Server thread/INFO]: CommandBlock at 284,67,-483 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Fries — 78"},SkullOwner:{Id:"426d69dc-855e-4531-8778-9f571140a410",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTBlYWNhYzQxYTllYWYwNTEzNzZlZjJmOTU5NzAxZTFiYmUxYmY0YWE2NzE1YWRjMzRiNmRjMjlhMTNlYTkifX19"}]}}}
+[13:19:20] [Async Chat Thread - #9/INFO]: <~pepsi_man[m> wait for me at the stairs between building 2 and 4[m
+
+[13:19:45] [Server thread/INFO]: CommandBlock at 232,21,-450 issued server command: /give ___ skull 1 3 {display:{Name:"Plate of Nachos"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdiODBkYjBkN2M4NmMwZWRmMjE0Y2ZkMTNhYmQ5MWMxNTZjMmRhZTI5NDExMzNiZGVjOTEwMTdmZGQxZTFiMSJ9fX0="}]}}}
+[13:19:48] [Server thread/INFO]: CommandBlock at 232,21,-450 issued server command: /give ___ skull 1 3 {display:{Name:"Plate of Nachos"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdiODBkYjBkN2M4NmMwZWRmMjE0Y2ZkMTNhYmQ5MWMxNTZjMmRhZTI5NDExMzNiZGVjOTEwMTdmZGQxZTFiMSJ9fX0="}]}}}
+[13:20:12] [Server thread/INFO]: CommandBlock at 232,21,-450 issued server command: /give ___ skull 1 3 {display:{Name:"Plate of Nachos"},SkullOwner:{Id:"----",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdiODBkYjBkN2M4NmMwZWRmMjE0Y2ZkMTNhYmQ5MWMxNTZjMmRhZTI5NDExMzNiZGVjOTEwMTdmZGQxZTFiMSJ9fX0="}]}}}
+[13:21:18] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:21:18] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:21:30] [Thread-25/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:21:30] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:55694] logged in with entity id 8570 at ([world]240.96779884338812, 22.795084618410126, -446.96174982600826)
+[13:21:34] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:21:34] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:21:41] [Thread-26/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:21:41] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:44016] logged in with entity id 8599 at ([world]240.96779884338812, 22.795084618410126, -446.96174982600826)
+[13:21:52] [Server thread/INFO]: mr_meow_meow fell out of the world
+[13:21:57] [Server thread/INFO]: CommandBlock at 237,27,-438 issued server command: /give justinthegptman gravel 2304
+[13:22:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /clear
+[13:22:20] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:22:20] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:24:15] [Server thread/INFO]: CommandBlock at 232,21,-450 issued server command: /give ___ skull 1 3 {display:{Name:"Plate of Nachos"},SkullOwner:{Id:"870784dc-3839-4244-b66d-0a18daa1730f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdiODBkYjBkN2M4NmMwZWRmMjE0Y2ZkMTNhYmQ5MWMxNTZjMmRhZTI5NDExMzNiZGVjOTEwMTdmZGQxZTFiMSJ9fX0="}]}}}
+[13:24:21] [Thread-27/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:24:21] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:35018] logged in with entity id 8870 at ([world]237.3539166241938, 21.0, -452.8946655350917)
+[13:25:42] [Server thread/INFO]: ___ lost connection: Disconnected
+[13:25:42] [Server thread/INFO]: ___ left the game.
+[13:26:09] [Thread-28/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[13:26:09] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:34058] logged in with entity id 9060 at ([world]239.82852110624123, 27.0, -437.7316755552128)
+[13:27:02] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:27:02] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:27:07] [Thread-29/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:27:07] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:52534] logged in with entity id 9246 at ([world]241.69999998807907, 28.200000047683716, -438.462388526587)
+[13:27:11] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:27:11] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:27:21] [Thread-30/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:27:21] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:49624] logged in with entity id 9259 at ([world]241.69999998807907, 28.200000047683716, -437.90142828572056)
+[13:27:22] [Server thread/INFO]: ___ issued server command: /kill justinthegptman
+[13:27:22] [Server thread/INFO]: JustinTheGPTMan died
+[13:27:27] [Async Chat Thread - #10/INFO]: <~pepsi_man[m> hahahahahahah[m
+
+[13:27:32] [Server thread/INFO]: JustinTheGPTMan issued server command: /back
+[13:27:35] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp ___
+[13:27:47] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:27:47] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:27:51] [Thread-31/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[13:27:51] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:39398] logged in with entity id 9490 at ([world]240.30000001192093, 27.0, -437.30000001192093)
+[13:28:13] [Server thread/INFO]: JustinTheGPTMan issued server command: /deop ___
+[13:28:13] [Server thread/INFO]: [JustinTheGPTMan: De-opped ___]
+[13:28:32] [Server thread/INFO]: JustinTheGPTMan issued server command: /op ___
+[13:28:32] [Server thread/INFO]: [JustinTheGPTMan: Opped ___]
+[13:28:38] [Async Chat Thread - #11/INFO]: <~pepsi_man[m> gtg pack up[m
+
+[13:28:39] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[13:28:39] [Server thread/INFO]: mr_meow_meow left the game.
+[13:28:43] [Thread-32/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[13:28:43] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:46334] logged in with entity id 9539 at ([world]297.30000001192093, 72.0, -471.0073324351513)
+[13:28:53] [Server thread/INFO]: ___ lost connection: Disconnected
+[13:28:53] [Server thread/INFO]: ___ left the game.
+[13:28:54] [Async Chat Thread - #11/INFO]: <~pepsi_man[m> justin is the server gonna be on after school[m
+
+[13:29:01] [Async Chat Thread - #11/INFO]: <[0;31;22mJustinTheGPTMan[m> idk do you want me to?[m
+
+[13:29:07] [Async Chat Thread - #11/INFO]: <~pepsi_man[m> sure[m
+
+[13:29:09] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[13:29:09] [Server thread/INFO]: mr_meow_meow left the game.
+[13:29:23] [Thread-33/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[13:29:24] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:35260] logged in with entity id 9605 at ([world]238.6277746809042, 27.0, -439.3014590125176)
+[13:30:23] [Server thread/INFO]: ___ issued server command: /warp gab
+[13:30:27] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:30:27] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:32:20] [Server thread/INFO]: ___ lost connection: Disconnected
+[13:32:20] [Server thread/INFO]: ___ left the game.
+[13:33:17] [Thread-2/INFO]: Stopping server
