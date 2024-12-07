@@ -1,446 +1,712 @@
-[10:33:07] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[10:33:07] [Server thread/INFO]: Loading properties
-[10:33:07] [Server thread/INFO]: Default game type: SURVIVAL
-[10:33:07] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[10:33:08] [Server thread/INFO]: Debug logging is disabled
-[10:33:08] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[10:33:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:35:57] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[11:35:57] [Server thread/INFO]: Loading properties
+[11:35:57] [Server thread/INFO]: Default game type: SURVIVAL
+[11:35:57] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[11:35:58] [Server thread/INFO]: Debug logging is disabled
+[11:35:58] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[11:35:58] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[10:33:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:33:08] [Server thread/INFO]: Data value allowed items: 
-[10:33:08] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[11:35:58] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:35:58] [Server thread/INFO]: Data value allowed items: 
+[11:35:58] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[10:33:08] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[11:35:58] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[10:33:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[11:35:58] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[10:33:08] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[11:35:58] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[10:33:08] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[11:35:58] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[10:33:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[11:35:58] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[10:33:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[11:35:58] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[10:33:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[11:35:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[10:33:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[11:35:58] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[10:33:08] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[11:35:58] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[10:33:08] [Server thread/INFO]: Generating keypair
-[10:33:11] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[10:33:11] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[10:33:11] [Server thread/INFO]: Using default channel type
-[10:33:11] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[10:33:11] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
-[10:33:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
-[10:33:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:33:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:33:11] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[10:33:11] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[10:33:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:33:11] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[10:33:11] [Server thread/INFO]: Preparing level "world"
-[10:33:11] [Server thread/INFO]: -------- World Settings For [world] --------
-[10:33:11] [Server thread/INFO]: Mob Spawn Range: 4
-[10:33:11] [Server thread/INFO]: Anti X-Ray: true
-[10:33:11] [Server thread/INFO]: 	Engine Mode: 1
-[10:33:11] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[10:33:11] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[10:33:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:33:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:33:11] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:33:11] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:33:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:33:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:33:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:33:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:33:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:33:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[10:33:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:33:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[10:33:11] [Server thread/INFO]: Random Lighting Updates: false
-[10:33:11] [Server thread/INFO]: Structure Info Saving: true
-[10:33:11] [Server thread/INFO]: Sending up to 10 chunks per packet
-[10:33:11] [Server thread/INFO]: Max Entity Collisions: 8
-[10:33:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[10:33:11] [Server thread/INFO]: Max TNT Explosions: 100
-[10:33:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:33:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:33:11] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:33:11] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:33:11] [Server thread/INFO]: View Distance: 4
-[10:33:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:33:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:33:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[10:33:12] [Server thread/INFO]: Clear tick list: false
-[10:33:12] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:33:12] [Server thread/INFO]: -------- World Settings For [world] --------
-[10:33:12] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[10:33:12] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[10:33:12] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[10:33:12] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[10:33:12] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[10:33:12] [Server thread/INFO]: Water over lava flow speed: 5
-[10:33:12] [Server thread/INFO]: Fix TNT cannons: false
-[10:33:12] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[10:33:12] [Server thread/INFO]: Keep spawn chunk loaded: true
-[10:33:12] [Server thread/INFO]: World async lighting: false
-[10:33:12] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[10:33:12] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[10:33:12] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[10:33:12] [Server thread/INFO]: Mob Spawn Range: 4
-[10:33:12] [Server thread/INFO]: Anti X-Ray: true
-[10:33:12] [Server thread/INFO]: 	Engine Mode: 1
-[10:33:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[10:33:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[10:33:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:33:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[10:33:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:33:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[10:33:12] [Server thread/INFO]: Random Lighting Updates: false
-[10:33:12] [Server thread/INFO]: Structure Info Saving: true
-[10:33:12] [Server thread/INFO]: Sending up to 10 chunks per packet
-[10:33:12] [Server thread/INFO]: Max Entity Collisions: 8
-[10:33:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[10:33:12] [Server thread/INFO]: Max TNT Explosions: 100
-[10:33:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:33:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:33:12] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:33:12] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:33:12] [Server thread/INFO]: View Distance: 4
-[10:33:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:33:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:33:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[10:33:12] [Server thread/INFO]: Clear tick list: false
-[10:33:12] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:33:12] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[10:33:12] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[10:33:12] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[10:33:12] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[10:33:12] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[10:33:12] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[10:33:12] [Server thread/INFO]: Water over lava flow speed: 5
-[10:33:12] [Server thread/INFO]: Fix TNT cannons: false
-[10:33:12] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[10:33:12] [Server thread/INFO]: Keep spawn chunk loaded: true
-[10:33:12] [Server thread/INFO]: World async lighting: false
-[10:33:12] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[10:33:12] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[10:33:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[10:33:12] [Server thread/INFO]: Mob Spawn Range: 4
-[10:33:12] [Server thread/INFO]: Anti X-Ray: true
-[10:33:12] [Server thread/INFO]: 	Engine Mode: 1
-[10:33:12] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[10:33:12] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[10:33:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:33:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:33:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[10:33:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:33:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[10:33:12] [Server thread/INFO]: Random Lighting Updates: false
-[10:33:12] [Server thread/INFO]: Structure Info Saving: true
-[10:33:12] [Server thread/INFO]: Sending up to 10 chunks per packet
-[10:33:12] [Server thread/INFO]: Max Entity Collisions: 8
-[10:33:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[10:33:12] [Server thread/INFO]: Max TNT Explosions: 100
-[10:33:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:33:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:33:12] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:33:12] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:33:12] [Server thread/INFO]: View Distance: 4
-[10:33:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[10:33:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:33:12] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[10:33:12] [Server thread/INFO]: Clear tick list: false
-[10:33:12] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:33:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[10:33:12] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[10:33:12] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[10:33:12] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[10:33:12] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[10:33:12] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[10:33:12] [Server thread/INFO]: Water over lava flow speed: 5
-[10:33:12] [Server thread/INFO]: Fix TNT cannons: false
-[10:33:12] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[10:33:12] [Server thread/INFO]: Keep spawn chunk loaded: true
-[10:33:12] [Server thread/INFO]: World async lighting: false
-[10:33:12] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[10:33:12] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[10:33:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: -32032947)
-[10:33:13] [Server thread/INFO]: Preparing spawn area: 18%
-[10:33:14] [Server thread/INFO]: Preparing spawn area: 53%
-[10:33:15] [Server thread/INFO]: Preparing start region for level 1 (Seed: -32032947)
-[10:33:16] [Server thread/INFO]: Preparing spawn area: 6%
-[10:33:17] [Server thread/INFO]: Preparing spawn area: 13%
-[10:33:18] [Server thread/INFO]: Preparing spawn area: 21%
-[10:33:19] [Server thread/INFO]: Preparing spawn area: 54%
-[10:33:20] [Server thread/INFO]: Preparing start region for level 2 (Seed: -32032947)
-[10:33:20] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
-[10:33:20] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[11:35:58] [Server thread/INFO]: Generating keypair
+[11:35:59] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[11:35:59] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[11:35:59] [Server thread/INFO]: Using default channel type
+[11:35:59] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[11:35:59] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
+[11:35:59] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[11:35:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:35:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:35:59] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[11:35:59] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[11:35:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:35:59] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[11:35:59] [Server thread/INFO]: Preparing level "world"
+[11:35:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:35:59] [Server thread/INFO]: Anti X-Ray: true
+[11:35:59] [Server thread/INFO]: 	Engine Mode: 1
+[11:35:59] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:35:59] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:35:59] [Server thread/INFO]: Mob Spawn Range: 4
+[11:35:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:35:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:35:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:35:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:35:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:35:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:35:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:35:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:35:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:35:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:35:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:35:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:35:59] [Server thread/INFO]: Random Lighting Updates: false
+[11:35:59] [Server thread/INFO]: Structure Info Saving: true
+[11:35:59] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:35:59] [Server thread/INFO]: Max Entity Collisions: 8
+[11:35:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:35:59] [Server thread/INFO]: Max TNT Explosions: 100
+[11:35:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:35:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:35:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:35:59] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:35:59] [Server thread/INFO]: View Distance: 4
+[11:35:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:35:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:35:59] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:35:59] [Server thread/INFO]: Clear tick list: false
+[11:35:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:35:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[11:35:59] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:35:59] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:35:59] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:35:59] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:35:59] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:35:59] [Server thread/INFO]: Water over lava flow speed: 5
+[11:35:59] [Server thread/INFO]: Fix TNT cannons: false
+[11:35:59] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:35:59] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:35:59] [Server thread/INFO]: World async lighting: false
+[11:35:59] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:35:59] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:36:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:36:00] [Server thread/INFO]: Anti X-Ray: true
+[11:36:00] [Server thread/INFO]: 	Engine Mode: 1
+[11:36:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:36:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:36:00] [Server thread/INFO]: Mob Spawn Range: 4
+[11:36:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:36:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:36:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:36:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:36:00] [Server thread/INFO]: Random Lighting Updates: false
+[11:36:00] [Server thread/INFO]: Structure Info Saving: true
+[11:36:00] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:36:00] [Server thread/INFO]: Max Entity Collisions: 8
+[11:36:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:36:00] [Server thread/INFO]: Max TNT Explosions: 100
+[11:36:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:36:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:36:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:36:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:36:00] [Server thread/INFO]: View Distance: 4
+[11:36:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:36:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:36:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:36:00] [Server thread/INFO]: Clear tick list: false
+[11:36:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:36:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[11:36:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:36:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:36:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:36:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:36:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:36:00] [Server thread/INFO]: Water over lava flow speed: 5
+[11:36:00] [Server thread/INFO]: Fix TNT cannons: false
+[11:36:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:36:00] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:36:00] [Server thread/INFO]: World async lighting: false
+[11:36:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:36:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:36:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:36:00] [Server thread/INFO]: Anti X-Ray: true
+[11:36:00] [Server thread/INFO]: 	Engine Mode: 1
+[11:36:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[11:36:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[11:36:00] [Server thread/INFO]: Mob Spawn Range: 4
+[11:36:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[11:36:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[11:36:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[11:36:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[11:36:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[11:36:00] [Server thread/INFO]: Random Lighting Updates: false
+[11:36:00] [Server thread/INFO]: Structure Info Saving: true
+[11:36:00] [Server thread/INFO]: Sending up to 10 chunks per packet
+[11:36:00] [Server thread/INFO]: Max Entity Collisions: 8
+[11:36:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[11:36:00] [Server thread/INFO]: Max TNT Explosions: 100
+[11:36:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[11:36:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[11:36:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[11:36:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[11:36:00] [Server thread/INFO]: View Distance: 4
+[11:36:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[11:36:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[11:36:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[11:36:00] [Server thread/INFO]: Clear tick list: false
+[11:36:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[11:36:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[11:36:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[11:36:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[11:36:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[11:36:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[11:36:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[11:36:00] [Server thread/INFO]: Water over lava flow speed: 5
+[11:36:00] [Server thread/INFO]: Fix TNT cannons: false
+[11:36:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[11:36:00] [Server thread/INFO]: Keep spawn chunk loaded: true
+[11:36:00] [Server thread/INFO]: World async lighting: false
+[11:36:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[11:36:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[11:36:00] [Server thread/INFO]: Preparing start region for level 0 (Seed: -32032947)
+[11:36:01] [Server thread/INFO]: Preparing spawn area: 20%
+[11:36:02] [Server thread/INFO]: Preparing spawn area: 50%
+[11:36:03] [Server thread/INFO]: Preparing start region for level 1 (Seed: -32032947)
+[11:36:04] [Server thread/INFO]: Preparing spawn area: 58%
+[11:36:04] [Server thread/INFO]: Preparing start region for level 2 (Seed: -32032947)
+[11:36:04] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
+[11:36:04] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
 
-[10:33:20] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[11:36:04] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
 
-[10:33:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[10:33:20] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[10:33:21] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[10:33:21] [Server thread/INFO]: No kits found to migrate.
-[10:33:21] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
-[10:33:21] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
-[10:33:22] [Server thread/INFO]: Loaded 853 items from items.csv.
-[10:33:22] [Server thread/INFO]: Using locale en
-[10:33:22] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[10:33:22] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[10:33:22] [Server thread/INFO]: Using config file enhanced permissions.
-[10:33:22] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[10:33:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:33:22] [Server thread/INFO]: Done (10.851s)! For help, type "help" or "?"
-[10:33:22] [Server thread/INFO]: Timings Reset
-[10:33:22] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
-[10:33:48] [Thread-9/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:33:48] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:44676] logged in with entity id 162 at ([world]373.87121517255457, 65.20000004768376, -360.569228942119)
-[10:34:00] [Thread-10/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[10:34:00] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:33026] logged in with entity id 269 at ([world]364.30000001192093, 71.0, -365.69999998807907)
-[10:34:34] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:34:34] [Server thread/INFO]: Ciara left the game.
-[10:34:39] [Thread-11/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:34:39] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:54296] logged in with entity id 470 at ([world]378.2352354303618, 57.04952716943382, -371.7661643609672)
-[10:35:04] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:35:04] [Server thread/INFO]: Ciara left the game.
-[10:35:11] [Thread-12/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:35:11] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:40914] logged in with entity id 495 at ([world]378.2352354303618, 57.04952716943382, -371.7661643609672)
-[10:35:57] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:35:57] [Server thread/INFO]: Ciara left the game.
-[10:37:57] [Thread-13/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:37:57] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:47712] logged in with entity id 859 at ([world]361.8998775659597, 51.815261151902455, -376.00880604838505)
-[10:39:20] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:39:20] [Server thread/INFO]: Ciara left the game.
-[10:39:24] [Thread-15/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:39:24] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:53488] logged in with entity id 1111 at ([world]387.3172091307902, 65.11636804387638, -379.4499680141221)
-[10:40:19] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[10:41:31] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[10:42:24] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:42:24] [Server thread/INFO]: Ciara left the game.
-[10:44:21] [Server thread/INFO]: JustinTheGPTMan issued server command: /time day
-[10:44:22] [Thread-16/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:44:22] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:49260] logged in with entity id 1773 at ([world]357.3063435285579, 62.48068748923146, -360.4890465142001)
-[10:44:49] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:44:49] [Server thread/INFO]: Ciara left the game.
-[10:45:07] [Thread-17/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:45:08] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:35952] logged in with entity id 1875 at ([world]357.3063435285579, 62.48068748923146, -360.4890465142001)
-[10:45:28] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[10:45:33] [Server thread/INFO]: JustinTheGPTMan issued server command: /weather clear
-[10:46:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[10:47:20] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:47:20] [Server thread/INFO]: Ciara left the game.
-[10:47:43] [Thread-18/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:47:43] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:58792] logged in with entity id 2743 at ([world]361.61269100363495, 63.9033580537168, -361.3839661641566)
-[10:49:07] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:49:07] [Server thread/INFO]: Ciara left the game.
-[10:49:12] [Thread-19/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:49:12] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:40560] logged in with entity id 2827 at ([world]359.8584102001771, 66.50778951498987, -363.6333374995048)
-[10:49:44] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:49:44] [Server thread/INFO]: Ciara left the game.
-[10:49:49] [Thread-20/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:49:49] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:57004] logged in with entity id 2948 at ([world]356.6867461403076, 62.7671801717748, -359.8607789517551)
-[10:50:00] [Server thread/INFO]: JustinTheGPTMan issued server command: /kick ciara End of stream
-[10:50:00] [Server thread/INFO]: Ciara lost connection: End of stream
-[10:50:00] [Server thread/INFO]: Ciara left the game.
-[10:50:00] [Server thread/INFO]: §6Player§c §4JustinTheGPTMan§r §6kicked§c Ciara§6 for§c End of stream§6.
-[10:50:00] [Server thread/WARN]: handleDisconnection() called twice
-[10:50:07] [Thread-21/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:50:07] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:34966] logged in with entity id 3061 at ([world]356.6867461403076, 62.7671801717748, -359.8607789517551)
-[10:50:19] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:50:19] [Server thread/INFO]: Ciara left the game.
-[10:50:28] [Thread-22/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:50:28] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:51316] logged in with entity id 3097 at ([world]353.4931412457495, 66.70590467053036, -358.3869015587519)
-[10:50:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /kick ciara End of stream
-[10:50:47] [Server thread/INFO]: Ciara lost connection: End of stream
-[10:50:47] [Server thread/INFO]: Ciara left the game.
-[10:50:47] [Server thread/INFO]: §6Player§c §4JustinTheGPTMan§r §6kicked§c Ciara§6 for§c End of stream§6.
-[10:50:47] [Server thread/WARN]: handleDisconnection() called twice
-[10:51:02] [Thread-23/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:51:02] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:58482] logged in with entity id 3190 at ([world]348.74670767656124, 66.70590467053036, -339.15832655279297)
-[10:51:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[10:51:13] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:51:13] [Server thread/INFO]: Ciara left the game.
-[10:51:20] [Thread-24/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:51:20] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:36170] logged in with entity id 3241 at ([world]348.74670767656124, 66.70590467053036, -339.15832655279297)
-[10:51:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /kick ciara End of stream
-[10:51:27] [Server thread/INFO]: Ciara lost connection: End of stream
-[10:51:27] [Server thread/INFO]: Ciara left the game.
-[10:51:27] [Server thread/INFO]: §6Player§c §4JustinTheGPTMan§r §6kicked§c Ciara§6 for§c End of stream§6.
-[10:51:27] [Server thread/WARN]: handleDisconnection() called twice
-[10:51:32] [Thread-25/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:51:32] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:59148] logged in with entity id 3253 at ([world]348.74670767656124, 66.70590467053036, -339.15832655279297)
-[10:51:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /kick ciara End of stream
-[10:51:44] [Server thread/INFO]: Ciara lost connection: End of stream
-[10:51:44] [Server thread/INFO]: Ciara left the game.
-[10:51:44] [Server thread/INFO]: §6Player§c §4JustinTheGPTMan§r §6kicked§c Ciara§6 for§c End of stream§6.
-[10:51:44] [Server thread/WARN]: handleDisconnection() called twice
-[10:51:53] [Thread-26/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:51:53] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:51374] logged in with entity id 3396 at ([world]353.9937837635759, 68.78415110149867, -342.7789568985509)
-[10:52:14] [Server thread/INFO]: JustinTheGPTMan issued server command: /kick ciara End of stream
-[10:52:14] [Server thread/INFO]: Ciara lost connection: End of stream
-[10:52:14] [Server thread/INFO]: Ciara left the game.
-[10:52:14] [Server thread/INFO]: §6Player§c §4JustinTheGPTMan§r §6kicked§c Ciara§6 for§c End of stream§6.
-[10:52:14] [Server thread/WARN]: handleDisconnection() called twice
-[10:52:41] [Thread-27/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:52:41] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:50286] logged in with entity id 3565 at ([world]353.9937837635759, 68.78415110149867, -342.7789568985509)
-[10:52:52] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:52:52] [Server thread/INFO]: Ciara left the game.
-[10:53:21] [Thread-28/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:53:22] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:41410] logged in with entity id 3764 at ([world]353.9937837635759, 68.78415110149867, -342.7789568985509)
-[10:53:35] [Server thread/INFO]: JustinTheGPTMan issued server command: /kick ciara End of stream
-[10:53:35] [Server thread/INFO]: Ciara lost connection: End of stream
-[10:53:35] [Server thread/INFO]: Ciara left the game.
-[10:53:35] [Server thread/INFO]: §6Player§c §4JustinTheGPTMan§r §6kicked§c Ciara§6 for§c End of stream§6.
-[10:53:35] [Server thread/WARN]: handleDisconnection() called twice
-[10:56:23] [Thread-29/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:56:23] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:37440] logged in with entity id 4354 at ([world]353.8726477128642, 68.78415110149867, -312.23259809435393)
-[10:56:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[10:57:37] [Server thread/INFO]: Ciara lost connection: Disconnected
-[10:57:37] [Server thread/INFO]: Ciara left the game.
-[10:59:46] [Thread-30/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[10:59:46] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:50522] logged in with entity id 4519 at ([world]352.83258143062545, 68.0, -264.8555695025515)
-[11:00:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /time day
-[11:00:58] [Thread-31/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[11:00:58] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:46302] logged in with entity id 4594 at ([world]345.4860631746489, 94.5, -388.08280893798286)
-[11:01:12] [Async Chat Thread - #0/INFO]: <~gab[m> hello peoples[m
+[11:36:04] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[11:36:04] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[11:36:05] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[11:36:05] [Server thread/INFO]: No kits found to migrate.
+[11:36:05] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
+[11:36:05] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
+[11:36:05] [Server thread/INFO]: Loaded 853 items from items.csv.
+[11:36:05] [Server thread/INFO]: Using locale en
+[11:36:05] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[11:36:05] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[11:36:05] [Server thread/INFO]: Using config file enhanced permissions.
+[11:36:05] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[11:36:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:36:05] [Server thread/INFO]: Done (6.148s)! For help, type "help" or "?"
+[11:36:05] [Server thread/INFO]: Timings Reset
+[11:36:05] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[11:36:08] [Thread-9/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[11:36:08] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:48352] logged in with entity id 196 at ([world]376.69999998807907, 94.0, -382.30000001192093)
+[11:36:15] [Thread-10/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[11:36:15] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:40480] logged in with entity id 307 at ([world]358.50202986697747, 93.0, -383.6146817219052)
+[11:36:17] [Thread-11/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:36:17] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:40482] logged in with entity id 332 at ([world]358.3010323731371, 93.0, -383.1638186424052)
+[11:37:00] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara do u like me
+[11:37:31] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia dang bros still asking you the question ._.
+[11:37:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c mr_meow_meow
+[11:37:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia mr
+[11:37:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[11:38:36] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[11:38:41] [Async Chat Thread - #0/INFO]: <~gab[m> im screwed\[m
 
-[11:01:17] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> sup gabe][m
+[11:38:59] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:38:59] [Server thread/INFO]: Ciara left the game.
+[11:39:08] [Thread-12/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:39:08] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:44052] logged in with entity id 1602 at ([world]318.16102305152265, 93.2986138135401, -475.41917956339427)
+[11:39:20] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:39:20] [Server thread/INFO]: Ciara left the game.
+[11:39:52] [Thread-13/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:39:52] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:47036] logged in with entity id 1637 at ([world]318.16102305152265, 93.2986138135401, -475.41917956339427)
+[11:39:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[11:40:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia ngl gab thinks you like him
+[11:40:14] [Server thread/INFO]: JustinTheGPTMan issued server command: /getpos mr
+[11:40:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia also gab's coords are 318 41 -464 fyi
+[11:40:37] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:40:38] [Server thread/INFO]: Ciara left the game.
+[11:40:38] [Async Chat Thread - #1/INFO]: <~gab[m> sup[m
 
-[11:01:29] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:01:29] [Server thread/INFO]: Ciara left the game.
-[11:01:38] [Thread-32/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:01:38] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:47356] logged in with entity id 4829 at ([world]348.60313745814256, 68.0, -272.5159132001601)
-[11:01:39] [Async Chat Thread - #0/INFO]: <[0;31;22mJustinTheGPTMan[m> dang her wifi an OPP[m
+[11:41:21] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
+[11:41:26] [Thread-15/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:41:26] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:47178] logged in with entity id 1926 at ([world]318.16102305152265, 93.2986138135401, -475.41917956339427)
+[11:41:41] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:41:41] [Server thread/INFO]: Ciara left the game.
+[11:42:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /back
+[11:42:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr she literally told me she has a crush on you :/ (but she wanted it to be a 'secret'...)
+[11:42:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr pls dont tell her that i told you :(
+[11:42:51] [Async Chat Thread - #2/INFO]: <~gab[m> i know[m
 
-[11:01:43] [Async Chat Thread - #0/INFO]: <~gab[m> yea[m
+[11:42:56] [Async Chat Thread - #2/INFO]: <~gab[m> ok[m
 
-[11:02:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia ngl based on the way you were acting to gabe yesterday, he thinks you like her lol
-[11:03:01] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:03:01] [Server thread/INFO]: Ciara left the game.
-[11:03:06] [Thread-33/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:03:06] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:35652] logged in with entity id 5082 at ([world]349.10116588083514, 69.0, -270.95626357499214)
-[11:03:19] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:03:19] [Server thread/INFO]: Ciara left the game.
-[11:03:22] [Thread-34/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:03:22] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:33554] logged in with entity id 5095 at ([world]349.10116588083514, 69.0, -270.95626357499214)
-[11:04:14] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:04:14] [Server thread/INFO]: Ciara left the game.
-[11:04:17] [Async Chat Thread - #1/INFO]: <~gab[m> i dont care about the presents[m
+[11:42:58] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> ok :)[m
 
-[11:04:24] [Thread-35/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:04:24] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:43706] logged in with entity id 5281 at ([world]347.53598745164396, 69.0, -272.264252553317)
-[11:04:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[11:05:10] [Async Chat Thread - #1/INFO]: <~gab[m> where are u guys[m
+[11:43:32] [Async Chat Thread - #2/INFO]: <[0;31;22mJustinTheGPTMan[m> gtg do chores[m
 
-[11:05:21] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[11:05:21] [Server thread/INFO]: mr_meow_meow left the game.
-[11:05:24] [Thread-36/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[11:05:24] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:45400] logged in with entity id 5739 at ([world]359.11335873612785, 93.0, -394.8355151238163)
-[11:05:36] [Async Chat Thread - #1/INFO]: <~gab[m> where are u guys[m
+[11:43:34] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[11:43:34] [Server thread/INFO]: JustinTheGPTMan left the game.
+[11:44:08] [Thread-16/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:44:08] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:38042] logged in with entity id 2067 at ([world]318.16102305152265, 93.2986138135401, -475.41917956339427)
+[11:44:26] [Async Chat Thread - #2/INFO]: <~gab[m> ciara why did u want me to match with u[m
 
-[11:05:48] [Async Chat Thread - #1/INFO]: <Ciara> hi -_-[m
+[11:44:40] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[11:44:40] [Server thread/INFO]: mr_meow_meow left the game.
+[11:44:42] [Async Chat Thread - #2/INFO]: <Ciara> idk -_-[m
 
-[11:05:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia
-[11:05:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
-[11:06:02] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:06:02] [Server thread/INFO]: Ciara left the game.
-[11:06:25] [Thread-37/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:06:25] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:35952] logged in with entity id 6239 at ([world]356.1124333868708, 93.0, -386.1221708261217)
-[11:07:02] [Async Chat Thread - #2/INFO]: <~gab[m> imposter[m
+[11:44:49] [Thread-17/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[11:44:49] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:56978] logged in with entity id 2110 at ([world]334.92946271177806, 97.0, -472.33229976100864)
+[11:45:00] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:45:00] [Server thread/INFO]: Ciara left the game.
+[11:47:24] [Thread-18/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:47:24] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:60990] logged in with entity id 2240 at ([world]327.12479759980323, 96.55333830210331, -473.75161489930963)
+[11:47:49] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[11:47:49] [Server thread/INFO]: mr_meow_meow left the game.
+[11:48:00] [Thread-19/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[11:48:00] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:37090] logged in with entity id 2340 at ([world]335.3005861038388, 97.0, -471.0528598690465)
+[11:48:07] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:48:07] [Server thread/INFO]: Ciara left the game.
+[11:48:12] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[11:48:12] [Server thread/INFO]: mr_meow_meow left the game.
+[11:48:20] [Thread-20/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[11:48:20] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:54912] logged in with entity id 2353 at ([world]335.3005861038388, 97.0, -471.0528598690465)
+[11:49:14] [Thread-21/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:49:15] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:45674] logged in with entity id 2449 at ([world]333.7570967819378, 97.0, -473.5960034196982)
+[11:49:29] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:49:29] [Server thread/INFO]: Ciara left the game.
+[11:51:03] [Thread-22/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:51:03] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:33780] logged in with entity id 2504 at ([world]333.7570967819378, 97.0, -473.5960034196982)
+[11:51:18] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:51:18] [Server thread/INFO]: Ciara left the game.
+[11:51:28] [Async Chat Thread - #3/INFO]: <~gab[m> answer me ciara do u like me[m
 
-[11:07:11] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:07:11] [Server thread/INFO]: Ciara left the game.
-[11:07:19] [Thread-38/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:07:19] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:59174] logged in with entity id 6580 at ([world]358.5497575344018, 93.0, -383.87635997346007)
-[11:07:31] [Server thread/INFO]: mr_meow_meow was slain by Ciara
-[11:07:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr she was in creative ._.
-[11:07:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
-[11:07:59] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:07:59] [Server thread/INFO]: Ciara left the game.
-[11:08:11] [Async Chat Thread - #3/INFO]: <~gab[m> im not using vc[m
+[11:51:37] [Thread-23/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:51:37] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:54418] logged in with entity id 2640 at ([world]333.7570967819378, 97.0, -473.5960034196982)
+[11:51:44] [Async Chat Thread - #3/INFO]: <~gab[m> answer me ciara do u like me[m
 
-[11:08:18] [Async Chat Thread - #3/INFO]: <[0;31;22mJustinTheGPTMan[m> ok[m
+[11:52:00] [Async Chat Thread - #3/INFO]: <~gab[m> pls be honest[m
 
-[11:08:59] [Thread-40/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:08:59] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:50222] logged in with entity id 6844 at ([world]359.3765768469147, 93.0, -383.33456479798446)
-[11:09:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c mr
-[11:09:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c mr_meow_meow
-[11:09:59] [Server thread/INFO]: mr_meow_meow issued server command: /gamemode s
-[11:09:59] [Server thread/INFO]: §cmr_meow_meow §4was denied access to command.
-[11:11:18] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:11:18] [Server thread/INFO]: Ciara left the game.
-[11:11:42] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s mr_meow_meow
-[11:14:02] [Thread-41/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:14:02] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:48446] logged in with entity id 7980 at ([world]373.8039848133002, 93.0, -389.4803268383836)
-[11:14:16] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:14:16] [Server thread/INFO]: Ciara left the game.
-[11:14:46] [Thread-42/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:14:46] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:54746] logged in with entity id 8199 at ([world]373.8039848133002, 93.0, -389.4803268383836)
-[11:15:38] [Server thread/INFO]: CommandBlock at 374,93,-379 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Chicken Nuggets"},SkullOwner:{Id:"bbe28317-fa97-41d1-bc9c-d51d0a8d8ccb",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZjMzFmZDU3Zjk5ZWUzMmJjOWRiZGZkY2UwMTE0YWQxOTczZjQ0ZmJmZThmNWQxOTRhZDc1YTM2ODY3YWM5MiJ9fX0="}]}}}
-[11:15:53] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:15:53] [Server thread/INFO]: Ciara left the game.
-[11:15:55] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara do u like me
-[11:17:29] [Thread-43/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:17:29] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:33194] logged in with entity id 8914 at ([world]357.06675276754453, 110.20000004768372, -264.65552856686344)
-[11:17:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[11:17:40] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara do u like me
-[11:18:02] [Server thread/INFO]: Ciara issued server command: /msg Justin he ask me do i like him ;-;
-[11:18:10] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara nvm u dont have to answer
-[11:18:17] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:18:17] [Server thread/INFO]: Ciara left the game.
-[11:18:50] [Thread-44/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:18:50] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:47536] logged in with entity id 9228 at ([world]357.06675276754453, 115.44055968949502, -264.65552856686344)
-[11:18:59] [Server thread/INFO]: mr_meow_meow fell out of the world
-[11:19:01] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:19:01] [Server thread/INFO]: Ciara left the game.
-[11:19:34] [Thread-45/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:19:34] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:60812] logged in with entity id 9657 at ([world]357.06675276754453, 115.44055968949502, -264.65552856686344)
-[11:20:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
-[11:21:17] [Async Chat Thread - #4/INFO]: <Ciara> the skin i have on we can match :3[m
+[11:52:06] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:52:06] [Server thread/INFO]: Ciara left the game.
+[11:52:10] [Thread-24/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:52:10] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:57776] logged in with entity id 2735 at ([world]332.14472130429095, 95.85489329934836, -474.797890562786)
+[11:52:25] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:52:25] [Server thread/INFO]: Ciara left the game.
+[11:52:52] [Thread-25/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:52:52] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:49092] logged in with entity id 2819 at ([world]332.14472130429095, 95.0, -474.797890562786)
+[11:53:04] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:53:04] [Server thread/INFO]: Ciara left the game.
+[11:53:32] [Thread-26/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:53:32] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:35426] logged in with entity id 2843 at ([world]332.14472130429095, 95.0, -474.797890562786)
+[11:53:45] [Async Chat Thread - #4/INFO]: <~gab[m> ciara do u like me cause i like u[m
 
-[11:21:20] [Server thread/INFO]: mr_meow_meow was slain by Ciara
-[11:21:35] [Async Chat Thread - #4/INFO]: <~gab[m> how[m
+[11:53:54] [Thread-27/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[11:53:54] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:58080] logged in with entity id 2948 at ([world]306.5, 68.0, -504.5)
+[11:54:01] [Async Chat Thread - #4/INFO]: <[0;31;22mJustinTheGPTMan[m> chat what did i miss? B)[m
 
-[11:21:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr yea no she def has a crush on you just like before...she kept killing you + she wants you to-
-[11:21:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr MATCH OUTFITS
-[11:22:00] [Async Chat Thread - #4/INFO]: <Ciara> it in the doce where you got that skin[m
+[11:54:02] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:54:02] [Server thread/INFO]: Ciara left the game.
+[11:54:05] [Async Chat Thread - #4/INFO]: <~gab[m> idk[m
 
-[11:22:01] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
-[11:22:05] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[11:22:05] [Server thread/INFO]: mr_meow_meow left the game.
-[11:22:27] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:22:27] [Server thread/INFO]: Ciara left the game.
-[11:22:59] [Thread-46/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[11:23:00] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:57734] logged in with entity id 10640 at ([world]358.3010323731371, 93.0, -383.1638186424052)
-[11:23:14] [Server thread/INFO]: Ciara lost connection: Disconnected
-[11:23:14] [Server thread/INFO]: Ciara left the game.
-[11:24:32] [Thread-47/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[11:24:32] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:40828] logged in with entity id 10849 at ([world]358.50202986697747, 93.0, -383.6146817219052)
-[11:24:50] [Async Chat Thread - #5/INFO]: <~gab[m> im torturing myself with this skin[m
+[11:54:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
+[11:54:37] [Thread-28/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:54:37] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:57020] logged in with entity id 3178 at ([world]332.14472130429095, 95.0, -474.797890562786)
+[11:54:48] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:54:48] [Server thread/INFO]: Ciara left the game.
+[11:55:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr i wonder tho, how come when i ask her, she says the answer...but when you do, she doesn't...
+[11:55:40] [Async Chat Thread - #5/INFO]: <~gab[m> idk[m
 
-[11:25:00] [Async Chat Thread - #5/INFO]: <[0;31;22mJustinTheGPTMan[m> dang i can tell ;-;[m
+[11:56:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr could it be bc from her pov, she's just saying it to her friend instead of her crush?
+[11:56:24] [Async Chat Thread - #5/INFO]: <~gab[m> idk maybe[m
 
-[11:25:08] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[11:25:08] [Server thread/INFO]: mr_meow_meow left the game.
-[11:29:18] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
-[11:29:18] [Server thread/INFO]: JustinTheGPTMan left the game.
+[11:56:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr bc like it would feel easier to tell something like that to a friend rather than to a crush...
+[11:56:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr right?
+[11:56:55] [Async Chat Thread - #5/INFO]: <~gab[m> yea[m
+
+[11:57:15] [Async Chat Thread - #5/INFO]: <~gab[m> but she knows that i still have a crush on her[m
+
+[11:57:18] [Async Chat Thread - #5/INFO]: <[0;31;22mJustinTheGPTMan[m> yea[m
+
+[11:57:19] [Thread-29/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[11:57:19] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:35518] logged in with entity id 3472 at ([world]332.14472130429095, 95.0, -474.797890562786)
+[11:57:23] [Async Chat Thread - #5/INFO]: <[0;31;22mJustinTheGPTMan[m> sup ciara[m
+
+[11:57:32] [Async Chat Thread - #5/INFO]: <~gab[m> sup ciara[m
+
+[11:57:33] [Async Chat Thread - #5/INFO]: <Ciara> sup[m
+
+[11:57:46] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara i still like u do u like me
+[11:57:54] [Server thread/INFO]: Ciara lost connection: Disconnected
+[11:57:54] [Server thread/INFO]: Ciara left the game.
+[11:59:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /time day
+[11:59:27] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[11:59:27] [Server thread/INFO]: JustinTheGPTMan left the game.
+[12:00:18] [Thread-30/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[12:00:18] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:39240] logged in with entity id 3697 at ([world]334.29564191657005, 97.0, -472.77870142595043)
+[12:01:56] [Thread-31/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:01:56] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:44092] logged in with entity id 3908 at ([world]347.096908140007, 64.0, -479.9904210352879)
+[12:02:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:02:19] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:02:19] [Server thread/INFO]: Ciara left the game.
+[12:03:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
+[12:04:03] [Async Chat Thread - #6/INFO]: <~gab[m> su im back[m
+
+[12:04:18] [Async Chat Thread - #6/INFO]: <[0;31;22mJustinTheGPTMan[m> sup[m
+
+[12:04:38] [Async Chat Thread - #6/INFO]: <[0;31;22mJustinTheGPTMan[m> ciara got that Unluck V[m
+
+[12:06:28] [Thread-32/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:06:28] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:43690] logged in with entity id 4877 at ([world]357.97128660835773, 64.0, -469.85488710599265)
+[12:06:43] [Async Chat Thread - #7/INFO]: <~gab[m> sup ciara[m
+
+[12:06:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:06:57] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara i know u like me
+[12:07:09] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:07:09] [Server thread/INFO]: Ciara left the game.
+[12:07:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
+[12:07:31] [Async Chat Thread - #7/INFO]: <~gab[m> s[m
+
+[12:07:39] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> s?[m
+
+[12:07:47] [Async Chat Thread - #7/INFO]: <~gab[m> h[m
+
+[12:07:49] [Async Chat Thread - #7/INFO]: <~gab[m> o[m
+
+[12:07:49] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> h?[m
+
+[12:07:51] [Async Chat Thread - #7/INFO]: <~gab[m> o[m
+
+[12:07:52] [Thread-33/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:07:52] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:35088] logged in with entity id 5350 at ([world]360.07652339171835, 86.73288861604911, -353.8532238497175)
+[12:07:54] [Async Chat Thread - #7/INFO]: <~gab[m> t[m
+
+[12:07:57] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> ._.[m
+
+[12:07:58] [Async Chat Thread - #7/INFO]: <~gab[m> w[m
+
+[12:08:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:08:16] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara i like u to ciara
+[12:08:29] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:08:29] [Server thread/INFO]: Ciara left the game.
+[12:08:46] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> HER WIFI BEING MORE OF AN OPP THAN MR. MOPPINS HIMSELF[m
+
+[12:08:50] [Async Chat Thread - #7/INFO]: <~gab[m> yea[m
+
+[12:09:00] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> HER WIFI OUT-OPPED THE OPPER HIMSELF XoX[m
+
+[12:09:09] [Async Chat Thread - #7/INFO]: <~gab[m> dang[m
+
+[12:09:14] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
+[12:10:17] [Thread-34/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:10:17] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:58492] logged in with entity id 5623 at ([world]360.07652339171835, 86.73288861604911, -353.8532238497175)
+[12:10:32] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:10:32] [Server thread/INFO]: Ciara left the game.
+[12:10:32] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:10:43] [Async Chat Thread - #8/INFO]: <~gab[m> dang[m
+
+[12:11:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /time day
+[12:13:09] [Async Chat Thread - #9/INFO]: <[0;31;22mJustinTheGPTMan[m> nvm ciara that that Unluck M[m
+
+[12:13:20] [Async Chat Thread - #9/INFO]: <[0;31;22mJustinTheGPTMan[m> M=1000 in roman numeral fyi[m
+
+[12:13:51] [Thread-36/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:13:51] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:40008] logged in with entity id 6156 at ([world]360.07652339171835, 86.73288861604911, -353.8532238497175)
+[12:13:56] [Async Chat Thread - #9/INFO]: <~gab[m> sup ciara[m
+
+[12:14:12] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara i have a crush on u
+[12:14:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus ca
+[12:14:18] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus ca
+[12:14:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:14:22] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:14:22] [Server thread/INFO]: Ciara left the game.
+[12:14:52] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
+[12:15:36] [Thread-37/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:15:36] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:40768] logged in with entity id 7313 at ([world]360.07652339171835, 86.73288861604911, -353.8532238497175)
+[12:15:42] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:15:42] [Async Chat Thread - #10/INFO]: <~gab[m> sup ciara[m
+
+[12:16:27] [Async Chat Thread - #10/INFO]: <~gab[m> no[m
+
+[12:17:08] [Server thread/INFO]: CommandBlock at 376,93,-381 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Bacon Pizza"},SkullOwner:{Id:"f9bae8a7-caa4-4c60-a00a-b46ec14882dc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTIxMzg2YWFjMDFiOTFmYTJkNDczYmMzYzA3YTQ1ZDJiNGQ0ODI3NWQyYjg2NmMwMDhiNzk3ZmRlYTIwMWNiNyJ9fX0="}]}}}
+[12:17:15] [Async Chat Thread - #10/INFO]: <~gab[m> no[m
+
+[12:17:30] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:17:30] [Server thread/INFO]: Ciara left the game.
+[12:17:34] [Thread-38/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:17:34] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:48678] logged in with entity id 7963 at ([world]368.7794986480154, 93.0, -384.3135586063715)
+[12:17:48] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:17:48] [Server thread/INFO]: Ciara left the game.
+[12:17:55] [Thread-39/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:17:55] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:56868] logged in with entity id 8009 at ([world]368.7794986480154, 93.0, -384.3135586063715)
+[12:17:56] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara do u like me pls be honest and answer
+[12:18:28] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:18:28] [Server thread/INFO]: Ciara left the game.
+[12:18:32] [Thread-40/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:18:32] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:36684] logged in with entity id 8129 at ([world]375.1785612401749, 95.09822343120194, -384.1486197475992)
+[12:18:42] [Server thread/INFO]: CommandBlock at 375,93,-381 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Veggie Pizza"},SkullOwner:{Id:"70d8ee6f-2759-4f53-9b07-581f815efbbb",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDVjNDQxY2JhNGQ2YjU3ZGVkNTRjODM2OTIxNmE2YzcxNTZmYjg4N2Q0YjU2MzllZTkzNGYxYmI2Y2JmZGIifX19"}]}}}
+[12:19:05] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara answer pls
+[12:19:12] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara i need to knoe
+[12:19:20] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara *know*
+[12:19:25] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:19:25] [Server thread/INFO]: Ciara left the game.
+[12:19:26] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara yea pls
+[12:19:33] [Thread-41/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:19:33] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:34658] logged in with entity id 8413 at ([world]363.87740217698604, 48.84373079106692, -379.6389411189163)
+[12:19:35] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara yea pls
+[12:19:44] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara yea u have to answer
+[12:20:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia fyi gab alr thinks you like him...he prolly just wants confirmation
+[12:20:08] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:20:08] [Server thread/INFO]: Ciara left the game.
+[12:20:28] [Async Chat Thread - #11/INFO]: <~gab[m> yea it is[m
+
+[12:24:19] [Thread-42/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:24:19] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:58100] logged in with entity id 9860 at ([world]363.87740217698604, 48.84373079106692, -379.6389411189163)
+[12:24:40] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara yes u have to answer my question
+[12:24:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:24:52] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara so do u like me
+[12:25:09] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:25:09] [Server thread/INFO]: Ciara left the game.
+[12:25:13] [Thread-43/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:25:13] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:38092] logged in with entity id 9989 at ([world]360.7707662018735, 57.81706004698779, -372.06640930139577)
+[12:25:28] [Async Chat Thread - #12/INFO]: <~gab[m> answer the question ciara[m
+
+[12:25:32] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:25:32] [Server thread/INFO]: Ciara left the game.
+[12:26:08] [Async Chat Thread - #12/INFO]: <[0;31;22mJustinTheGPTMan[m> you see what she put in the doc right?[m
+
+[12:26:14] [Thread-44/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:26:14] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:47946] logged in with entity id 10144 at ([world]360.7707662018735, 57.81706004698779, -372.06640930139577)
+[12:26:21] [Async Chat Thread - #12/INFO]: <~gab[m> yea[m
+
+[12:26:53] [Async Chat Thread - #12/INFO]: <~gab[m> im not gonna use vc[m
+
+[12:27:13] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:27:13] [Server thread/INFO]: Ciara left the game.
+[12:27:25] [Thread-45/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:27:25] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:43572] logged in with entity id 10242 at ([world]364.5359154250248, 39.56596960250307, -380.2896742622878)
+[12:27:34] [Async Chat Thread - #12/INFO]: <~gab[m> im so confused at what she said in the doc[m
+
+[12:27:38] [Async Chat Thread - #12/INFO]: <[0;31;22mJustinTheGPTMan[m> yea same[m
+
+[12:28:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia fyi gab alr thinks you like him...he prolly just wants confirmation
+[12:28:18] [Async Chat Thread - #12/INFO]: <Ciara> take the so and do away and chang the u to a i -_-[m
+
+[12:28:30] [Async Chat Thread - #12/INFO]: <~gab[m> to what[m
+
+[12:28:38] [Async Chat Thread - #12/INFO]: <[0;31;22mJustinTheGPTMan[m> ._.[m
+
+[12:28:41] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:28:41] [Server thread/INFO]: Ciara left the game.
+[12:28:42] [Async Chat Thread - #12/INFO]: <~gab[m> oh[m
+
+[12:28:46] [Async Chat Thread - #12/INFO]: <[0;31;22mJustinTheGPTMan[m> bro so confused rn[m
+
+[12:28:51] [Async Chat Thread - #12/INFO]: <~gab[m> so she does like me[m
+
+[12:28:55] [Async Chat Thread - #12/INFO]: <[0;31;22mJustinTheGPTMan[m> yes[m
+
+[12:29:23] [Thread-46/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:29:23] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:51086] logged in with entity id 10283 at ([world]364.5359154250248, 33.00343522822832, -380.2896742622878)
+[12:29:29] [Async Chat Thread - #12/INFO]: <~gab[m> ciara i like u to[m
+
+[12:30:00] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:30:00] [Server thread/INFO]: Ciara left the game.
+[12:30:15] [Thread-47/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:30:15] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:42096] logged in with entity id 10337 at ([world]361.08009137153203, 33.00343522822832, -382.3117862166129)
+[12:30:33] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:30:33] [Server thread/INFO]: Ciara left the game.
+[12:30:37] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara so u want to start dating each other
+[12:31:22] [Thread-48/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:31:22] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:56760] logged in with entity id 10475 at ([world]361.08009137153203, 33.00343522822832, -382.3117862166129)
+[12:31:36] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:31:36] [Server thread/INFO]: Ciara left the game.
+[12:31:46] [Thread-49/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:31:46] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:35120] logged in with entity id 10587 at ([world]361.08009137153203, 33.00343522822832, -382.3117862166129)
+[12:31:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus mr
+[12:31:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:32:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:32:30] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:32:30] [Server thread/INFO]: Ciara left the game.
+[12:33:06] [Thread-50/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:33:06] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:53692] logged in with entity id 11068 at ([world]416.8389020044759, 64.0, -376.3018046988577)
+[12:33:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:33:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:33:58] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:33:58] [Server thread/INFO]: Ciara left the game.
+[12:34:41] [Thread-51/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:34:41] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:56918] logged in with entity id 11684 at ([world]359.1736588955759, 93.0, -382.6390408580761)
+[12:35:01] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia you're not actually going to...right? o_o
+[12:35:02] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:35:02] [Server thread/INFO]: Ciara left the game.
+[12:35:18] [Thread-52/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:35:18] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:38450] logged in with entity id 11826 at ([world]359.1736588955759, 93.0, -382.6390408580761)
+[12:35:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia you're not actually going to...right? o_o
+[12:35:38] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:35:38] [Server thread/INFO]: Ciara left the game.
+[12:36:18] [Thread-53/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:36:18] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:46052] logged in with entity id 12232 at ([world]359.1736588955759, 93.0, -382.6390408580761)
+[12:36:33] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:36:33] [Server thread/INFO]: Ciara left the game.
+[12:36:38] [Thread-54/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:36:38] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:44766] logged in with entity id 12355 at ([world]359.1736588955759, 93.0, -382.6390408580761)
+[12:37:17] [Server thread/INFO]: CommandBlock at 376,93,-379 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Pizzabox (closed)"},SkullOwner:{Id:"ae23bbab-c784-4eef-a7cd-aad97483419f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQyMGMyMTJkZmMzNGJkNDEyODQzZjJlYTk3YWYyZTgyNDhjNzE2MzE0MGE1ZDY2MjE5MTczNDkwYWQ2NmE5In19fQ=="}]}}}
+[12:37:18] [Server thread/INFO]: CommandBlock at 376,93,-379 issued server command: /give mr_meow_meow skull 1 3 {display:{Name:"Pizzabox (closed)"},SkullOwner:{Id:"ae23bbab-c784-4eef-a7cd-aad97483419f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQyMGMyMTJkZmMzNGJkNDEyODQzZjJlYTk3YWYyZTgyNDhjNzE2MzE0MGE1ZDY2MjE5MTczNDkwYWQ2NmE5In19fQ=="}]}}}
+[12:37:55] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:37:55] [Server thread/INFO]: Ciara left the game.
+[12:39:01] [Thread-55/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:39:01] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:59368] logged in with entity id 12874 at ([world]366.05975197698757, 93.0, -388.1895438631259)
+[12:39:14] [Async Chat Thread - #13/INFO]: <~gab[m> u guys cant find[m
+
+[12:39:15] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:39:15] [Server thread/INFO]: Ciara left the game.
+[12:39:16] [Async Chat Thread - #13/INFO]: <~gab[m> me[m
+
+[12:39:23] [Thread-56/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:39:24] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:43256] logged in with entity id 13008 at ([world]366.05975197698757, 93.0, -388.1895438631259)
+[12:39:31] [Async Chat Thread - #13/INFO]: <~gab[m> dude what the heck[m
+
+[12:39:38] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:39:38] [Server thread/INFO]: Ciara left the game.
+[12:39:43] [Async Chat Thread - #13/INFO]: <[0;31;22mJustinTheGPTMan[m> ?[m
+
+[12:40:02] [Thread-57/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:40:02] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:48808] logged in with entity id 13092 at ([world]366.05975197698757, 93.0, -388.1895438631259)
+[12:40:16] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:40:16] [Server thread/INFO]: Ciara left the game.
+[12:40:24] [Thread-58/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:40:24] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:51732] logged in with entity id 13353 at ([world]366.05975197698757, 93.0, -388.1895438631259)
+[12:40:35] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:40:35] [Server thread/INFO]: Ciara left the game.
+[12:42:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus sign 1
+[12:42:44] [Thread-60/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:42:44] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:48242] logged in with entity id 13829 at ([world]366.05975197698757, 93.0, -388.1895438631259)
+[12:42:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia jus
+[12:43:14] [Async Chat Thread - #14/INFO]: <~gab[m> u guys cant find me[m
+
+[12:43:53] [Async Chat Thread - #14/INFO]: <~gab[m> boo[m
+
+[12:44:00] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:44:00] [Server thread/INFO]: Ciara left the game.
+[12:44:11] [Thread-61/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:44:11] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:32928] logged in with entity id 13953 at ([world]312.69999998807907, 73.0, -366.3232794856363)
+[12:45:07] [Async Chat Thread - #15/INFO]: <~gab[m> where are u guys[m
+
+[12:45:22] [Async Chat Thread - #15/INFO]: <~gab[m> bruh[m
+
+[12:45:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr it aint me
+[12:46:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia mr
+[12:46:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia .
+[12:46:09] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:46:09] [Server thread/INFO]: Ciara left the game.
+[12:46:38] [Thread-62/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:46:38] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:58600] logged in with entity id 14230 at ([world]356.9398799500116, 93.0, -377.5427532944923)
+[12:46:42] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia mr
+[12:47:02] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:47:02] [Server thread/INFO]: Ciara left the game.
+[12:47:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
+[12:47:07] [Thread-63/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:47:08] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:42254] logged in with entity id 14265 at ([world]357.3719669139841, 88.0, -380.20583115408596)
+[12:47:12] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:47:12] [Server thread/INFO]: Ciara left the game.
+[12:47:15] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:47:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
+[12:48:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:48:52] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
+[12:49:00] [Thread-64/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:49:00] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:54144] logged in with entity id 14328 at ([world]357.3719669139841, 88.0, -380.20583115408596)
+[12:49:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:49:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
+[12:49:43] [Async Chat Thread - #16/INFO]: <~gab[m> what are u doing[m
+
+[12:49:45] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:49:45] [Server thread/INFO]: Ciara left the game.
+[12:49:50] [Thread-65/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:49:50] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:34548] logged in with entity id 14442 at ([world]357.52456094932495, 80.0, -389.69999998807907)
+[12:49:58] [Async Chat Thread - #16/INFO]: <~gab[m> what are u doing[m
+
+[12:50:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:50:49] [Async Chat Thread - #16/INFO]: <~gab[m> what are u guys doing[m
+
+[12:51:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
+[12:51:34] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:51:34] [Server thread/INFO]: Ciara left the game.
+[12:51:36] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:51:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
+[12:51:42] [Thread-66/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:51:42] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:51508] logged in with entity id 14939 at ([world]372.35222358285404, 77.0, -392.98983796138714)
+[12:51:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:51:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
+[12:52:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:52:37] [Async Chat Thread - #17/INFO]: <~gab[m> idk[m
+
+[12:53:04] [Async Chat Thread - #17/INFO]: <~gab[m> make me survival[m
+
+[12:53:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr should i? ;-;
+[12:53:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s mr
+[12:53:12] [Async Chat Thread - #17/INFO]: <~gab[m> make me survival[m
+
+[12:53:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s mr_meow_meow
+[12:53:17] [Server thread/INFO]: mr_meow_meow was slain by Ciara
+[12:53:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
+[12:53:24] [Async Chat Thread - #17/INFO]: <~gab[m> make me creative[m
+
+[12:53:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c mr_meow_meow
+[12:54:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:54:43] [Server thread/INFO]: Ciara issued server command: /msg Justin he near the base
+[12:54:48] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:54:48] [Server thread/INFO]: Ciara left the game.
+[12:54:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia oh
+[12:54:56] [Thread-67/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:54:56] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:55054] logged in with entity id 16111 at ([world]406.55111719782394, 80.53433937025142, -369.2390301011254)
+[12:55:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:55:42] [Server thread/INFO]: JustinTheGPTMan issued server command: /weather clear
+[12:56:17] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus cia
+[12:57:36] [Server thread/INFO]: Ciara lost connection: Disconnected
+[12:57:36] [Server thread/INFO]: Ciara left the game.
+[12:58:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr
+[12:59:44] [Thread-68/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[12:59:44] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:50278] logged in with entity id 17293 at ([world]284.89120995036967, 62.245388264304985, -423.6335789348519)
+[12:59:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[13:00:04] [Server thread/INFO]: Ciara lost connection: Disconnected
+[13:00:04] [Server thread/INFO]: Ciara left the game.
+[13:00:08] [Thread-69/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[13:00:08] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:47050] logged in with entity id 17421 at ([world]284.89120995036967, 67.46053748262578, -423.6335789348519)
+[13:00:38] [Server thread/INFO]: Ciara lost connection: Disconnected
+[13:00:38] [Server thread/INFO]: Ciara left the game.
+[13:03:46] [Async Chat Thread - #18/INFO]: <~gab[m> gtg outside ill be back[m
+
+[13:03:51] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[13:03:51] [Server thread/INFO]: mr_meow_meow left the game.
+[13:04:54] [Thread-70/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[13:04:54] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:47406] logged in with entity id 17994 at ([world]277.3598298763895, 70.4663541664698, -415.3669050265777)
+[13:05:48] [Server thread/INFO]: Ciara lost connection: Disconnected
+[13:05:48] [Server thread/INFO]: Ciara left the game.
+[13:05:55] [Thread-71/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[13:05:55] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:44856] logged in with entity id 18110 at ([world]271.4500910498798, 70.4663541664698, -409.4807539812277)
+[13:06:11] [Server thread/INFO]: Ciara lost connection: Disconnected
+[13:06:11] [Server thread/INFO]: Ciara left the game.
+[13:06:15] [Thread-72/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[13:06:15] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:58342] logged in with entity id 18165 at ([world]271.4500910498798, 70.4663541664698, -409.4807539812277)
+[13:06:21] [Async Chat Thread - #19/INFO]: <Ciara> tp to me[m
+
+[13:07:01] [Server thread/INFO]: Ciara lost connection: Disconnected
+[13:07:01] [Server thread/INFO]: Ciara left the game.
+[13:07:12] [Async Chat Thread - #19/INFO]: <[0;31;22mJustinTheGPTMan[m> gtg do chores[m
+
+[13:07:13] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[13:07:13] [Server thread/INFO]: JustinTheGPTMan left the game.
+[13:07:17] [Thread-2/INFO]: Stopping server
+[13:07:17] [Thread-2/INFO]: Disabling Essentials v2.20.1
+[13:07:17] [Thread-2/ERROR]: There's a good chance you're reloading your server right now. If that's the case, why do you hate yourself? Expect no support from the EssentialsX team when using /reload.
