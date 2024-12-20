@@ -1,221 +1,1425 @@
-[20:18:11] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[20:18:11] [Server thread/INFO]: Loading properties
-[20:18:11] [Server thread/INFO]: Default game type: SURVIVAL
-[20:18:11] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[20:18:11] [Server thread/INFO]: Debug logging is disabled
-[20:18:11] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[20:18:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:57:41] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[06:57:41] [Server thread/INFO]: Loading properties
+[06:57:41] [Server thread/INFO]: Default game type: SURVIVAL
+[06:57:41] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[06:57:41] [Server thread/INFO]: Debug logging is disabled
+[06:57:41] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[06:57:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[20:18:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:18:11] [Server thread/INFO]: Data value allowed items: 
-[20:18:12] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[06:57:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:57:41] [Server thread/INFO]: Data value allowed items: 
+[06:57:41] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[20:18:12] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[06:57:41] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[20:18:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[06:57:41] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[20:18:12] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[06:57:41] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[20:18:12] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[06:57:41] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[20:18:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[06:57:41] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[20:18:12] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[06:57:41] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[20:18:12] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[06:57:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[20:18:12] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[06:57:41] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[20:18:12] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[06:57:41] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[20:18:12] [Server thread/INFO]: Generating keypair
-[20:18:12] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[20:18:12] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[20:18:13] [Server thread/INFO]: Using default channel type
-[20:18:13] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[20:18:13] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
-[20:18:13] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
-[20:18:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:18:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:18:13] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[20:18:13] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[20:18:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:18:13] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[20:18:13] [Server thread/INFO]: Preparing level "world"
-[20:18:13] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:18:13] [Server thread/INFO]: Mob Spawn Range: 4
-[20:18:13] [Server thread/INFO]: Anti X-Ray: true
-[20:18:13] [Server thread/INFO]: 	Engine Mode: 1
-[20:18:13] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:18:13] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:18:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:18:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:18:13] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:18:13] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:18:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:18:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:18:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:18:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:18:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:18:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:18:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:18:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:18:13] [Server thread/INFO]: Random Lighting Updates: false
-[20:18:13] [Server thread/INFO]: Structure Info Saving: true
-[20:18:13] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:18:13] [Server thread/INFO]: Max Entity Collisions: 8
-[20:18:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:18:13] [Server thread/INFO]: Max TNT Explosions: 100
-[20:18:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:18:13] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:18:13] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:18:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:18:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:18:13] [Server thread/INFO]: View Distance: 4
-[20:18:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:18:13] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:18:13] [Server thread/INFO]: Clear tick list: false
-[20:18:13] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:18:13] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:18:13] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:18:13] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:18:14] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:18:14] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:18:14] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:18:14] [Server thread/INFO]: Fix TNT cannons: false
-[20:18:14] [Server thread/INFO]: Water over lava flow speed: 5
-[20:18:14] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:18:14] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:18:14] [Server thread/INFO]: World async lighting: false
-[20:18:14] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:18:14] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:18:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:18:14] [Server thread/INFO]: Mob Spawn Range: 4
-[20:18:14] [Server thread/INFO]: Anti X-Ray: true
-[20:18:14] [Server thread/INFO]: 	Engine Mode: 1
-[20:18:14] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:18:14] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:18:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:18:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:18:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:18:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:18:14] [Server thread/INFO]: Random Lighting Updates: false
-[20:18:14] [Server thread/INFO]: Structure Info Saving: true
-[20:18:14] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:18:14] [Server thread/INFO]: Max Entity Collisions: 8
-[20:18:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:18:14] [Server thread/INFO]: Max TNT Explosions: 100
-[20:18:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:18:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:18:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:18:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:18:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:18:14] [Server thread/INFO]: View Distance: 4
-[20:18:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:18:14] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:18:14] [Server thread/INFO]: Clear tick list: false
-[20:18:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:18:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:18:14] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:18:14] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:18:14] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:18:14] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:18:14] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:18:14] [Server thread/INFO]: Fix TNT cannons: false
-[20:18:14] [Server thread/INFO]: Water over lava flow speed: 5
-[20:18:14] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:18:14] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:18:14] [Server thread/INFO]: World async lighting: false
-[20:18:14] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:18:14] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:18:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:18:14] [Server thread/INFO]: Mob Spawn Range: 4
-[20:18:14] [Server thread/INFO]: Anti X-Ray: true
-[20:18:14] [Server thread/INFO]: 	Engine Mode: 1
-[20:18:14] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:18:14] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:18:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:18:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:18:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:18:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:18:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:18:14] [Server thread/INFO]: Random Lighting Updates: false
-[20:18:14] [Server thread/INFO]: Structure Info Saving: true
-[20:18:14] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:18:14] [Server thread/INFO]: Max Entity Collisions: 8
-[20:18:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:18:14] [Server thread/INFO]: Max TNT Explosions: 100
-[20:18:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:18:14] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:18:14] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:18:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:18:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:18:14] [Server thread/INFO]: View Distance: 4
-[20:18:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:18:14] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:18:14] [Server thread/INFO]: Clear tick list: false
-[20:18:14] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:18:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:18:14] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:18:14] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:18:14] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:18:14] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:18:14] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:18:14] [Server thread/INFO]: Fix TNT cannons: false
-[20:18:14] [Server thread/INFO]: Water over lava flow speed: 5
-[20:18:14] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:18:14] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:18:14] [Server thread/INFO]: World async lighting: false
-[20:18:14] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:18:14] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:18:14] [Server thread/INFO]: Preparing start region for level 0 (Seed: -32032947)
-[20:18:15] [Server thread/INFO]: Preparing spawn area: 6%
-[20:18:16] [Server thread/INFO]: Preparing spawn area: 32%
-[20:18:17] [Server thread/INFO]: Preparing start region for level 1 (Seed: -32032947)
-[20:18:18] [Server thread/INFO]: Preparing spawn area: 26%
-[20:18:19] [Server thread/INFO]: Preparing spawn area: 93%
-[20:18:19] [Server thread/INFO]: Preparing start region for level 2 (Seed: -32032947)
-[20:18:20] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
-[20:18:20] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[06:57:41] [Server thread/INFO]: Generating keypair
+[06:57:41] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[06:57:41] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[06:57:41] [Server thread/INFO]: Using default channel type
+[06:57:41] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[06:57:42] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
+[06:57:42] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[06:57:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:57:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:57:42] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[06:57:42] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[06:57:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:57:42] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[06:57:42] [Server thread/INFO]: Preparing level "world"
+[06:57:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[06:57:42] [Server thread/INFO]: Mob Spawn Range: 4
+[06:57:42] [Server thread/INFO]: Anti X-Ray: true
+[06:57:42] [Server thread/INFO]: 	Engine Mode: 1
+[06:57:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:57:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:57:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:57:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:57:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:57:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:57:42] [Server thread/INFO]: Random Lighting Updates: false
+[06:57:42] [Server thread/INFO]: Structure Info Saving: true
+[06:57:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:57:42] [Server thread/INFO]: Max Entity Collisions: 8
+[06:57:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:57:42] [Server thread/INFO]: Max TNT Explosions: 100
+[06:57:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:57:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:57:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:57:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:57:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:57:42] [Server thread/INFO]: View Distance: 4
+[06:57:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:57:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:57:42] [Server thread/INFO]: Clear tick list: false
+[06:57:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:57:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[06:57:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[06:57:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[06:57:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[06:57:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[06:57:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[06:57:42] [Server thread/INFO]: Fix TNT cannons: false
+[06:57:42] [Server thread/INFO]: Water over lava flow speed: 5
+[06:57:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[06:57:42] [Server thread/INFO]: Keep spawn chunk loaded: true
+[06:57:42] [Server thread/INFO]: World async lighting: false
+[06:57:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[06:57:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[06:57:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[06:57:42] [Server thread/INFO]: Mob Spawn Range: 4
+[06:57:42] [Server thread/INFO]: Anti X-Ray: true
+[06:57:42] [Server thread/INFO]: 	Engine Mode: 1
+[06:57:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:57:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:57:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:57:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:57:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:57:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:57:42] [Server thread/INFO]: Random Lighting Updates: false
+[06:57:42] [Server thread/INFO]: Structure Info Saving: true
+[06:57:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:57:42] [Server thread/INFO]: Max Entity Collisions: 8
+[06:57:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:57:42] [Server thread/INFO]: Max TNT Explosions: 100
+[06:57:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:57:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:57:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:57:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:57:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:57:42] [Server thread/INFO]: View Distance: 4
+[06:57:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:57:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:57:42] [Server thread/INFO]: Clear tick list: false
+[06:57:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:57:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[06:57:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[06:57:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[06:57:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[06:57:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[06:57:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[06:57:42] [Server thread/INFO]: Fix TNT cannons: false
+[06:57:42] [Server thread/INFO]: Water over lava flow speed: 5
+[06:57:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[06:57:42] [Server thread/INFO]: Keep spawn chunk loaded: true
+[06:57:42] [Server thread/INFO]: World async lighting: false
+[06:57:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[06:57:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[06:57:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[06:57:42] [Server thread/INFO]: Mob Spawn Range: 4
+[06:57:42] [Server thread/INFO]: Anti X-Ray: true
+[06:57:42] [Server thread/INFO]: 	Engine Mode: 1
+[06:57:42] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[06:57:42] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[06:57:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:57:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:57:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[06:57:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:57:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[06:57:42] [Server thread/INFO]: Random Lighting Updates: false
+[06:57:42] [Server thread/INFO]: Structure Info Saving: true
+[06:57:42] [Server thread/INFO]: Sending up to 10 chunks per packet
+[06:57:42] [Server thread/INFO]: Max Entity Collisions: 8
+[06:57:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[06:57:42] [Server thread/INFO]: Max TNT Explosions: 100
+[06:57:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:57:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:57:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:57:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[06:57:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:57:42] [Server thread/INFO]: View Distance: 4
+[06:57:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:57:42] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[06:57:42] [Server thread/INFO]: Clear tick list: false
+[06:57:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:57:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[06:57:42] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[06:57:42] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[06:57:42] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[06:57:42] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[06:57:42] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[06:57:42] [Server thread/INFO]: Fix TNT cannons: false
+[06:57:42] [Server thread/INFO]: Water over lava flow speed: 5
+[06:57:42] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[06:57:42] [Server thread/INFO]: Keep spawn chunk loaded: true
+[06:57:42] [Server thread/INFO]: World async lighting: false
+[06:57:42] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[06:57:42] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[06:57:42] [Server thread/INFO]: Preparing start region for level 0 (Seed: -32032947)
+[06:57:43] [Server thread/INFO]: Preparing spawn area: 19%
+[06:57:44] [Server thread/INFO]: Preparing spawn area: 56%
+[06:57:45] [Server thread/INFO]: Preparing start region for level 1 (Seed: -32032947)
+[06:57:46] [Server thread/INFO]: Preparing spawn area: 12%
+[06:57:47] [Server thread/INFO]: Preparing spawn area: 65%
+[06:57:47] [Server thread/INFO]: Preparing start region for level 2 (Seed: -32032947)
+[06:57:48] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
+[06:57:48] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
 
-[20:18:20] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[06:57:48] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
 
-[20:18:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[20:18:20] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[20:18:21] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[20:18:21] [Server thread/INFO]: No kits found to migrate.
-[20:18:21] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
-[20:18:21] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
-[20:18:21] [Server thread/INFO]: Loaded 853 items from items.csv.
-[20:18:21] [Server thread/INFO]: Using locale en
-[20:18:21] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[20:18:21] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[20:18:21] [Server thread/INFO]: Using config file enhanced permissions.
-[20:18:21] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[20:18:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:18:21] [Server thread/INFO]: Done (7.923s)! For help, type "help" or "?"
-[20:18:21] [Server thread/INFO]: Timings Reset
-[20:18:21] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
-[20:18:55] [Thread-9/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[20:18:55] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:35568] logged in with entity id 394 at ([world]3000014.4084566515, 65.1116330379996, -486.317345159021)
-[20:24:20] [Server thread/INFO]: mr_meow_meow lost connection: Timed out
-[20:24:20] [Server thread/INFO]: mr_meow_meow left the game.
-[20:24:30] [Thread-11/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[20:24:30] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:54050] logged in with entity id 962 at ([world]3000053.4400118655, 63.0, -482.47737578716664)
-[20:27:55] [Server thread/INFO]: mr_meow_meow lost connection: Timed out
-[20:27:55] [Server thread/INFO]: mr_meow_meow left the game.
+[06:57:48] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[06:57:49] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[06:57:50] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[06:57:50] [Server thread/INFO]: No kits found to migrate.
+[06:57:50] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
+[06:57:50] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
+[06:57:51] [Server thread/INFO]: Loaded 853 items from items.csv.
+[06:57:51] [Server thread/INFO]: Using locale en
+[06:57:51] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[06:57:51] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[06:57:51] [Server thread/INFO]: Using config file enhanced permissions.
+[06:57:51] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[06:57:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:57:51] [Server thread/INFO]: Done (9.448s)! For help, type "help" or "?"
+[06:57:51] [Server thread/INFO]: Timings Reset
+[06:57:51] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[06:59:02] [Thread-9/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[06:59:03] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:55566] logged in with entity id 394 at ([world]3000056.7639410105, 66.49064320585485, -485.74166742057844)
+[07:00:49] [Thread-10/INFO]: UUID of player ___ is 3aa10d45-6372-352e-b9af-2eba497ed912
+[07:00:49] [Server thread/INFO]: ___[/[0:0:0:0:0:0:0:1]:54696] logged in with entity id 510 at ([world]1.792795132750777E7, 80.0, -2.2798911109999485E7)
+[07:00:58] [Server thread/INFO]: ___ issued server command: /tp ___ mr
+[07:01:09] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:09] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:12] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:12] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:15] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:15] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:19] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:19] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:20] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:20] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:20] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:20] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:01:23] [Server thread/INFO]: ___ issued server command: /smite
+[07:01:23] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:14] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:14] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:15] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:15] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:15] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:15] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:16] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:16] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:16] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:16] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:17] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:18] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:18] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:18] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:18] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:19] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:19] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:19] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:19] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:19] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:19] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:20] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:20] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:20] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:20] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:20] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:20] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:20] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:20] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:21] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:32] [Thread-11/INFO]: UUID of player im_New is b2fca60d-bde1-34d2-bd7a-21aeaa3e1138
+[07:02:32] [Server thread/INFO]: im_New[/[0:0:0:0:0:0:0:1]:41608] logged in with entity id 1309 at ([world]-10000.564700050369, 57.5, -9994.00006401832)
+[07:02:38] [Async Chat Thread - #0/INFO]: <~gabe[m> sup jakob[m
+
+[07:02:42] [Async Chat Thread - #0/INFO]: <~Server_Builder[m> wsp[m
+
+[07:02:47] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:47] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:48] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:48] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:50] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:50] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:51] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:51] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:51] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:51] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:52] [Server thread/INFO]: ___ issued server command: /smite
+[07:02:52] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:02:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:02:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:02:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:04] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:04] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:04] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:04] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:06] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:06] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:13] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:13] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:14] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:14] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:14] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:14] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:14] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:14] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:15] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:15] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:15] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:15] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:15] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:15] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:16] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:16] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:16] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:16] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:16] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:16] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:17] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:17] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:17] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:17] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:17] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:17] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:20] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:20] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:22] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:22] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:23] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:23] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:23] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:23] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:24] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:24] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:24] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:24] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:24] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:24] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:25] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:25] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:26] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:26] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:27] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:27] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:27] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:27] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:27] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:27] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:27] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:27] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:28] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:28] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:28] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:28] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:28] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:28] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:28] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:28] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:29] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:29] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:29] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:29] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:29] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:29] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:29] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:29] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:30] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:30] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:30] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:30] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:30] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:30] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:30] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:30] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:31] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:31] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:31] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:31] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:31] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:31] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:31] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:31] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:32] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:32] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:32] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:32] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:32] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:32] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:32] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:32] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:33] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:33] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:34] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:34] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:34] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:34] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:34] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:34] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:34] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:34] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:35] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:35] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:35] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:35] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:35] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:35] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:35] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:35] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:36] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:36] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:36] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:36] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:36] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:36] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:36] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:36] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:37] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:37] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:37] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:37] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:37] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:37] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:37] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:37] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:38] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:38] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:38] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:38] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:38] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:38] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:39] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:39] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:39] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:39] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:40] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:40] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:44] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:44] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:44] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:44] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:44] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:44] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:44] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:44] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:45] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:45] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:45] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:45] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:45] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:45] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:45] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:45] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:46] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:46] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:46] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:46] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:46] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:46] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:46] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:46] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:47] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:47] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:47] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:47] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:47] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:47] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:47] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:47] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:48] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:48] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:48] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:48] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:48] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:48] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:48] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:48] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:49] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:49] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:49] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:49] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:49] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:49] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:49] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:49] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:50] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:50] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:50] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:50] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:50] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:50] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:51] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:51] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:51] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:51] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:51] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:51] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:51] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:51] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:52] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:52] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:52] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:52] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:52] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:52] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:52] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:52] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:53] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:53] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:53] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:53] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:53] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:53] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:54] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:54] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:54] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:54] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:54] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:54] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:03:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:03:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:04] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:04] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:04] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:04] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:06] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:06] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:06] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:06] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:06] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:06] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:06] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:06] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:10] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:10] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:10] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:10] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:10] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:10] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:11] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:11] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:11] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:11] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:11] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:11] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:12] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:13] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:13] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:14] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:14] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:15] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:15] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:15] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:15] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:15] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:15] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:15] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:15] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:16] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:16] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:16] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:16] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:16] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:16] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:17] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:17] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:17] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:17] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:17] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:17] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:17] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:17] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:18] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:18] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:18] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:18] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:18] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:18] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:18] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:18] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:19] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:19] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:19] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:19] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:19] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:19] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:19] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:19] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:20] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:20] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:20] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:20] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:20] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:20] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:22] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:22] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:23] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:23] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:23] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:23] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:23] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:23] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:24] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:24] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:24] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:24] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:24] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:24] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:24] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:24] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:25] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:25] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:25] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:25] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:25] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:25] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:25] [Server thread/INFO]: ___ issued server command: /smite
+[07:04:25] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:04:26] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:26] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:27] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:27] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:27] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:27] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:27] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:27] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:27] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:27] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:28] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:28] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:28] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:28] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:28] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:28] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:29] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:29] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:29] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:29] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:29] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:29] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:30] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:30] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:30] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:30] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:32] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:32] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:33] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:33] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:33] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:33] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:33] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:33] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:33] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:33] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:34] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:34] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:34] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:34] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:34] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:34] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:35] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:35] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:35] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:35] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:35] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:35] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:35] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:35] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:36] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:36] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:36] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:36] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:36] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:36] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:37] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:37] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:37] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:37] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:37] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:37] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:38] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:38] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:38] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:38] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:38] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:38] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:39] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:39] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:39] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:39] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:39] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:39] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:40] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:40] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:40] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:40] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:40] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:40] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:44] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:44] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:44] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:44] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:44] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:44] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:45] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:45] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:45] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:45] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:45] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:45] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:46] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:46] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:46] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:46] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:46] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:46] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:47] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:47] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:47] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:47] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:47] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:47] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:48] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:48] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:48] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:48] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:48] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:48] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:49] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:49] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:49] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:49] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:49] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:49] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:49] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:49] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:50] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:50] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:50] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:50] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:50] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:50] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:51] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:51] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:51] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:51] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:51] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:51] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:51] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:51] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:52] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:52] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:52] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:52] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:52] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:52] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:53] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:53] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:53] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:53] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:53] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:53] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:53] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:53] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:54] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:54] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:54] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:54] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:54] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:54] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:54] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:54] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:55] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:55] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:56] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:56] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:57] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:57] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:58] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:58] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:04:59] [Server thread/INFO]: ___ issued server command: /fireball
+[07:04:59] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:00] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:00] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:01] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:01] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:02] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:02] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:03] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:03] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:04] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:04] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:04] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:04] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:04] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:04] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:05] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:05] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:06] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:06] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:06] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:06] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:06] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:06] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:07] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:07] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:08] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:08] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:09] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:09] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:10] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:10] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:10] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:10] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:10] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:10] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:10] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:10] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:11] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:11] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:11] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:11] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:11] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:11] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:12] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:12] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:12] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:12] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:12] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:12] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:14] [Server thread/INFO]: ___ issued server command: /fireball
+[07:05:14] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:05:26] [Async Chat Thread - #1/INFO]: <[0;31;22m___[m> just fireballed a wither to death[m
+
+[07:05:34] [Async Chat Thread - #1/INFO]: <~gabe[m> dang[m
+
+[07:05:38] [Async Chat Thread - #1/INFO]: <~Server_Builder[m> torturerer[m
+
+[07:05:51] [Server thread/INFO]: ___ issued server command: /tp ___ server_builder
+[07:05:57] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:05:57] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:05:57] [Async Chat Thread - #1/INFO]: <~Server_Builder[m> wsp[m
+
+[07:06:00] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:06:00] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:06:01] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:06:01] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:06:02] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:06:02] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:06:02] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:06:02] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:06:02] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:06:02] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:06:02] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:06:02] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:06:03] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:06:03] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:06:23] [Server thread/INFO]: ___ issued server command: /smite
+[07:06:23] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:06:24] [Server thread/INFO]: ___ issued server command: /smite
+[07:06:24] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:06:26] [Server thread/INFO]: ___ issued server command: /smite
+[07:06:26] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:06:33] [Async Chat Thread - #1/INFO]: <[0;31;22m___[m> i have the power of magic[m
+
+[07:06:41] [Server thread/INFO]: ___ issued server command: /smite
+[07:06:41] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:06:43] [Server thread/INFO]: ___ issued server command: /smite
+[07:06:43] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:06:51] [Async Chat Thread - #1/INFO]: <~Server_Builder[m> give or ur gay and you like like gab[m
+
+[07:07:01] [Async Chat Thread - #1/INFO]: <~gabe[m> im not gay[m
+
+[07:07:03] [Async Chat Thread - #1/INFO]: <[0;31;22m___[m> it wont work for you but ok[m
+
+[07:07:10] [Async Chat Thread - #1/INFO]: <~Server_Builder[m> dang[m
+
+[07:07:10] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:07:10] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:07:10] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:07:10] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:07:11] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:07:11] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:07:11] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:07:11] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:07:11] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:07:11] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:07:12] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:07:12] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:07:12] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:07:12] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:07:17] [Server thread/INFO]: ___ issued server command: /smite
+[07:07:17] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:07:19] [Server thread/INFO]: ___ issued server command: /smite
+[07:07:19] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:07:19] [Async Chat Thread - #1/INFO]: <~gabe[m> also ray told me who he likes and im not one of them[m
+
+[07:07:25] [Async Chat Thread - #1/INFO]: <~Server_Builder[m> like the castle grounds[m
+
+[07:07:31] [Async Chat Thread - #1/INFO]: <[0;31;22m___[m> i only told you one gab[m
+
+[07:07:33] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:33] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:37] [Async Chat Thread - #1/INFO]: <~gabe[m> i know[m
+
+[07:07:40] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:40] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:40] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:40] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:40] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:40] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:40] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:40] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:41] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:42] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:42] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:43] [Server thread/INFO]: ___ issued server command: /fireball
+[07:07:43] [Server thread/INFO]: [PT] ___ issued server command: /fireball
+[07:07:44] [Async Chat Thread - #1/INFO]: <~gabe[m> i wont say who u like[m
+
+[07:07:51] [Server thread/INFO]: ___ issued server command: /smite
+[07:07:51] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:07:53] [Server thread/INFO]: ___ issued server command: /smite
+[07:07:53] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:03] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:03] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:04] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:04] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:06] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:06] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:06] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:06] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:07] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:08] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:08] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:08] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:08] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:08] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:08] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:08] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:08] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:09] [Server thread/INFO]: CONSOLE issued server command: /t ___ should i review? :skull:
+[07:08:09] [Server thread/INFO]: [0;33;22m[[0;31;1mme[0;33;22m -> [0;31;1m[0;31;22m___[m[0;33;22m] [mshould i review? :skull:[m
+
+[07:08:10] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:10] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:11] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:11] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:12] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:12] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:12] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:12] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:14] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:14] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:14] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:14] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:15] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:15] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:16] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:16] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:16] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:08:16] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:08:19] [Server thread/INFO]: ___ issued server command: /smite
+[07:08:19] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:20] [Server thread/INFO]: ___ issued server command: /smite
+[07:08:20] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:23] [Server thread/INFO]: ___ issued server command: /smite
+[07:08:23] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:25] [Server thread/INFO]: ___ issued server command: /smite
+[07:08:25] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:29] [Server thread/INFO]: ___ issued server command: /smite
+[07:08:29] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:30] [Server thread/INFO]: ___ issued server command: /smite
+[07:08:30] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:39] [Server thread/INFO]: ___ issued server command: /smite
+[07:08:39] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:41] [Server thread/INFO]: ___ issued server command: /smite
+[07:08:41] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:08:54] [Async Chat Thread - #2/INFO]: <[0;31;22m___[m> oh hey a jeb sheep[m
+
+[07:09:00] [Server thread/INFO]: ___ issued server command: /smite
+[07:09:00] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:09:01] [Server thread/INFO]: ___ issued server command: /smite
+[07:09:01] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:09:21] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[07:09:21] [Server thread/INFO]: mr_meow_meow left the game.
+[07:09:26] [Thread-13/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[07:09:26] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:34042] logged in with entity id 3663 at ([world]3000028.090278339, 58.0, -470.2013601981949)
+[07:10:16] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:16] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:19] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:19] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:21] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:21] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:22] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:22] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:22] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:22] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:23] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:23] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:23] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:23] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:23] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:23] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:30] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:30] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:34] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:34] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:36] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:36] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:37] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:10:38] [Server thread/INFO]: ___ issued server command: /kittycannon
+[07:10:38] [Server thread/INFO]: [PT] ___ issued server command: /kittycannon
+[07:11:15] [Server thread/INFO]: ___ issued server command: /powertool gamemode c
+[07:11:24] [Server thread/INFO]: ___ issued server command: /powertool gamemode s
+[07:11:26] [Server thread/INFO]: ___ issued server command: /gamemode s
+[07:11:26] [Server thread/INFO]: [PT] ___ issued server command: /gamemode s
+[07:11:33] [Server thread/INFO]: ___ issued server command: /smite
+[07:11:33] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:11:35] [Server thread/INFO]: ___ issued server command: /smite
+[07:11:35] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:11:40] [Server thread/INFO]: ___ issued server command: /smite
+[07:11:40] [Server thread/INFO]: [PT] ___ issued server command: /smite
+[07:11:48] [Server thread/INFO]: ___ issued server command: /gamemode c
+[07:11:48] [Server thread/INFO]: [PT] ___ issued server command: /gamemode c
+[07:12:50] [Server thread/INFO]: ___ issued server command: /powertool tree redwood
+[07:13:08] [Server thread/INFO]: ___ issued server command: /tree redwood
+[07:13:08] [Server thread/INFO]: [PT] ___ issued server command: /tree redwood
+[07:13:11] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[07:13:11] [Server thread/INFO]: mr_meow_meow left the game.
+[07:13:40] [Server thread/INFO]: ___ issued server command: /tree redwood
+[07:13:40] [Server thread/INFO]: [PT] ___ issued server command: /tree redwood
+[07:13:42] [Server thread/INFO]: ___ issued server command: /tree redwood
+[07:13:42] [Server thread/INFO]: [PT] ___ issued server command: /tree redwood
+[07:13:48] [Server thread/INFO]: ___ issued server command: /tree redwood
+[07:13:48] [Server thread/INFO]: [PT] ___ issued server command: /tree redwood
+[07:13:59] [Thread-14/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[07:13:59] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:33600] logged in with entity id 4587 at ([world]3000031.331115857, 72.52882160381095, -470.01066357018925)
+[07:14:01] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[07:14:01] [Server thread/INFO]: mr_meow_meow left the game.
+[07:14:03] [Thread-15/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[07:14:03] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:35140] logged in with entity id 4657 at ([world]3000031.331115857, 72.52882160381095, -470.01066357018925)
+[07:14:06] [Async Chat Thread - #3/INFO]: <[0;31;22m___[m> snowball that makes christmas trees appear[m
+
+[07:14:13] [Thread-16/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[07:14:13] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:35332] logged in with entity id 4805 at ([world]3000168.3802634114, 64.25665174010093, -400.37021040945297)
+[07:14:15] [Server thread/INFO]: ___ issued server command: /tree redwood
+[07:14:15] [Server thread/INFO]: [PT] ___ issued server command: /tree redwood
+[07:14:17] [Async Chat Thread - #3/INFO]: <~gabe[m> sup ciara[m
+
+[07:14:33] [Async Chat Thread - #3/INFO]: <Ciara> now no one can stop me playing >:}[m
+
+[07:14:39] [Thread-17/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[07:14:39] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:58496] logged in with entity id 4951 at ([world]294.5, 73.0, -473.5)
+[07:14:40] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara why do u keep changing my bookmarks
+[07:14:51] [Async Chat Thread - #3/INFO]: <~gabe[m> yea cause ur on my school account[m
+
+[07:14:54] [Server thread/INFO]: Ciara issued server command: /msg mr i did what?
+[07:15:08] [Async Chat Thread - #3/INFO]: <Ciara> i lost ;-;[m
+
+[07:15:15] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara the bookmarks near the tabs
+[07:15:18] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[07:15:18] [Server thread/INFO]: JustinTheGPTMan left the game.
+[07:15:27] [Server thread/INFO]: mr_meow_meow issued server command: /tpa ciara
+[07:15:35] [Server thread/INFO]: ___ lost connection: Disconnected
+[07:15:35] [Server thread/INFO]: ___ left the game.
+[07:15:37] [Server thread/INFO]: Ciara issued server command: /tpaccept
+[07:15:55] [Server thread/INFO]: Ciara lost connection: Disconnected
+[07:15:55] [Server thread/INFO]: Ciara left the game.
+[07:16:01] [Server thread/INFO]: [Server] i'll turn the server back on shortly!
