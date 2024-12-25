@@ -1,467 +1,1513 @@
-[20:34:45] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[20:34:45] [Server thread/INFO]: Loading properties
-[20:34:45] [Server thread/INFO]: Default game type: SURVIVAL
-[20:34:45] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[20:34:46] [Server thread/INFO]: Debug logging is disabled
-[20:34:46] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[20:34:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:22:19] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[15:22:19] [Server thread/INFO]: Loading properties
+[15:22:19] [Server thread/INFO]: Default game type: SURVIVAL
+[15:22:20] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[15:22:20] [Server thread/INFO]: Debug logging is disabled
+[15:22:20] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[15:22:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[20:34:46] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:34:46] [Server thread/INFO]: Data value allowed items: 
-[20:34:46] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[15:22:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:22:20] [Server thread/INFO]: Data value allowed items: 
+[15:22:20] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[20:34:46] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[15:22:20] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[20:34:46] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[15:22:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[20:34:46] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[15:22:20] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[20:34:46] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[15:22:20] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[20:34:46] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[15:22:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[20:34:46] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[15:22:20] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[20:34:46] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[15:22:20] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[20:34:46] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[15:22:20] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[20:34:46] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:22:20] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[20:34:46] [Server thread/INFO]: Generating keypair
-[20:34:46] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[20:34:46] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[20:34:46] [Server thread/INFO]: Using default channel type
-[20:34:46] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[20:34:47] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
-[20:34:47] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
-[20:34:47] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:34:47] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:34:47] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[20:34:47] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[20:34:47] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:34:47] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[20:34:47] [Server thread/INFO]: Preparing level "world"
-[20:34:47] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:34:47] [Server thread/INFO]: Mob Spawn Range: 4
-[20:34:47] [Server thread/INFO]: Anti X-Ray: true
-[20:34:47] [Server thread/INFO]: 	Engine Mode: 1
-[20:34:47] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:34:47] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:34:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:34:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:34:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:34:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:34:47] [Server thread/INFO]: Random Lighting Updates: false
-[20:34:47] [Server thread/INFO]: Structure Info Saving: true
-[20:34:47] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:34:47] [Server thread/INFO]: Max Entity Collisions: 8
-[20:34:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:34:47] [Server thread/INFO]: Max TNT Explosions: 100
-[20:34:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:34:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:34:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:34:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:34:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:34:47] [Server thread/INFO]: View Distance: 4
-[20:34:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:34:47] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:34:47] [Server thread/INFO]: Clear tick list: false
-[20:34:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:34:47] [Server thread/INFO]: -------- World Settings For [world] --------
-[20:34:47] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:34:47] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:34:47] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:34:47] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:34:47] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:34:47] [Server thread/INFO]: Water over lava flow speed: 5
-[20:34:47] [Server thread/INFO]: Fix TNT cannons: false
-[20:34:47] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:34:47] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:34:47] [Server thread/INFO]: World async lighting: false
-[20:34:47] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:34:47] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:34:47] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:34:47] [Server thread/INFO]: Mob Spawn Range: 4
-[20:34:47] [Server thread/INFO]: Anti X-Ray: true
-[20:34:47] [Server thread/INFO]: 	Engine Mode: 1
-[20:34:47] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:34:47] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:34:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:34:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:34:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:34:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:34:47] [Server thread/INFO]: Random Lighting Updates: false
-[20:34:47] [Server thread/INFO]: Structure Info Saving: true
-[20:34:47] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:34:47] [Server thread/INFO]: Max Entity Collisions: 8
-[20:34:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:34:47] [Server thread/INFO]: Max TNT Explosions: 100
-[20:34:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:34:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:34:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:34:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:34:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:34:47] [Server thread/INFO]: View Distance: 4
-[20:34:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:34:47] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:34:47] [Server thread/INFO]: Clear tick list: false
-[20:34:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:34:47] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[20:34:47] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:34:47] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:34:47] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:34:47] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:34:47] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:34:47] [Server thread/INFO]: Water over lava flow speed: 5
-[20:34:47] [Server thread/INFO]: Fix TNT cannons: false
-[20:34:47] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:34:47] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:34:47] [Server thread/INFO]: World async lighting: false
-[20:34:47] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:34:47] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:34:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:34:47] [Server thread/INFO]: Mob Spawn Range: 4
-[20:34:47] [Server thread/INFO]: Anti X-Ray: true
-[20:34:47] [Server thread/INFO]: 	Engine Mode: 1
-[20:34:47] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[20:34:47] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[20:34:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[20:34:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[20:34:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[20:34:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[20:34:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[20:34:47] [Server thread/INFO]: Random Lighting Updates: false
-[20:34:47] [Server thread/INFO]: Structure Info Saving: true
-[20:34:47] [Server thread/INFO]: Sending up to 10 chunks per packet
-[20:34:47] [Server thread/INFO]: Max Entity Collisions: 8
-[20:34:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[20:34:47] [Server thread/INFO]: Max TNT Explosions: 100
-[20:34:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[20:34:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[20:34:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[20:34:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[20:34:47] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[20:34:47] [Server thread/INFO]: View Distance: 4
-[20:34:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[20:34:47] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[20:34:47] [Server thread/INFO]: Clear tick list: false
-[20:34:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[20:34:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[20:34:47] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[20:34:47] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[20:34:47] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[20:34:47] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[20:34:47] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[20:34:47] [Server thread/INFO]: Water over lava flow speed: 5
-[20:34:47] [Server thread/INFO]: Fix TNT cannons: false
-[20:34:47] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[20:34:47] [Server thread/INFO]: Keep spawn chunk loaded: true
-[20:34:47] [Server thread/INFO]: World async lighting: false
-[20:34:47] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[20:34:47] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[20:34:47] [Server thread/INFO]: Preparing start region for level 0 (Seed: -32032947)
-[20:34:48] [Server thread/INFO]: Preparing spawn area: 9%
-[20:34:49] [Server thread/INFO]: Preparing spawn area: 44%
-[20:34:50] [Server thread/INFO]: Preparing spawn area: 87%
-[20:34:51] [Server thread/INFO]: Preparing start region for level 1 (Seed: -32032947)
-[20:34:52] [Server thread/INFO]: Preparing spawn area: 5%
-[20:34:53] [Server thread/INFO]: Preparing spawn area: 38%
-[20:34:54] [Server thread/INFO]: Preparing spawn area: 77%
-[20:34:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: -32032947)
-[20:34:55] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
-[20:34:56] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[15:22:20] [Server thread/INFO]: Generating keypair
+[15:22:23] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[15:22:23] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[15:22:23] [Server thread/INFO]: Using default channel type
+[15:22:23] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[15:22:23] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.15.2
+[15:22:23] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.1
+[15:22:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:22:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:22:23] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:22:23] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:22:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:22:23] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[15:22:23] [Server thread/INFO]: Preparing level "world"
+[15:22:23] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:22:23] [Server thread/INFO]: Mob Spawn Range: 4
+[15:22:23] [Server thread/INFO]: Anti X-Ray: true
+[15:22:23] [Server thread/INFO]: 	Engine Mode: 1
+[15:22:23] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:22:23] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:22:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:22:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:22:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:22:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:22:24] [Server thread/INFO]: Random Lighting Updates: false
+[15:22:24] [Server thread/INFO]: Structure Info Saving: true
+[15:22:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:22:24] [Server thread/INFO]: Max Entity Collisions: 8
+[15:22:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:22:24] [Server thread/INFO]: Max TNT Explosions: 100
+[15:22:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:22:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:22:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:22:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:22:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:22:24] [Server thread/INFO]: View Distance: 4
+[15:22:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:22:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:22:24] [Server thread/INFO]: Clear tick list: false
+[15:22:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:22:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:22:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:22:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:22:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:22:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:22:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:22:24] [Server thread/INFO]: Water over lava flow speed: 5
+[15:22:24] [Server thread/INFO]: Fix TNT cannons: false
+[15:22:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:22:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:22:24] [Server thread/INFO]: World async lighting: false
+[15:22:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:22:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:22:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:22:24] [Server thread/INFO]: Mob Spawn Range: 4
+[15:22:24] [Server thread/INFO]: Anti X-Ray: true
+[15:22:24] [Server thread/INFO]: 	Engine Mode: 1
+[15:22:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:22:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:22:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:22:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:22:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:22:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:22:24] [Server thread/INFO]: Random Lighting Updates: false
+[15:22:24] [Server thread/INFO]: Structure Info Saving: true
+[15:22:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:22:24] [Server thread/INFO]: Max Entity Collisions: 8
+[15:22:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:22:24] [Server thread/INFO]: Max TNT Explosions: 100
+[15:22:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:22:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:22:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:22:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:22:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:22:24] [Server thread/INFO]: View Distance: 4
+[15:22:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:22:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:22:24] [Server thread/INFO]: Clear tick list: false
+[15:22:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:22:24] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:22:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:22:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:22:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:22:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:22:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:22:24] [Server thread/INFO]: Water over lava flow speed: 5
+[15:22:24] [Server thread/INFO]: Fix TNT cannons: false
+[15:22:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:22:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:22:24] [Server thread/INFO]: World async lighting: false
+[15:22:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:22:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:22:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:22:24] [Server thread/INFO]: Mob Spawn Range: 4
+[15:22:24] [Server thread/INFO]: Anti X-Ray: true
+[15:22:24] [Server thread/INFO]: 	Engine Mode: 1
+[15:22:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[15:22:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[15:22:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:22:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:22:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[15:22:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:22:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[15:22:24] [Server thread/INFO]: Random Lighting Updates: false
+[15:22:24] [Server thread/INFO]: Structure Info Saving: true
+[15:22:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[15:22:24] [Server thread/INFO]: Max Entity Collisions: 8
+[15:22:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[15:22:24] [Server thread/INFO]: Max TNT Explosions: 100
+[15:22:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:22:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:22:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:22:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:22:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:22:24] [Server thread/INFO]: View Distance: 4
+[15:22:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:22:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[15:22:24] [Server thread/INFO]: Clear tick list: false
+[15:22:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:22:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:22:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[15:22:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[15:22:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[15:22:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[15:22:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[15:22:24] [Server thread/INFO]: Water over lava flow speed: 5
+[15:22:24] [Server thread/INFO]: Fix TNT cannons: false
+[15:22:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[15:22:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[15:22:24] [Server thread/INFO]: World async lighting: false
+[15:22:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[15:22:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[15:22:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: -32032947)
+[15:22:25] [Server thread/INFO]: Preparing spawn area: 7%
+[15:22:26] [Server thread/INFO]: Preparing spawn area: 33%
+[15:22:27] [Server thread/INFO]: Preparing spawn area: 68%
+[15:22:27] [Server thread/INFO]: Preparing start region for level 1 (Seed: -32032947)
+[15:22:28] [Server thread/INFO]: Preparing spawn area: 12%
+[15:22:29] [Server thread/INFO]: Preparing spawn area: 73%
+[15:22:30] [Server thread/INFO]: Preparing start region for level 2 (Seed: -32032947)
+[15:22:30] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.15.2
+[15:22:31] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
 
-[20:34:56] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[15:22:31] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
 
-[20:34:56] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[20:34:56] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[20:34:57] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[20:34:57] [Server thread/INFO]: No kits found to migrate.
-[20:34:57] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
-[20:34:57] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
-[20:34:57] [Server thread/INFO]: Loaded 853 items from items.csv.
-[20:34:57] [Server thread/INFO]: Using locale en
-[20:34:57] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[20:34:57] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[20:34:57] [Server thread/INFO]: Using config file enhanced permissions.
-[20:34:57] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[20:34:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:34:57] [Server thread/INFO]: Done (10.828s)! For help, type "help" or "?"
-[20:34:57] [Server thread/INFO]: Timings Reset
-[20:34:57] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
-[20:35:06] [Thread-9/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[20:35:07] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:34468] logged in with entity id 406 at ([world]3000007.300000012, 56.0, 15.443945099474465)
-[20:35:12] [Thread-10/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
-[20:35:12] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:34482] logged in with entity id 562 at ([world]3000022.3539674967, 64.0, 10.308015995294381)
-[20:35:41] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[20:35:41] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[20:35:51] [Server thread/INFO]: Ciara issued server command: /gamemode creative mr_meow_meow
-[20:36:45] [Async Chat Thread - #0/INFO]: <~gabe[m> ray and ciara[m
+[15:22:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[15:22:31] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[15:22:32] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[15:22:32] [Server thread/INFO]: No kits found to migrate.
+[15:22:32] [Server thread/INFO]: NPC backup folder already exists; skipping NPC purge.
+[15:22:32] [Server thread/INFO]: To finish purging broken NPC accounts, rename the "plugins/Essentials/userdata-npc-backup" folder and restart your server.
+[15:22:32] [Server thread/INFO]: Loaded 853 items from items.csv.
+[15:22:32] [Server thread/INFO]: Using locale en
+[15:22:32] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[15:22:32] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[15:22:32] [Server thread/INFO]: Using config file enhanced permissions.
+[15:22:32] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[15:22:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:22:32] [Server thread/INFO]: Done (8.981s)! For help, type "help" or "?"
+[15:22:32] [Server thread/INFO]: Timings Reset
+[15:22:32] [Craft Scheduler Thread - 0/INFO]: §6Fetching version information...
+[15:22:57] [Thread-9/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[15:22:57] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:36776] logged in with entity id 409 at ([world]3000028.079807908, 64.0, 1.8714331294601767)
+[15:23:27] [Thread-10/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[15:23:27] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:56046] logged in with entity id 568 at ([world]3000016.6988362106, 66.0, -483.61109599608744)
+[15:23:34] [Async Chat Thread - #0/INFO]: <~gabe[m> sup[m
 
-[20:36:50] [Async Chat Thread - #0/INFO]: <[0;31;22mCiara[m> ok[m
+[15:23:45] [Async Chat Thread - #0/INFO]: <[0;31;22mCiara[m> Hii ^v^[m
 
-[20:37:25] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:25] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:37:28] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:28] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:37:30] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:30] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:37:31] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:31] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:37:32] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:32] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:37:34] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:34] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:37:36] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:36] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:37:40] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:37:47] [Server thread/INFO]: Ciara issued server command: /smite
-[20:37:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[20:40:19] [Async Chat Thread - #1/INFO]: <~gabe[m> zoom ended ciara[m
+[15:24:02] [Async Chat Thread - #0/INFO]: <~gabe[m> theres a zoom[m
 
-[20:42:41] [Async Chat Thread - #2/INFO]: <~gabe[m> ciara are u gonna join the zoom[m
+[15:24:07] [Async Chat Thread - #0/INFO]: <[0;31;22mCiara[m> we need justin to join ;-;[m
 
-[20:45:11] [Thread-12/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[20:45:11] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:40880] logged in with entity id 2039 at ([world]3000023.7908299193, 64.0, 8.713394969047378)
-[20:45:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
-[20:45:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
-[20:46:57] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus red_rose:5
-[20:47:28] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
-[20:48:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
-[20:49:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus barrier 1
-[20:52:57] [Server thread/INFO]: Ciara issued server command: /gamemode survival mr_meow_meow
-[20:53:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus sugar
-[20:54:19] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
-[20:54:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
-[20:54:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus barrier 1
-[20:55:21] [Server thread/INFO]: mr_meow_meow was slain by Ciara
-[20:57:00] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[20:57:00] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[20:57:09] [Server thread/INFO]: mr_meow_meow fell from a high place
-[20:57:43] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[20:57:43] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[20:58:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /give mr_meow ender_pearl 1
-[20:59:12] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[20:59:12] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[20:59:16] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[20:59:16] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[20:59:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /give mr_meow ender_pearl 1
-[21:00:01] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
-[21:00:05] [Server thread/INFO]: mr_meow_meow hit the ground too hard
-[21:00:34] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:00:34] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:00:51] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:00:51] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:01:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
-[21:03:54] [Server thread/INFO]: mr_meow_meow was slain by JustinTheGPTMan using [Abracadabra, you're GAY!]
-[21:03:59] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
-[21:03:59] [Server thread/INFO]: mr_meow_meow left the game.
-[21:04:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
-[21:04:10] [Thread-13/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[21:04:11] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:56422] logged in with entity id 4882 at ([world]3000011.5940208114, 64.0, -0.49520969484352195)
-[21:04:15] [Server thread/WARN]: mr_meow_meow moved too quickly! 0.0,19.0,0.0 (0.0, 19.0, 0.0)
-[21:04:16] [Server thread/WARN]: mr_meow_meow moved too quickly! 0.0,19.0,0.0 (0.0, 19.0, 0.0)
-[21:04:37] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
-[21:04:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr
-[21:04:50] [Async Chat Thread - #3/INFO]: <~gabe[m> leave[m
+[15:24:15] [Async Chat Thread - #0/INFO]: <~gabe[m> why[m
 
-[21:05:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /back
-[21:05:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
-[21:05:32] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
-[21:05:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
-[21:05:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
-[21:06:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus barrier 1
-[21:06:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
-[21:06:52] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:06:52] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:06:59] [Server thread/INFO]: mr_meow_meow fell from a high place
-[21:06:59] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:06:59] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:00] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:00] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:15] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:15] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:18] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:18] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:18] [Server thread/INFO]: mr_meow_meow fell from a high place
-[21:07:19] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:19] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:25] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:25] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:25] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:25] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:27] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:27] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:28] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:28] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:29] [Server thread/INFO]: mr_meow_meow fell from a high place
-[21:07:30] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:30] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:41] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:41] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:48] [Server thread/INFO]: mr_meow_meow fell from a high place
-[21:07:49] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:49] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:07:55] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:07:55] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:08:01] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:08:01] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:08:01] [Server thread/INFO]: mr_meow_meow fell from a high place
-[21:08:03] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:08:03] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:08:13] [Server thread/INFO]: mr_meow_meow fell from a high place
-[21:08:19] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:19] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:19] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:19] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:19] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:19] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:20] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:20] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:20] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:20] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:20] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:20] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:24] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
-[21:08:25] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:25] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:29] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:29] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
-[21:08:29] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
-[21:08:31] [Server thread/INFO]: Ciara issued server command: /smite
-[21:08:31] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:08:32] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
-[21:10:38] [Server thread/INFO]: mr_meow_meow fell from a high place
-[21:11:28] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
-[21:11:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode sp
-[21:11:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c
-[21:11:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
-[21:12:36] [Server thread/INFO]: mr_meow_meow issued server command: /tpa Ciara
-[21:12:41] [Server thread/INFO]: Ciara issued server command: /tpaccept
-[21:12:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
-[21:12:45] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:12:45] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:12:54] [Server thread/INFO]: mr_meow_meow was pricked to death
-[21:13:03] [Server thread/INFO]: mr_meow_meow issued server command: /tpa Ciara
-[21:13:09] [Server thread/INFO]: Ciara issued server command: /tpaccept
-[21:14:52] [Server thread/INFO]: Ciara issued server command: /kill mr
-[21:14:52] [Server thread/INFO]: mr_meow_meow died
-[21:15:07] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:15:07] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:15:57] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
-[21:15:57] [Server thread/INFO]: JustinTheGPTMan left the game.
-[21:16:17] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:17] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:17] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:17] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:26] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:26] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:29] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:29] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:30] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:30] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:31] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:31] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:31] [Thread-15/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
-[21:16:32] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:47006] logged in with entity id 9464 at ([world]3000018.7251888034, 79.65239983553451, -30.504860628534754)
-[21:16:32] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:32] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:33] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:33] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:34] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:34] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:35] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:35] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:36] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:36] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:37] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:37] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:38] [Server thread/INFO]: mr_meow_meow fell from a high place
-[21:16:40] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:40] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /deop Ciara
-[21:16:45] [Server thread/INFO]: [JustinTheGPTMan: De-opped Ciara]
-[21:16:46] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:46] [Server thread/INFO]: §cCiara §4was denied access to command.
-[21:16:46] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:49] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:49] [Server thread/INFO]: §cCiara §4was denied access to command.
-[21:16:49] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:50] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:50] [Server thread/INFO]: §cCiara §4was denied access to command.
-[21:16:50] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:50] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:50] [Server thread/INFO]: §cCiara §4was denied access to command.
-[21:16:50] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:50] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:50] [Server thread/INFO]: §cCiara §4was denied access to command.
-[21:16:50] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:16:51] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:16:51] [Server thread/INFO]: §cCiara §4was denied access to command.
-[21:16:51] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:17:01] [Server thread/INFO]: Ciara issued server command: /smite
-[21:17:01] [Server thread/INFO]: §cCiara §4was denied access to command.
-[21:17:01] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:18:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
-[21:18:40] [Server thread/INFO]: Ciara issued server command: /smite
-[21:18:40] [Server thread/INFO]: §cCiara §4was denied access to command.
-[21:18:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:18:42] [Server thread/INFO]: JustinTheGPTMan issued server command: /co l 2
-[21:18:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
-[21:19:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /op Ciaraa
-[21:19:10] [Server thread/INFO]: [JustinTheGPTMan: Opped Ciaraa]
-[21:19:11] [Server thread/INFO]: mr_meow_meow was slain by Ciara
-[21:19:14] [Server thread/INFO]: JustinTheGPTMan issued server command: /deop Ciaraa
-[21:19:14] [Server thread/INFO]: [JustinTheGPTMan: De-opped Ciaraa]
-[21:19:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /op Ciara
-[21:19:16] [Server thread/INFO]: [JustinTheGPTMan: Opped Ciara]
-[21:19:25] [Server thread/INFO]: Ciara issued server command: /tp mr cia
-[21:19:25] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
-[21:19:28] [Server thread/INFO]: Ciara issued server command: /smite
-[21:19:28] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:19:28] [Server thread/INFO]: Ciara issued server command: /smite
-[21:19:28] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:19:28] [Server thread/INFO]: Ciara issued server command: /smite
-[21:19:28] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:19:28] [Server thread/INFO]: mr_meow_meow was struck by lightning
-[21:19:28] [Server thread/INFO]: Ciara issued server command: /smite
-[21:19:28] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:19:29] [Server thread/INFO]: Ciara issued server command: /smite
-[21:19:29] [Server thread/INFO]: [PT] Ciara issued server command: /smite
-[21:19:34] [Server thread/WARN]: mr_meow_meow moved too quickly! 0.0,18.77294878239936,0.0 (0.0, 18.77294878239936, 0.0)
-[21:21:37] [Server thread/INFO]: mr_meow_meow lost connection: Timed out
-[21:21:37] [Server thread/INFO]: mr_meow_meow left the game.
-[21:21:53] [Server thread/INFO]: Ciara lost connection: Disconnected
-[21:21:53] [Server thread/INFO]: Ciara left the game.
-[21:22:47] [Thread-18/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
-[21:22:48] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:48580] logged in with entity id 11758 at ([world]3000016.6988362106, 66.0, -483.61109599608744)
-[21:22:49] [Server thread/INFO]: mr_meow_meow issued server command: /afk
-[21:26:35] [Server thread/INFO]: mr_meow_meow lost connection: Timed out
-[21:26:35] [Server thread/INFO]: mr_meow_meow left the game.
-[21:30:01] [Thread-2/INFO]: Stopping server
+[15:24:21] [Async Chat Thread - #0/INFO]: <~gabe[m> '[m
+
+[15:24:47] [Server thread/INFO]: mr_meow_meow was blown up by Creeper
+[15:24:51] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:24:51] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:26:02] [Thread-11/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[15:26:02] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:48464] logged in with entity id 1362 at ([world]3000043.699999988, 65.5625, 9.30000001192094)
+[15:26:10] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[15:26:10] [Server thread/INFO]: JustinTheGPTMan left the game.
+[15:26:24] [Thread-12/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[15:26:24] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:45080] logged in with entity id 1414 at ([world]3000043.699999988, 65.5625, 9.30000001192094)
+[15:26:28] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[15:26:28] [Server thread/INFO]: JustinTheGPTMan left the game.
+[15:26:51] [Thread-13/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[15:26:51] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:37240] logged in with entity id 1489 at ([world]3000043.699999988, 65.5625, 9.30000001192094)
+[15:26:59] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[15:26:59] [Server thread/INFO]: JustinTheGPTMan left the game.
+[15:27:04] [Thread-14/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[15:27:04] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:43178] logged in with entity id 1564 at ([world]3000043.699999988, 65.5625, 9.30000001192094)
+[15:30:31] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
+[15:30:36] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
+[15:30:46] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:48] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:48] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:48] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:48] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
+[15:30:49] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:50] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:30:51] [Server thread/INFO]: Ciara issued server command: /smite
+[15:30:51] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:31:22] [Server thread/INFO]: JustinTheGPTMan issued server command: /co rollback r:1 t:18.36h
+[15:31:33] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:31:33] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:31:40] [Async Chat Thread - #1/INFO]: <~gabe[m> gtg close my chromebook[m
+
+[15:31:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
+[15:31:41] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[15:31:41] [Server thread/INFO]: mr_meow_meow left the game.
+[15:34:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[15:34:27] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:27] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:31] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:31] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:34] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:34] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:37] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:37] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:39] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:39] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:41] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:41] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:43] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:43] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:50] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:50] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:51] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:51] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:51] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:51] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:53] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:53] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:53] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:56] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:56] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:56] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:59] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:59] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:59] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:59] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:59] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:59] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:34:59] [Server thread/INFO]: Ciara issued server command: /smite
+[15:34:59] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:00] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:00] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:01] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:01] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:02] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:02] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:04] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:04] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:05] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:05] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:06] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:06] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:06] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:06] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:06] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:06] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:06] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:06] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:07] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:07] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:07] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:07] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:07] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:07] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:35:17] [Server thread/INFO]: Ciara issued server command: /smite
+[15:35:17] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:36:00] [Server thread/INFO]: Ciara issued server command: /smite
+[15:36:00] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:36:03] [Server thread/INFO]: Ciara issued server command: /smite
+[15:36:03] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:36:15] [Server thread/INFO]: JustinTheGPTMan has just earned the achievement [We Need to Go Deeper]
+[15:36:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /t jus 375017 49 14
+[15:36:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[15:36:44] [Server thread/INFO]: Ciara issued server command: /smite
+[15:36:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:36:46] [Server thread/INFO]: Ciara issued server command: /smite
+[15:36:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:36:58] [Server thread/INFO]: Ciara issued server command: /smite
+[15:36:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:40:25] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:40:25] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:40:26] [Server thread/INFO]: Ciara issued server command: /smite
+[15:40:26] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:40:27] [Server thread/INFO]: Ciara issued server command: /smite
+[15:40:27] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:40:29] [Server thread/INFO]: Ciara issued server command: /smite
+[15:40:29] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:40:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /world 0
+[15:41:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /world 1
+[15:41:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[15:42:09] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:09] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:10] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:11] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:11] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:11] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:11] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:13] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[15:42:13] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:13] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:13] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:13] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:42:14] [Server thread/INFO]: Ciara issued server command: /smite
+[15:42:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:43:10] [Thread-19/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[15:43:10] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:56112] logged in with entity id 4058 at ([world]3000006.5, 64.0, 5.5)
+[15:43:42] [Server thread/INFO]: Ciara issued server command: /tpa mr
+[15:43:42] [Async Chat Thread - #2/INFO]: <~gabe[m> gtg outside brb[m
+
+[15:43:49] [Server thread/INFO]: mr_meow_meow issued server command: /tpaccept
+[15:43:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[15:43:52] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[15:43:52] [Server thread/INFO]: mr_meow_meow left the game.
+[15:43:55] [Async Chat Thread - #2/INFO]: <[0;31;22mCiara[m> thank you[m
+
+[15:45:43] [Server thread/INFO]: Ciara issued server command: /smite
+[15:45:43] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:45:45] [Server thread/INFO]: Ciara issued server command: /smite
+[15:45:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:45:47] [Server thread/INFO]: Ciara issued server command: /smite
+[15:45:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:45:47] [Server thread/INFO]: Ciara issued server command: /smite
+[15:45:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:45:49] [Server thread/INFO]: Ciara issued server command: /smite
+[15:45:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:45:51] [Server thread/INFO]: Ciara issued server command: /smite
+[15:45:51] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:45:53] [Server thread/INFO]: Ciara issued server command: /smite
+[15:45:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:47:18] [Server thread/INFO]: Ciara issued server command: /smite
+[15:47:18] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:47:20] [Server thread/INFO]: Ciara issued server command: /smite
+[15:47:20] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:48:31] [Thread-20/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[15:48:32] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:40960] logged in with entity id 5468 at ([world]3000005.492539497, 64.0, 5.122592991511164)
+[15:49:54] [Async Chat Thread - #3/INFO]: <~gabe[m> i did not kill myelf so dw[m
+
+[15:50:03] [Async Chat Thread - #3/INFO]: <[0;31;22mCiara[m> good ^w^[m
+
+[15:51:29] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:51:29] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:53:07] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:53:07] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:53:11] [Async Chat Thread - #4/INFO]: <~gabe[m> bruh[m
+
+[15:53:18] [Server thread/INFO]: mr_meow_meow was blown up by Creeper
+[15:53:28] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:53:28] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:54:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /t jus 2999985 64 36
+[15:55:05] [Server thread/INFO]: mr_meow_meow was slain by Enderman
+[15:55:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 36 2999985 72 36 netherrack
+[15:55:08] [Server thread/INFO]: [JustinTheGPTMan: 9 blocks filled]
+[15:55:11] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:55:11] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:55:15] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 36 2999985 72 36 nether_brick
+[15:55:15] [Server thread/INFO]: [JustinTheGPTMan: 9 blocks filled]
+[15:55:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 36 2999985 72 54 nether_brick
+[15:55:47] [Server thread/INFO]: [JustinTheGPTMan: 161 blocks filled]
+[15:56:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 37 2999985 73 54 nether_brick
+[15:56:08] [Server thread/INFO]: [JustinTheGPTMan: 16 blocks filled]
+[15:56:18] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 38 2999985 74 54 nether_brick
+[15:56:18] [Server thread/INFO]: [JustinTheGPTMan: 15 blocks filled]
+[15:56:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 39 2999985 75 54 nether_brick
+[15:56:30] [Server thread/INFO]: [JustinTheGPTMan: 14 blocks filled]
+[15:56:35] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:35] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:36] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:37] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 40 2999985 76 54 nether_brick
+[15:56:37] [Server thread/INFO]: [JustinTheGPTMan: 13 blocks filled]
+[15:56:40] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:40] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:41] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:41] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:41] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:41] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:41] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:41] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:41] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:41] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:42] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:42] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:42] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:42] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:42] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:42] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:42] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:42] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:43] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:43] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
+[15:56:44] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:45] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:45] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:48] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:48] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:56:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
+[15:56:54] [Server thread/INFO]: Ciara issued server command: /smite
+[15:56:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[15:57:00] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s mr_meow
+[15:57:01] [Async Chat Thread - #5/INFO]: <~gabe[m> :([m
+
+[15:57:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
+[15:57:25] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
+[15:57:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
+[15:57:35] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
+[15:57:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr cia
+[15:57:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 41 2999985 77 54 nether_brick
+[15:57:51] [Server thread/INFO]: [JustinTheGPTMan: 12 blocks filled]
+[15:57:59] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:57:59] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:58:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 42 2999985 78 54 nether_brick
+[15:58:03] [Server thread/INFO]: [JustinTheGPTMan: 11 blocks filled]
+[15:58:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 43 2999985 79 54 nether_brick
+[15:58:09] [Server thread/INFO]: [JustinTheGPTMan: 10 blocks filled]
+[15:58:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 44 2999985 80 54 nether_brick
+[15:58:16] [Server thread/INFO]: [JustinTheGPTMan: 9 blocks filled]
+[15:58:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999985 64 44 2999985 81 54 nether_brick
+[15:58:27] [Server thread/INFO]: [JustinTheGPTMan: 9 blocks filled]
+[15:58:41] [Server thread/INFO]: mr_meow_meow fell from a high place
+[15:59:03] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:59:03] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:59:47] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:59:47] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:59:52] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:59:52] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:59:53] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:59:53] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:59:53] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:59:53] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:59:53] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:59:53] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:59:53] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:59:53] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:59:54] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[15:59:54] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[15:59:57] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[15:59:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[16:00:13] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode a mr_meow
+[16:00:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[16:00:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[16:00:33] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:33] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:33] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:33] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:33] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:33] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:33] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:33] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:34] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:35] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:35] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:35] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:35] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:35] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:35] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:35] [Server thread/INFO]: Ciara issued server command: /smite
+[16:00:35] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:00:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[16:00:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[16:00:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[16:00:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[16:01:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[16:01:33] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee mr
+[16:02:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999989 64 36 2999989 72 54 nether_brick
+[16:02:20] [Server thread/INFO]: [JustinTheGPTMan: 168 blocks filled]
+[16:03:35] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cai
+[16:03:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[16:04:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /weather clear
+[16:04:26] [Server thread/INFO]: mr_meow_meow was shot by Skeleton
+[16:05:23] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia zoom meeting ended ._.
+[16:05:48] [Server thread/INFO]: mr_meow_meow was blown up by Creeper
+[16:06:37] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:06:37] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:06:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /t jus 3000021 90 55
+[16:07:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 3000021 90 55 2999953 90 123 nether_brick
+[16:07:09] [Server thread/INFO]: [JustinTheGPTMan: 4475 blocks filled]
+[16:07:38] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:38] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:39] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:39] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:39] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:39] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:54] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:54] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:56] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:07:56] [Server thread/INFO]: Ciara issued server command: /smite
+[16:07:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:08:00] [Server thread/INFO]: Ciara issued server command: /smite
+[16:08:00] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:08:00] [Server thread/INFO]: Ciara issued server command: /smite
+[16:08:00] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:08:00] [Server thread/INFO]: Ciara issued server command: /smite
+[16:08:00] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:08:01] [Server thread/INFO]: Ciara issued server command: /smite
+[16:08:01] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:08:01] [Server thread/INFO]: Ciara issued server command: /smite
+[16:08:01] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:08:01] [Server thread/INFO]: Ciara issued server command: /smite
+[16:08:01] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:08:47] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:08:47] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:08:49] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:08:49] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:09:25] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:09:25] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:09:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[16:09:45] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:45] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode c mr_meow
+[16:09:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:47] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:47] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:47] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:48] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:49] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:49] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:49] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:49] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:49] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:50] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:51] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:51] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:51] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:51] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:52] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:52] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:52] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:52] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:52] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:52] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:52] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:52] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:53] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:54] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:56] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:56] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:56] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:56] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:56] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:56] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:56] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:57] [Server thread/INFO]: Ciara issued server command: /smite
+[16:09:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:09:57] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:57] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:57] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:57] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:57] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:57] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:57] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:57] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:58] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:59] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:59] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:09:59] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:09:59] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:00] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:00] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:00] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:00] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:00] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:00] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:00] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:00] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:00] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:00] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:01] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:01] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:01] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:01] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:01] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:01] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:01] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:01] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:02] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:02] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:02] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:03] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:03] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:03] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:04] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:04] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:04] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:04] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:04] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:04] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:04] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:04] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:05] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:05] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:05] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:05] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:06] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:07] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:07] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:07] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:07] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:07] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:08] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:08] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:09] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:09] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:09] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:10] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:10] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:10] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:11] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:11] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:11] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:12] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:12] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:12] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:12] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:13] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:13] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:13] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:13] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:13] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:14] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:14] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:14] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:14] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:14] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:15] [Server thread/INFO]: Ciara issued server command: /smite
+[16:10:15] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:10:15] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:15] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:15] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:15] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:15] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:15] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:16] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:16] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:16] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:16] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:17] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:17] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:17] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:17] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:18] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:18] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:19] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:19] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:19] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:19] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:20] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:20] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:20] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:28] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:28] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:29] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:29] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:29] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:30] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:30] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:30] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:30] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:34] [Server thread/INFO]: JustinTheGPTMan issued server command: /gamemode s mr_meow
+[16:10:36] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:36] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:38] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:38] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:39] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /clear mr_meow
+[16:10:44] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:44] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:45] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:45] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:45] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:45] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:46] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:46] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:46] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:46] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:47] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:47] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:48] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:51] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:51] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:10:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:10:58] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:11:06] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:11:06] [Server thread/INFO]: [PT] JustinTheGPTMan issued server command: /tp mr jus
+[16:11:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[16:11:13] [Server thread/INFO]: mr_meow_meow fell from a high place
+[16:11:28] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[16:11:31] [Server thread/INFO]: mr_meow_meow tried to swim in lava
+[16:11:40] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:11:40] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:11:47] [Server thread/WARN]: mr_meow_meow moved too quickly! 11.456927245482802,2.0,6.860952974130626 (11.456927245482802, 2.0, 6.860952974130626)
+[16:12:12] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[16:12:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /time day
+[16:15:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp mr jus
+[16:15:10] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:15:10] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:16:56] [Server thread/INFO]: mr_meow_meow was slain by JustinTheGPTMan using [Abracadabra, you're GAY!]
+[16:18:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[16:18:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia i seized gab's stuff lol
+[16:18:35] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:18:35] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:18:43] [Server thread/INFO]: mr_meow_meow was slain by JustinTheGPTMan using [To the slainer: YOUR GAY]
+[16:18:53] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:18:53] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:18:55] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[16:18:55] [Server thread/INFO]: mr_meow_meow left the game.
+[16:19:18] [Thread-22/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[16:19:18] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:39232] logged in with entity id 18739 at ([world]3000021.5, 63.0, 129.5)
+[16:19:26] [Server thread/INFO]: mr_meow_meow was slain by JustinTheGPTMan using [To the slained: YOUR GAY]
+[16:19:32] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:19:32] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:19:39] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:39] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:40] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:41] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:41] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:41] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:41] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:43] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[16:19:43] [Server thread/INFO]: mr_meow_meow left the game.
+[16:19:44] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:44] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:44] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:44] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:45] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:47] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:48] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:48] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:48] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:48] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:48] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:48] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:48] [Thread-23/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[16:19:48] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:48] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:48] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:56438] logged in with entity id 18979 at ([world]3000026.7032482214, 64.0, 122.82673546708283)
+[16:19:49] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:49] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:49] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:49] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:52] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:52] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:52] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:19:54] [Server thread/INFO]: Ciara issued server command: /smite
+[16:19:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:20:09] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:09] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:09] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:09] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:10] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:10] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:11] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:11] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:11] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:11] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:11] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:11] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:12] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:12] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:12] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:12] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:12] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:12] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:12] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:12] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:13] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:13] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:13] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:13] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:13] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:13] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:13] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:13] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:14] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:14] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:14] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:14] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:14] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:14] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:14] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:20:14] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:20:27] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[16:20:45] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[16:20:45] [Server thread/INFO]: JustinTheGPTMan left the game.
+[16:21:17] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:21:17] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:22:39] [Server thread/INFO]: Ciara lost connection: Disconnected
+[16:22:39] [Server thread/INFO]: Ciara left the game.
+[16:24:26] [Thread-24/INFO]: UUID of player Ciara is 78b95627-3c1b-3808-a060-4f56fb60c263
+[16:24:26] [Server thread/INFO]: Ciara[/[0:0:0:0:0:0:0:1]:57238] logged in with entity id 20144 at ([world]2999987.5880458998, 91.0, 62.07650417625971)
+[16:25:34] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:25:34] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:25:35] [Server thread/INFO]: Ciara issued server command: /smite
+[16:25:35] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:25:38] [Server thread/INFO]: Ciara issued server command: /smite
+[16:25:38] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:25:38] [Server thread/INFO]: Ciara issued server command: /smite
+[16:25:38] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:25:39] [Server thread/INFO]: Ciara issued server command: /smite
+[16:25:39] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:25:51] [Server thread/INFO]: Ciara issued server command: /gamemode creative mr_meow_meow
+[16:26:32] [Server thread/INFO]: Ciara issued server command: /smite
+[16:26:32] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:26:36] [Server thread/INFO]: Ciara issued server command: /smite
+[16:26:36] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:10] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:10] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:10] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:10] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:10] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:10] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:11] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:12] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:13] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:13] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:14] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:14] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:14] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:14] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:17] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:17] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:17] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:17] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:17] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:17] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:18] [Server thread/INFO]: Ciara issued server command: /smite
+[16:28:18] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:28:20] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[16:28:20] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[16:39:10] [Thread-26/INFO]: UUID of player JustinTheGPTMan is 3f43d554-bfe3-3edf-9c60-97e371f64ce6
+[16:39:10] [Server thread/INFO]: JustinTheGPTMan[/[0:0:0:0:0:0:0:1]:44644] logged in with entity id 23859 at ([world]3000043.699999988, 65.0, -4.699999988079071)
+[16:39:21] [Async Chat Thread - #6/INFO]: <[0;31;22mJustinTheGPTMan[m> sup gang :D[m
+
+[16:39:26] [Async Chat Thread - #6/INFO]: <[0;31;22mJustinTheGPTMan[m> i have returned[m
+
+[16:39:28] [Async Chat Thread - #6/INFO]: <~gabe[m> i hate how my brothers got a tablet but i dont get a phone[m
+
+[16:39:42] [Async Chat Thread - #6/INFO]: <[0;31;22mJustinTheGPTMan[m> ohh :([m
+
+[16:42:43] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr dont look at her zoom name lol
+[16:43:03] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan its funny
+[16:44:04] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:04] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:19] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan why i am i in the waiting room
+[16:44:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:46] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:46] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:47] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:48] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:48] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:51] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:51] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:51] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:51] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:51] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:51] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:52] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:52] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:52] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:52] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:52] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:53] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:54] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:54] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:54] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:54] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:54] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:55] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:55] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:56] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:56] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:56] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:56] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:57] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:57] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:57] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:57] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:57] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:44:58] [Server thread/INFO]: Ciara issued server command: /smite
+[16:44:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:45:00] [Server thread/INFO]: Ciara issued server command: /smite
+[16:45:00] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:45:01] [Server thread/INFO]: Ciara issued server command: /smite
+[16:45:01] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:45:02] [Server thread/INFO]: Ciara issued server command: /smite
+[16:45:02] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:45:03] [Server thread/INFO]: Ciara issued server command: /smite
+[16:45:03] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:45:03] [Server thread/INFO]: Ciara issued server command: /smite
+[16:45:03] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:45:20] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan stop putting me in the FUCKING waiting rom
+[16:45:33] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan *room*
+[16:49:24] [Async Chat Thread - #7/INFO]: <~gabe[m> ill just leave the zoom[m
+
+[16:49:27] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> no dont[m
+
+[16:49:28] [Async Chat Thread - #7/INFO]: <~gabe[m> theres the solution[m
+
+[16:49:38] [Async Chat Thread - #7/INFO]: <[0;31;22mJustinTheGPTMan[m> bruh[m
+
+[16:49:42] [Async Chat Thread - #7/INFO]: <~gabe[m> ok i left[m
+
+[16:50:58] [Server thread/INFO]: Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: Ciara issued server command: /smite
+[16:50:58] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:50:59] [Server thread/INFO]: Ciara issued server command: /smite
+[16:50:59] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:50:59] [Server thread/INFO]: Ciara issued server command: /smite
+[16:50:59] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:50:59] [Server thread/INFO]: Ciara issued server command: /smite
+[16:50:59] [Server thread/INFO]: [PT] Ciara issued server command: /smite
+[16:51:44] [Async Chat Thread - #8/INFO]: <~gabe[m> ill join the zoom i just wont talk[m
+
+[16:51:51] [Async Chat Thread - #8/INFO]: <[0;31;22mJustinTheGPTMan[m> ok[m
+
+[16:52:42] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[16:53:42] [Async Chat Thread - #9/INFO]: <~gabe[m> tell ur mom that u cant breathe[m
+
+[16:53:53] [Async Chat Thread - #9/INFO]: <~gabe[m> yea[m
+
+[16:54:02] [Async Chat Thread - #9/INFO]: <~gabe[m> i just dont have my mic on[m
+
+[16:54:02] [Server thread/INFO]: JustinTheGPTMan issued server command: /t jus 3000014 93 119
+[16:54:40] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 3000014 93 119 2999961 100 119 nether_brick
+[16:54:40] [Server thread/INFO]: [JustinTheGPTMan: 432 blocks filled]
+[16:54:54] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 3000014 93 59 2999961 100 59 nether_brick
+[16:54:54] [Server thread/INFO]: [JustinTheGPTMan: 424 blocks filled]
+[16:56:47] [Server thread/INFO]: JustinTheGPTMan issued server command: /t jus 3000017 93 115
+[16:57:01] [Async Chat Thread - #10/INFO]: <~gabe[m> ima leave the server[m
+
+[16:57:05] [Server thread/INFO]: mr_meow_meow lost connection: Disconnected
+[16:57:05] [Server thread/INFO]: mr_meow_meow left the game.
+[16:57:35] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 3000017 93 115 3000017 100 63 nether_brick
+[16:57:35] [Server thread/INFO]: [JustinTheGPTMan: 424 blocks filled]
+[16:57:53] [Server thread/INFO]: JustinTheGPTMan issued server command: /fill 2999957 93 115 2999957 100 63 nether_brick
+[16:57:53] [Server thread/INFO]: [JustinTheGPTMan: 424 blocks filled]
+[16:58:57] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp jus -10000 100 -10000
+[16:59:37] [Thread-28/INFO]: UUID of player mr_meow_meow is 83ad5c11-3041-3d8b-b7f5-9ea8b9acbe70
+[16:59:37] [Server thread/INFO]: mr_meow_meow[/[0:0:0:0:0:0:0:1]:59184] logged in with entity id 29834 at ([world]2999987.896218428, 91.0, 73.87899935365459)
+[16:59:44] [Async Chat Thread - #11/INFO]: <[0;31;22mCiara[m> HI gab[m
+
+[16:59:48] [Async Chat Thread - #11/INFO]: <~gabe[m> sup[m
+
+[16:59:59] [Async Chat Thread - #11/INFO]: <[0;31;22mJustinTheGPTMan[m> hi[m
+
+[17:00:01] [Async Chat Thread - #11/INFO]: <~gabe[m> what are u guys talking about[m
+
+[17:00:12] [Async Chat Thread - #11/INFO]: <~gabe[m> oh[m
+
+[17:00:15] [Server thread/INFO]: JustinTheGPTMan issued server command: /getpos cia
+[17:00:18] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia jus
+[17:00:33] [Async Chat Thread - #11/INFO]: <~gabe[m> i made my lip bleed again i need to stop[m
+
+[17:02:02] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan i feel like i should kill myself rn
+[17:02:24] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr you shouldn't kill yourself tho
+[17:02:34] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan i feel like im the mistake of the family and im annoying one of the family
+[17:02:57] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan i annoy everyone in my house
+[17:02:58] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr your not tho
+[17:03:05] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr so does your other beothers
+[17:03:09] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr brothers
+[17:03:26] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan yea but i mean i annoy everyone my brothers dont
+[17:03:35] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia zoom ended fyi ._.
+[17:04:24] [Server thread/INFO]: JustinTheGPTMan issued server command: /t cia so are you gonna join the next zoom or...
+[17:04:43] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan and i wa mean to ciara cause i kept bragging that i was getting tamales
+[17:05:29] [Async Chat Thread - #12/INFO]: <[0;31;22mCiara[m> i want this sheep ^w^[m
+
+[17:05:38] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara the zoom ended
+[17:05:39] [Async Chat Thread - #12/INFO]: <[0;31;22mJustinTheGPTMan[m> oh...[m
+
+[17:06:00] [Server thread/INFO]: mr_meow_meow issued server command: /t ciara nvm i guess u already knew that the zoom ended
+[17:06:37] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan sometimes i just feel that if i killed myself life would be better for u guys
+[17:07:09] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan i should just stop talking
+[17:07:29] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr it really wouldn't...as you (and ciara) are like the only people i really talk to on a daily..
+[17:07:31] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr basis
+[17:08:01] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr without you it would be 1 less person to talk to
+[17:08:11] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr and it'd be very boring for both me and ciara :(
+[17:08:26] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr because its actually nice to have you around :)
+[17:08:31] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan than add a new person to the doc
+[17:09:01] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan i dont feel like i am a nice guy and im not i feel like the worst person out of u
+[17:09:19] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan out of all of us is what i meant to say
+[17:09:46] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan i dont help anybody at all with their problems
+[17:10:08] [Async Chat Thread - #13/INFO]: <~gabe[m> its s silent in the zoom[m
+
+[17:10:11] [Async Chat Thread - #13/INFO]: <[0;31;22mJustinTheGPTMan[m> ik[m
+
+[17:11:15] [Async Chat Thread - #14/INFO]: <~gabe[m> i got food[m
+
+[17:11:41] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[17:11:48] [Server thread/INFO]: mr_meow_meow issued server command: /t JustinTheGPTMan dont want to brag to ciara but these tamale are good
+[17:12:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /t mr dang :O
+[17:12:30] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[17:12:39] [Server thread/INFO]: JustinTheGPTMan issued server command: /give jus nametag 1
+[17:13:39] [Server thread/INFO]: mr_meow_meow issued server command: /afk
+[17:13:55] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[17:13:55] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[17:14:03] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[17:14:21] [Server thread/INFO]: JustinTheGPTMan issued server command: /invsee cia
+[17:14:28] [Server thread/INFO]: JustinTheGPTMan issued server command: /kill mr_meow
+[17:14:28] [Server thread/INFO]: mr_meow_meow died
+[17:14:48] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
+[17:15:10] [Server thread/INFO]: JustinTheGPTMan issued server command: /co i
+[17:16:42] [Async Chat Thread - #15/INFO]: <~gabe[m> ciara i got tamales[m
+
+[17:16:45] [Server thread/INFO]: mr_meow_meow issued server command: /afk
+[17:16:56] [Async Chat Thread - #15/INFO]: <[0;31;22mCiara[m> I WANT SOME >:{[m
+
+[17:17:22] [Async Chat Thread - #15/INFO]: <~gabe[m> i cant give u any cause i know my mom she wont take me[m
+
+[17:17:35] [Async Chat Thread - #15/INFO]: <~gabe[m> so sorry[m
+
+[17:17:37] [Server thread/INFO]: mr_meow_meow issued server command: /afk
+[17:17:55] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia 2999987 91 47
+[17:18:00] [Server thread/INFO]: JustinTheGPTMan issued server command: /tp cia
+[17:20:03] [Server thread/INFO]: Ciara issued server command: /tp mr cia
+[17:20:03] [Server thread/INFO]: [PT] Ciara issued server command: /tp mr cia
+[17:23:51] [Server thread/INFO]: Ciara lost connection: Timed out
+[17:23:51] [Server thread/INFO]: Ciara left the game.
+[17:24:14] [Async Chat Thread - #16/INFO]: <~gabe[m> ok i finished eating[m
+
+[17:29:03] [Server thread/INFO]: JustinTheGPTMan lost connection: Disconnected
+[17:29:03] [Server thread/INFO]: JustinTheGPTMan left the game.
+[17:29:59] [Thread-2/INFO]: Stopping server
+[17:29:59] [Thread-2/INFO]: Disabling Essentials v2.20.1
