@@ -35,6 +35,7 @@ world-settings:
       village: true
       flat-bedrock: false
     allow-block-location-tab-completion: true
+    player-blocking-damage-multiplier: 0.5
     optimize-explosions: false
     mob-spawner-tick-rate: 1
     cache-chunk-maps: false
@@ -45,7 +46,6 @@ world-settings:
     max-growth-height:
       cactus: 3
       reeds: 3
-    player-blocking-damage-multiplier: 0.5
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 900
@@ -56,12 +56,12 @@ world-settings:
       soft: 32
       hard: 128
     falling-block-height-nerf: 0
+    disable-teleportation-suffocation-check: false
+    remove-invalid-mob-spawner-tile-entities: true
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
       falling-blocks: true
-    disable-teleportation-suffocation-check: false
-    remove-invalid-mob-spawner-tile-entities: true
     game-mechanics:
       boats-drop-boats: false
       disable-player-crits: false
@@ -86,8 +86,8 @@ world-settings:
     all-chunks-are-slime-chunks: false
     allow-undead-horse-leashing: false
     container-update-tick-rate: 1
-    keep-spawn-loaded: true
     falling-blocks-collide-with-signs: false
+    keep-spawn-loaded: true
     disable-mood-sounds: false
     use-async-lighting: false
     portal-search-radius: 128
